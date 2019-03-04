@@ -1,14 +1,14 @@
-{ 
+{
 	"tool": "jekyll",
 	"source": "implementationguide/phcp-r4.xml",
-	"npm-name": "phcp-r4-npm",
+	"npm-name": "hl7.fhir.us.phcp",
 	"license": "CC0-1.0",
 	"paths": {
 		"qa": "generated_output/qa",
 		"temp": "generated_output/temp",
 		"output": "output",
 		"txCache": "generated_output/txCache",
-		"specification": "http://hl7.org/fhir/STU3",
+		"specification": "http://hl7.org/fhir/R4/",
 		"pages": [
 			"framework",
 			"source/pages"
@@ -93,6 +93,33 @@
 			"template-base": "ex.html"
 		}
 	},
-	"resources": {},
-	"dependencyList": []
+	"resources": {
+		"StructureDefinition/PhCP-CareCoordination": {
+			"base": "StructureDefinition-PhCP-CareCoordination.html",
+			"defns": "StructureDefinition-PhCP-CareCoordination-definitions.html"
+		},
+		"StructureDefinition/PhCP-Coverage": {
+			"base": "StructureDefinition-PhCP-Coverage.html",
+			"defns": "StructureDefinition-PhCP-Coverage-definitions.html"
+		},
+		"StructureDefinition/PhCP-MedicationDispense": {
+			"base": "StructureDefinition-PhCP-MedicationDispense.html",
+			"defns": "StructureDefinition-PhCP-MedicationDispense-definitions.html"
+		},
+		"StructureDefinition/PhCP-Composition": {
+			"base": "StructureDefinition-PhCP-Composition.html",
+			"defns": "StructureDefinition-PhCP-Composition-definitions.html"
+		},
+		"StructureDefinition/PhCP-ServiceRequest": {
+			"base": "StructureDefinition-PhCP-ServiceRequest.html",
+			"defns": "StructureDefinition-PhCP-ServiceRequest-definitions.html"
+		}
+	},
+	"dependencyList": [
+		{
+			"location": "http://hl7.org/fhir/us/ccda",
+			"name": "CCDA",
+			"version": "1.0.0"
+		}
+	]
 }

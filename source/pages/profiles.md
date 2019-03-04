@@ -16,3 +16,37 @@ active: profiles
 ---
 <br />
 
+### Profiles
+
+<table>
+<thead>
+<tr>
+<th>Name</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="StructureDefinition-PhCP-CareCoordination.html">PhCP-CareCoordination</a></td>
+<td></td>
+</tr>
+<tr>
+<td><a href="StructureDefinition-PhCP-Coverage.html">PhCP-Coverage</a></td>
+<td></td>
+</tr>
+<tr>
+<td><a href="StructureDefinition-PhCP-MedicationDispense.html">PhCP-MedicationDispense</a></td>
+<td></td>
+</tr>
+<tr>
+<td><a href="StructureDefinition-PhCP-ServiceRequest.html">PhCP-ServiceRequest</a></td>
+<td></td>
+</tr>
+<tr>
+<td><a href="StructureDefinition-PhCP-Composition.html">Pharmacist Care Plan Document</a></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+
+
