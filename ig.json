@@ -141,6 +141,10 @@
 		"ValueSet/2.16.840.1.113762.1.4.1096.213": {
 			"base": "ValueSet-2.16.840.1.113762.1.4.1096.213.html",
 			"defns": "ValueSet-2.16.840.1.113762.1.4.1096.213-definitions.html"
+		},
+		"StructureDefinition/PhCP-Instruction-Procedure": {
+			"base": "StructureDefinition-PhCP-Instruction-Procedure.html",
+			"defns": "StructureDefinition-PhCP-Instruction-Procedure-definitions.html"
 		}
 	},
 	"dependencyList": [

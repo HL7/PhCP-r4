@@ -35,6 +35,10 @@ active: profiles
 <td></td>
 </tr>
 <tr>
+<td><a href="StructureDefinition-PhCP-Instruction-Procedure.html">PhCP-Instruction-Procedure</a></td>
+<td></td>
+</tr>
+<tr>
 <td><a href="StructureDefinition-PhCP-MedicationDispense.html">PhCP-MedicationDispense</a></td>
 <td></td>
 </tr>
