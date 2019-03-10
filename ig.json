@@ -145,13 +145,25 @@
 		"StructureDefinition/PhCP-Instruction-Procedure": {
 			"base": "StructureDefinition-PhCP-Instruction-Procedure.html",
 			"defns": "StructureDefinition-PhCP-Instruction-Procedure-definitions.html"
+		},
+		"StructureDefinition/PhCP-Encounter": {
+			"base": "StructureDefinition-PhCP-Encounter.html",
+			"defns": "StructureDefinition-PhCP-Encounter-definitions.html"
+		},
+		"StructureDefinition/CCDA-on-FHIR-Care-Plan": {
+			"base": "StructureDefinition-CCDA-on-FHIR-Care-Plan.html",
+			"defns": "StructureDefinition-CCDA-on-FHIR-Care-Plan-definitions.html"
+		},
+		"StructureDefinition/CCDA-on-FHIR-US-Realm-Header": {
+			"base": "StructureDefinition-CCDA-on-FHIR-US-Realm-Header.html",
+			"defns": "StructureDefinition-CCDA-on-FHIR-US-Realm-Header-definitions.html"
 		}
 	},
 	"dependencyList": [
 		{
-			"location": "http://hl7.org/fhir/us/ccda",
-			"name": "CCDA",
-			"version": "1.0.0"
+			"location": "http://hl7.org/fhir/us/core-r4",
+			"name": "USCoreR4",
+			"version": "current"
 		}
 	]
 }
