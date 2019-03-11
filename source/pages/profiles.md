@@ -71,7 +71,15 @@ Key differentiators between a Care Plan profile and CCD  profile (another snapsh
 <td></td>
 </tr>
 <tr>
+<td><a href="StructureDefinition-PhCP-Intervention-Procedure.html">PhCP-Intervention-Procedure</a></td>
+<td></td>
+</tr>
+<tr>
 <td><a href="StructureDefinition-PhCP-MedicationDispense.html">PhCP-MedicationDispense</a></td>
+<td></td>
+</tr>
+<tr>
+<td><a href="StructureDefinition-PhCP-Organization.html">PhCP-Organization</a></td>
 <td></td>
 </tr>
 <tr>

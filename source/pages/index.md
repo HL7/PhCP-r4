@@ -33,12 +33,12 @@ This guide contains a library of Fast Health Interoperability Resources (FHIR) p
 </thead>
 <tbody>
 <tr>
-<td>Rick Geimer</td>
-<td><a href="mailto:rick.geimer@lantanagroup.com">rick.geimer@lantanagroup.com</a></td>
+<td>undefined</td>
+<td></td>
 </tr>
 <tr>
-<td>Arvind Jagannathan</td>
-<td><a href="mailto:arvind.jagannathan@lantanagroup.com">arvind.jagannathan@lantanagroup.com</a></td>
+<td>Rick Geimer</td>
+<td><a href="mailto:rick.geimer@lantanagroup.com">rick.geimer@lantanagroup.com</a></td>
 </tr>
 </tbody>
 </table>

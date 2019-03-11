@@ -157,6 +157,14 @@
 		"StructureDefinition/CCDA-on-FHIR-US-Realm-Header": {
 			"base": "StructureDefinition-CCDA-on-FHIR-US-Realm-Header.html",
 			"defns": "StructureDefinition-CCDA-on-FHIR-US-Realm-Header-definitions.html"
+		},
+		"StructureDefinition/PhCP-Organization": {
+			"base": "StructureDefinition-PhCP-Organization.html",
+			"defns": "StructureDefinition-PhCP-Organization-definitions.html"
+		},
+		"StructureDefinition/PhCP-Intervention-Procedure": {
+			"base": "StructureDefinition-PhCP-Intervention-Procedure.html",
+			"defns": "StructureDefinition-PhCP-Intervention-Procedure-definitions.html"
 		}
 	},
 	"dependencyList": [
