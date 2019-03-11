@@ -165,6 +165,30 @@
 		"StructureDefinition/PhCP-Intervention-Procedure": {
 			"base": "StructureDefinition-PhCP-Intervention-Procedure.html",
 			"defns": "StructureDefinition-PhCP-Intervention-Procedure-definitions.html"
+		},
+		"StructureDefinition/CCDA-on-FHIR-Information-Recipient": {
+			"base": "StructureDefinition-CCDA-on-FHIR-Information-Recipient.html",
+			"defns": "StructureDefinition-CCDA-on-FHIR-Information-Recipient-definitions.html"
+		},
+		"StructureDefinition/CCDA-on-FHIR-In-Fulfillment-Of-Order": {
+			"base": "StructureDefinition-CCDA-on-FHIR-In-Fulfillment-Of-Order.html",
+			"defns": "StructureDefinition-CCDA-on-FHIR-In-Fulfillment-Of-Order-definitions.html"
+		},
+		"StructureDefinition/CCDA-on-FHIR-Data-Enterer": {
+			"base": "StructureDefinition-CCDA-on-FHIR-Data-Enterer.html",
+			"defns": "StructureDefinition-CCDA-on-FHIR-Data-Enterer-definitions.html"
+		},
+		"StructureDefinition/CCDA-on-FHIR-Authorization": {
+			"base": "StructureDefinition-CCDA-on-FHIR-Authorization.html",
+			"defns": "StructureDefinition-CCDA-on-FHIR-Authorization-definitions.html"
+		},
+		"StructureDefinition/CCDA-on-FHIR-Participant": {
+			"base": "StructureDefinition-CCDA-on-FHIR-Participant.html",
+			"defns": "StructureDefinition-CCDA-on-FHIR-Participant-definitions.html"
+		},
+		"StructureDefinition/CCDA-on-FHIR-Performer": {
+			"base": "StructureDefinition-CCDA-on-FHIR-Performer.html",
+			"defns": "StructureDefinition-CCDA-on-FHIR-Performer-definitions.html"
 		}
 	},
 	"dependencyList": [
