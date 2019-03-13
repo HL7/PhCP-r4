@@ -27,34 +27,6 @@ active: profiles
 </thead>
 <tbody>
 <tr>
-<td><a href="StructureDefinition-CCDA-on-FHIR-Care-Plan.html">C-CDA on FHIR Care Plan</a></td>
-<td>CARE PLAN FRAMEWORK: A Care Plan (including Home Health Plan of Care (HHPoC)) is a consensus-driven dynamic plan that represents a patient and Care Team Members prioritized concerns, goals, and planned interventions. It serves as a blueprint shared by all Care Team Members (including the patient, their caregivers and providers), to guide the patients care. A Care Plan integrates multiple interventions proposed by multiple providers and disciplines for multiple conditions.
-
-A Care Plan represents one or more Plan(s) of Care and serves to reconcile and resolve conflicts between the various Plans of Care developed for a specific patient by different providers. While both a plan of care and a care plan include the patient's life goals and require Care Team Members (including patients) to prioritize goals and interventions, the reconciliation process becomes more complex as the number of plans of care increases. The Care Plan also serves to enable longitudinal coordination of care.
-
-The Care Plan represents an instance of this dynamic Care Plan at a point in time. The composition itself is NOT dynamic.
-
-Key differentiators between a Care Plan profile and CCD  profile (another snapshot in time document):
-
-*  Requires relationships between various concepts:
-
-        *  Health Concerns
-
-        *  Interventions
-
-        *  Goals
-
-        *  Outcomes
-
-*  Provides the ability to identify patient and provider priorities with each act
-
-*  Provides a header participant to indicate occurrences of Care Plan review</td>
-</tr>
-<tr>
-<td><a href="StructureDefinition-CCDA-on-FHIR-US-Realm-Header.html">C-CDA on FHIR US Realm Header</a></td>
-<td>This profile defines constraints that represent common administrative and demographic concepts for US Realm clinical documents. Further specification, such as type, are provided in document profiles that conform to this profile. </td>
-</tr>
-<tr>
 <td><a href="StructureDefinition-PhCP-CareCoordination.html">PhCP-CareCoordination</a></td>
 <td></td>
 </tr>
@@ -89,56 +61,6 @@ Key differentiators between a Care Plan profile and CCD  profile (another snapsh
 <tr>
 <td><a href="StructureDefinition-PhCP-Composition.html">Pharmacist Care Plan Document</a></td>
 <td></td>
-</tr>
-</tbody>
-</table>
-
-
-### Extensions
-
-<table>
-<thead>
-<tr>
-<th>Name</th>
-<th>Description</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td><a href="StructureDefinition-CCDA-on-FHIR-Authorization.html">C-CDA on FHIR Authorization</a></td>
-<td>The C-CDA on FHIR Authorization Extension contains the C-CDA on FHIR Consent profile which represents information about a patient's consent.
-
-For further information see the C-CDA specification here: http://www.hl7.org/implement/standards/product_brief.cfm?product_id=408.</td>
-</tr>
-<tr>
-<td><a href="StructureDefinition-CCDA-on-FHIR-Data-Enterer.html">C-CDA on FHIR Data Enterer</a></td>
-<td>The C-CDA on FHIR Data Enterer Extension represents the person who transferred the content, written or dictated, into the clinical document. To clarify, an author provides the content, subject to their own interpretation; a dataEnterer adds an author's information to the electronic system.
-
-For further information see the C-CDA specification here: http://www.hl7.org/implement/standards/product_brief.cfm?product_id=408.</td>
-</tr>
-<tr>
-<td><a href="StructureDefinition-CCDA-on-FHIR-In-Fulfillment-Of-Order.html">C-CDA on FHIR In Fulfillment Of Order</a></td>
-<td>The C-CDA on FHIR In Fulfillment Of Order Extension represents orders that are fulfilled by this document such as a radiologists report of an x-ray.
-
-For further information see the C-CDA specification here: http://www.hl7.org/implement/standards/product_brief.cfm?product_id=408.</td>
-</tr>
-<tr>
-<td><a href="StructureDefinition-CCDA-on-FHIR-Information-Recipient.html">C-CDA on FHIR Information Recipient</a></td>
-<td>The C-CDA on FHIR Information Recipient Extension records the intended recipient of the information at the time the document was created.
-
-For further information see the C-CDA specification here: http://www.hl7.org/implement/standards/product_brief.cfm?product_id=408.</td>
-</tr>
-<tr>
-<td><a href="StructureDefinition-CCDA-on-FHIR-Participant.html">C-CDA on FHIR Participant</a></td>
-<td>The C-CDA on FHIR Participant Extension identifies supporting entities, including parents, relatives, caregivers, insurance policyholders, guarantors, and others related in some way to the patient. A supporting person or organization is an individual or an organization with a relationship to the patient. A supporting person who is playing multiple roles would be recorded in multiple participants (e.g., emergency contact and next-of-kin).
-
-For further information see the C-CDA specification here: http://www.hl7.org/implement/standards/product_brief.cfm?product_id=408.</td>
-</tr>
-<tr>
-<td><a href="StructureDefinition-CCDA-on-FHIR-Performer.html">C-CDA on FHIR Performer</a></td>
-<td>The C-CDA on FHIR Performer Extension represents clinicians who actually and principally carry out the clinical services being documented. In a transfer of care this represents the healthcare providers involved in the current or pertinent historical care of the patient. Preferably, the patients key healthcare care team members would be listed, particularly their primary physician and any active consulting physicians, therapists, and counselors.
-
-For further information see the C-CDA specification here: http://www.hl7.org/implement/standards/product_brief.cfm?product_id=408.</td>
 </tr>
 </tbody>
 </table>

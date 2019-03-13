@@ -25,7 +25,7 @@ active: other
 <tbody>
 <tr>
 <td>ImplementationGuide</td>
-<td><a href="CapabilityStatement-phcp-r4.html">Pharmacist Services and Summaries (FHIR)</a></td>
+<td><a href="CapabilityStatement-phcp.html">Pharmacist Services and Summaries (FHIR)</a></td>
 </tr>
 </tbody>
 </table>
