@@ -161,7 +161,7 @@
 	},
 	"dependencyList": [
 		{
-			"location": "http://hl7.org/fhir/us/core-r4",
+			"location": "http://hl7.org/fhir/us/core",
 			"name": "USCoreR4",
 			"version": "current"
 		},
