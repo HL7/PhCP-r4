@@ -1,1 +1,37 @@
-<?xml version="1.0" encoding="UTF-8"?><StructureDefinition xmlns="http://hl7.org/fhir"><id value="PhCP-ServiceRequest"/><meta><versionId value="1"/><lastUpdated value="2019-03-04T01:16:21.000-05:00"/></meta><extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-wg"><valueCode value="oo"/></extension><extension url="https://trifolia-fhir.lantanagroup.com/stu3/StructureDefinition/github-branch"><valueString value="master"/></extension><extension url="https://trifolia-fhir.lantanagroup.com/stu3/StructureDefinition/github-path"><valueString value="HL7/PhCP/resources/structuredefinition/PhCP-ServiceRequest.xml"/></extension><url value="http://hl7.org/fhir/us/phcp/StructureDefinition/PhCP-ServiceRequest"/><name value="PhCP-ServiceRequest"/><status value="draft"/><date value="2017-07-21T14:17:28.7282071-04:00"/><fhirVersion value="3.0.1"/><kind value="resource"/><abstract value="false"/><type value="ServiceRequest"/><baseDefinition value="http://hl7.org/fhir/StructureDefinition/ServiceRequest"/><derivation value="constraint"/><differential><element id="ServiceRequest.occurrence[x]"><path value="ServiceRequest.occurrence[x]"/><min value="1"/></element><element id="ServiceRequest.requester"><path value="ServiceRequest.requester"/><min value="1"/><type><code value="Reference"/><targetProfile value="http://hl7.org/fhir/us/core/StructureDefinition/us-core-practitioner"/><targetProfile value="http://hl7.org/fhir/us/core/StructureDefinition/us-core-practitionerrole"/></type></element></differential></StructureDefinition>
+<?xml version="1.0" encoding="UTF-8"?>
+<StructureDefinition
+    xmlns="http://hl7.org/fhir">
+    <id value="PhCP-ServiceRequest"/>
+    <meta>
+        <versionId value="1"/>
+        <lastUpdated value="2019-03-04T01:16:21.000-05:00"/>
+    </meta>
+    <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-wg">
+        <valueCode value="oo"/>
+    </extension>
+    <url value="http://hl7.org/fhir/us/phcp/StructureDefinition/PhCP-ServiceRequest"/>
+    <name value="PhCP-ServiceRequest"/>
+    <status value="draft"/>
+    <date value="2017-07-21T14:17:28.7282071-04:00"/>
+    <fhirVersion value="3.0.1"/>
+    <kind value="resource"/>
+    <abstract value="false"/>
+    <type value="ServiceRequest"/>
+    <baseDefinition value="http://hl7.org/fhir/StructureDefinition/ServiceRequest"/>
+    <derivation value="constraint"/>
+    <differential>
+        <element id="ServiceRequest.occurrence[x]">
+            <path value="ServiceRequest.occurrence[x]"/>
+            <min value="1"/>
+        </element>
+        <element id="ServiceRequest.requester">
+            <path value="ServiceRequest.requester"/>
+            <min value="1"/>
+            <type>
+                <code value="Reference"/>
+                <targetProfile value="http://hl7.org/fhir/us/core/StructureDefinition/us-core-practitioner"/>
+                <targetProfile value="http://hl7.org/fhir/us/core/StructureDefinition/us-core-practitionerrole"/>
+            </type>
+        </element>
+    </differential>
+</StructureDefinition>

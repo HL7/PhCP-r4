@@ -1,1 +1,31 @@
-<?xml version="1.0" encoding="UTF-8"?><StructureDefinition xmlns="http://hl7.org/fhir"><id value="PhCP-Organization"/><meta><versionId value="5"/><lastUpdated value="2019-03-11T00:28:14.000-04:00"/></meta><url value="http://hl7.org/fhir/us/phcp/StructureDefinition/PhCP-Organization"/><name value="PhCP-Organization"/><status value="draft"/><fhirVersion value="4.0.0"/><kind value="resource"/><abstract value="false"/><type value="Organization"/><baseDefinition value="http://hl7.org/fhir/us/core-r4/StructureDefinition/us-core-organization"/><derivation value="constraint"/><differential><element id="Organization"><path value="Organization"/></element><element id="Organization.type"><path value="Organization.type"/><min value="0"/><max value="1"/><binding><strength value="required"/></binding></element></differential></StructureDefinition>
+<?xml version="1.0" encoding="UTF-8"?>
+<StructureDefinition
+    xmlns="http://hl7.org/fhir">
+    <id value="PhCP-Organization"/>
+    <meta>
+        <versionId value="5"/>
+        <lastUpdated value="2019-03-11T00:28:14.000-04:00"/>
+    </meta>
+    <url value="http://hl7.org/fhir/us/phcp/StructureDefinition/PhCP-Organization"/>
+    <name value="PhCP-Organization"/>
+    <status value="draft"/>
+    <fhirVersion value="4.0.0"/>
+    <kind value="resource"/>
+    <abstract value="false"/>
+    <type value="Organization"/>
+    <baseDefinition value="http://hl7.org/fhir/us/core-r4/StructureDefinition/us-core-organization"/>
+    <derivation value="constraint"/>
+    <differential>
+        <element id="Organization">
+            <path value="Organization"/>
+        </element>
+        <element id="Organization.type">
+            <path value="Organization.type"/>
+            <min value="0"/>
+            <max value="1"/>
+            <binding>
+                <strength value="required"/>
+            </binding>
+        </element>
+    </differential>
+</StructureDefinition>

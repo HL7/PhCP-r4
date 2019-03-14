@@ -1,1 +1,31 @@
-<?xml version="1.0" encoding="UTF-8"?><StructureDefinition xmlns="http://hl7.org/fhir"><id value="PhCP-Encounter"/><meta><versionId value="5"/><lastUpdated value="2019-03-10T08:18:39.000-04:00"/></meta><url value="http://hl7.org/fhir/us/phcp/StructureDefinition/PhCP-Encounter"/><name value="PhCP-Encounter"/><title value="PhCP Encounter"/><status value="draft"/><kind value="resource"/><abstract value="false"/><type value="Encounter"/><baseDefinition value="http://hl7.org/fhir/us/core-r4/StructureDefinition/us-core-encounter"/><derivation value="constraint"/><differential><element id="Encounter"><path value="Encounter"/></element><element id="Encounter.type"><path value="Encounter.type"/><min value="1"/><mustSupport value="true"/><binding><strength value="required"/></binding></element></differential></StructureDefinition>
+<?xml version="1.0" encoding="UTF-8"?>
+<StructureDefinition
+    xmlns="http://hl7.org/fhir">
+    <id value="PhCP-Encounter"/>
+    <meta>
+        <versionId value="5"/>
+        <lastUpdated value="2019-03-10T08:18:39.000-04:00"/>
+    </meta>
+    <url value="http://hl7.org/fhir/us/phcp/StructureDefinition/PhCP-Encounter"/>
+    <name value="PhCP-Encounter"/>
+    <title value="PhCP Encounter"/>
+    <status value="draft"/>
+    <kind value="resource"/>
+    <abstract value="false"/>
+    <type value="Encounter"/>
+    <baseDefinition value="http://hl7.org/fhir/us/core-r4/StructureDefinition/us-core-encounter"/>
+    <derivation value="constraint"/>
+    <differential>
+        <element id="Encounter">
+            <path value="Encounter"/>
+        </element>
+        <element id="Encounter.type">
+            <path value="Encounter.type"/>
+            <min value="1"/>
+            <mustSupport value="true"/>
+            <binding>
+                <strength value="required"/>
+            </binding>
+        </element>
+    </differential>
+</StructureDefinition>

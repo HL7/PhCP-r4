@@ -1,1 +1,266 @@
-<?xml version="1.0" encoding="UTF-8"?><ValueSet xmlns="http://hl7.org/fhir"><id value="2.16.840.1.113762.1.4.1096.213"/><meta><versionId value="2"/><lastUpdated value="2019-03-11T16:15:22.000-04:00"/></meta><text><status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><h2>eCare Plan Problem Type</h2><p>This value set includes codes from the following code systems:</p><ul><li/><li>Import all the codes that are contained in http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113762.1.4.1096.53</li><li/><li>Import all the codes that are contained in http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113762.1.4.1096.121</li><li/><li>Import all the codes that are contained in http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113762.1.4.1096.9</li><li/><li>Import all the codes that are contained in http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113762.1.4.1096.8</li><li/><li>Import all the codes that are contained in http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113762.1.4.1096.7</li><li/><li>Import all the codes that are contained in http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113762.1.4.1096.6</li><li/><li>Import all the codes that are contained in http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113762.1.4.1096.55</li><li/><li>Import all the codes that are contained in http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113762.1.4.1096.5</li></ul></div></text><url value="http://hl7.org/fhir/us/phcp/ValueSet/2.16.840.1.113762.1.4.1096.213"/><version value="20180911"/><name value="eCare Plan Problem Type"/><status value="active"/><date value="2018-09-11T01:00:04-04:00"/><publisher value="PharmacyHIT"/><compose><include><valueSet value="http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113762.1.4.1096.53"/></include><include><valueSet value="http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113762.1.4.1096.121"/></include><include><valueSet value="http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113762.1.4.1096.9"/></include><include><valueSet value="http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113762.1.4.1096.8"/></include><include><valueSet value="http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113762.1.4.1096.7"/></include><include><valueSet value="http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113762.1.4.1096.6"/></include><include><valueSet value="http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113762.1.4.1096.55"/></include><include><valueSet value="http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113762.1.4.1096.5"/></include></compose></ValueSet>
+<?xml version="1.0" encoding="UTF-8"?>
+<ValueSet
+    xmlns="http://hl7.org/fhir">
+    <id value="2.16.840.1.113762.1.4.1096.213"/>
+    <meta>
+        <versionId value="3"/>
+        <lastUpdated value="2019-03-14T10:52:57.000-04:00"/>
+    </meta>
+    <text>
+        <status value="generated"/>
+        <div
+            xmlns="http://www.w3.org/1999/xhtml">
+            <h2>eCare Plan Problem Type</h2>
+            <p>This value set includes codes from the following code systems:</p>
+            <ul>
+                <li/>
+                <li>Import all the codes that are contained in http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113762.1.4.1096.53</li>
+                <li/>
+                <li>Import all the codes that are contained in http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113762.1.4.1096.121</li>
+                <li/>
+                <li>Import all the codes that are contained in http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113762.1.4.1096.9</li>
+                <li/>
+                <li>Import all the codes that are contained in http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113762.1.4.1096.8</li>
+                <li/>
+                <li>Import all the codes that are contained in http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113762.1.4.1096.7</li>
+                <li/>
+                <li>Import all the codes that are contained in http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113762.1.4.1096.6</li>
+                <li/>
+                <li>Import all the codes that are contained in http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113762.1.4.1096.55</li>
+                <li/>
+                <li>Import all the codes that are contained in http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113762.1.4.1096.5</li>
+            </ul>
+        </div>
+    </text>
+    <url value="http://hl7.org/fhir/us/phcp/ValueSet/2.16.840.1.113762.1.4.1096.213"/>
+    <version value="20180911"/>
+    <name value="eCare Plan Problem Type"/>
+    <status value="active"/>
+    <date value="2018-09-11T01:00:04-04:00"/>
+    <publisher value="PharmacyHIT"/>
+    <compose>
+        <include>
+            <system value="http://snomed.info/sct"/>
+            <concept>
+                <code value="293104008"/>
+                <display value="Vaccines adverse reaction (disorder)"/>
+            </concept>
+            <concept>
+                <code value="416093006"/>
+                <display value="Allergic reaction caused by drug (disorder)"/>
+            </concept>
+            <concept>
+                <code value="432391000124104"/>
+                <display value="Adverse drug interaction with tobacco (disorder)"/>
+            </concept>
+            <concept>
+                <code value="433231000124100"/>
+                <display value="Non dose-related adverse reaction to medication (disorder)"/>
+            </concept>
+            <concept>
+                <code value="448090008"/>
+                <display value="Adverse drug interaction with food (disorder)"/>
+            </concept>
+            <concept>
+                <code value="448091007"/>
+                <display value="Adverse drug interaction with alcohol (disorder)"/>
+            </concept>
+            <concept>
+                <code value="448175007"/>
+                <display value="Medication administered too rapidly (finding)"/>
+            </concept>
+            <concept>
+                <code value="448177004"/>
+                <display value="Adverse drug interaction (disorder)"/>
+            </concept>
+            <concept>
+                <code value="448178009"/>
+                <display value="Adverse drug interaction with drug (disorder)"/>
+            </concept>
+            <concept>
+                <code value="62014003"/>
+                <display value="Adverse reaction caused by drug (disorder)"/>
+            </concept>
+            <concept>
+                <code value="448151007"/>
+                <display value="Cost effective medication alternatives available (finding)"/>
+            </concept>
+            <concept>
+                <code value="435491000124103"/>
+                <display value="Toxic adverse drug interaction with drug (disorder)"/>
+            </concept>
+            <concept>
+                <code value="448057008"/>
+                <display value="Medication dosage interval too short (finding)"/>
+            </concept>
+            <concept>
+                <code value="448089004"/>
+                <display value="Medication dose too high (finding)"/>
+            </concept>
+            <concept>
+                <code value="448174006"/>
+                <display value="Duration of medication therapy too long (finding)"/>
+            </concept>
+            <concept>
+                <code value="432581000124105"/>
+                <display value="Active ingredient availability decreased due to interaction (finding)"/>
+            </concept>
+            <concept>
+                <code value="448056004"/>
+                <display value="Medication dosage interval too long (finding)"/>
+            </concept>
+            <concept>
+                <code value="448058003"/>
+                <display value="Duration of medication therapy too short (finding)"/>
+            </concept>
+            <concept>
+                <code value="448152000"/>
+                <display value="Medication dose too low (finding)"/>
+            </concept>
+            <concept>
+                <code value="408353001"/>
+                <display value="Drug formulation inappropriate (finding)"/>
+            </concept>
+            <concept>
+                <code value="424363005"/>
+                <display value="Improper storage of medication (finding)"/>
+            </concept>
+            <concept>
+                <code value="431521000124104"/>
+                <display value="More effective medication therapy available (finding)"/>
+            </concept>
+            <concept>
+                <code value="435501000124106"/>
+                <display value="Medication not effective (finding)"/>
+            </concept>
+            <concept>
+                <code value="6111000124105"/>
+                <display value="Medication dosage form inappropriate (finding)"/>
+            </concept>
+            <concept>
+                <code value="428981000124101"/>
+                <display value="Additional medication therapy required (finding)"/>
+            </concept>
+            <concept>
+                <code value="434811000124107"/>
+                <display value="Additional medication required for additive effect (finding)"/>
+            </concept>
+            <concept>
+                <code value="435451000124109"/>
+                <display value="Preventive medication therapy needed (situation)"/>
+            </concept>
+            <concept>
+                <code value="435531000124103"/>
+                <display value="Additional medication required for synergistic effect (finding)"/>
+            </concept>
+            <concept>
+                <code value="436071000124104"/>
+                <display value="New medication therapy needed for condition (situation)"/>
+            </concept>
+            <concept>
+                <code value="129834002"/>
+                <display value="Noncompliance with medication regimen (finding)"/>
+            </concept>
+            <concept>
+                <code value="182848008"/>
+                <display value="Patient on numerous drugs (finding)"/>
+            </concept>
+            <concept>
+                <code value="182891003"/>
+                <display value="Patient misunderstood treatment instructions (finding)"/>
+            </concept>
+            <concept>
+                <code value="2101000124106"/>
+                <display value="Unable to self-administer medication (finding)"/>
+            </concept>
+            <concept>
+                <code value="2111000124109"/>
+                <display value="Improper medication administration technique (finding)"/>
+            </concept>
+            <concept>
+                <code value="249486008"/>
+                <display value="Unable to swallow (finding)"/>
+            </concept>
+            <concept>
+                <code value="408367005"/>
+                <display value="Patient forgets to take medication (finding)"/>
+            </concept>
+            <concept>
+                <code value="428951000124109"/>
+                <display value="Takes medication less frequently than recommended (finding)"/>
+            </concept>
+            <concept>
+                <code value="429611000124105"/>
+                <display value="Patient unable to obtain medication (finding)"/>
+            </concept>
+            <concept>
+                <code value="432401000124102"/>
+                <display value="Patient refuses to take medication (situation)"/>
+            </concept>
+            <concept>
+                <code value="448176008"/>
+                <display value="Uses less medication than prescribed (finding)"/>
+            </concept>
+            <concept>
+                <code value="453331000124107"/>
+                <display value="Discontinued medication without order (finding)"/>
+            </concept>
+            <concept>
+                <code value="4771000124105"/>
+                <display value="Takes medication more frequently than recommended (finding)"/>
+            </concept>
+            <concept>
+                <code value="6071000124102"/>
+                <display value="Medication overuse (finding)"/>
+            </concept>
+            <concept>
+                <code value="6121000124102"/>
+                <display value="Medication taken at lower dose than recommended (finding)"/>
+            </concept>
+            <concept>
+                <code value="6131000124104"/>
+                <display value="Medication taken at higher dose than recommended (finding)"/>
+            </concept>
+            <concept>
+                <code value="697958005"/>
+                <display value="Suspected noncompliance with therapeutic regimen (situation)"/>
+            </concept>
+            <concept>
+                <code value="110483000"/>
+                <display value="Tobacco user (finding)"/>
+            </concept>
+            <concept>
+                <code value="15167005"/>
+                <display value="Alcohol abuse (disorder)"/>
+            </concept>
+            <concept>
+                <code value="183966005"/>
+                <display value="Drug treatment not indicated (situation)"/>
+            </concept>
+            <concept>
+                <code value="26416006"/>
+                <display value="Drug abuse (disorder)"/>
+            </concept>
+            <concept>
+                <code value="424848002"/>
+                <display value="Recreational drug user (finding)"/>
+            </concept>
+            <concept>
+                <code value="429621000124102"/>
+                <display value="Medication therapy unnecessary (finding)"/>
+            </concept>
+            <concept>
+                <code value="435461000124106"/>
+                <display value="Medication taken to to treat adverse drug reaction (finding)"/>
+            </concept>
+            <concept>
+                <code value="435481000124101"/>
+                <display value="Multiple medications taken for condition appropriately treated with single medication therapy (finding)"/>
+            </concept>
+            <concept>
+                <code value="435521000124101"/>
+                <display value="Patient condition appropriate for non-medication therapy (finding)"/>
+            </concept>
+        </include>
+    </compose>
+</ValueSet>

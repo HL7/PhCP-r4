@@ -1,1 +1,386 @@
-<?xml version="1.0" encoding="UTF-8"?><ValueSet xmlns="http://hl7.org/fhir"><id value="2.16.840.1.113762.1.4.1096.214"/><meta><versionId value="3"/><lastUpdated value="2019-03-10T01:02:31.000-05:00"/></meta><text><status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><h2>eCare Plan Education</h2><p>This value set includes codes from the following code systems:</p><ul><li/><li>Import all the codes that are contained in http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113762.1.4.1096.137</li><li/><li>Import all the codes that are contained in http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113762.1.4.1096.134</li><li/><li>Import all the codes that are contained in http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113762.1.4.1096.115</li><li/><li>Import all the codes that are contained in http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113762.1.4.1096.122</li><li/><li>Import all the codes that are contained in http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113762.1.4.1096.111</li><li/><li>Import all the codes that are contained in http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113762.1.4.1096.110</li></ul></div></text><url value="http://hl7.org/fhir/us/phcp/ValueSet/2.16.840.1.113762.1.4.1096.214"/><version value="20180911"/><name value="eCare Plan Education"/><status value="active"/><date value="2018-09-11T01:00:04-04:00"/><publisher value="PharmacyHIT"/><compose><include><valueSet value="http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113762.1.4.1096.137"/></include><include><valueSet value="http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113762.1.4.1096.134"/></include><include><valueSet value="http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113762.1.4.1096.115"/></include><include><valueSet value="http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113762.1.4.1096.122"/></include><include><valueSet value="http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113762.1.4.1096.111"/></include><include><valueSet value="http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113762.1.4.1096.110"/></include></compose></ValueSet>
+<?xml version="1.0" encoding="UTF-8"?>
+<ValueSet
+    xmlns="http://hl7.org/fhir">
+    <id value="2.16.840.1.113762.1.4.1096.214"/>
+    <meta>
+        <versionId value="4"/>
+        <lastUpdated value="2019-03-13T18:09:38.000-04:00"/>
+    </meta>
+    <text>
+        <status value="generated"/>
+        <div
+            xmlns="http://www.w3.org/1999/xhtml">
+            <h2>eCare Plan Education</h2>
+            <p>This value set includes codes from the following code systems:</p>
+            <ul>
+                <li/>
+                <li>Import all the codes that are contained in http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113762.1.4.1096.137</li>
+                <li/>
+                <li>Import all the codes that are contained in http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113762.1.4.1096.134</li>
+                <li/>
+                <li>Import all the codes that are contained in http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113762.1.4.1096.115</li>
+                <li/>
+                <li>Import all the codes that are contained in http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113762.1.4.1096.122</li>
+                <li/>
+                <li>Import all the codes that are contained in http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113762.1.4.1096.111</li>
+                <li/>
+                <li>Import all the codes that are contained in http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113762.1.4.1096.110</li>
+            </ul>
+        </div>
+    </text>
+    <url value="http://hl7.org/fhir/us/phcp/ValueSet/2.16.840.1.113762.1.4.1096.214"/>
+    <version value="20180911"/>
+    <name value="eCare Plan Education"/>
+    <status value="active"/>
+    <date value="2018-09-11T01:00:04-04:00"/>
+    <publisher value="PharmacyHIT"/>
+    <compose>
+        <include>
+            <system value="http://snomed.info/sct"/>
+            <concept>
+                <code value="225323000"/>
+                <display value="Smoking cessation education (procedure)"/>
+            </concept>
+            <concept>
+                <code value="281078001"/>
+                <display value="Education about alcohol consumption (procedure)"/>
+            </concept>
+            <concept>
+                <code value="304507003"/>
+                <display value="Exercise education (procedure)"/>
+            </concept>
+            <concept>
+                <code value="385906007"/>
+                <display value="Eye care education (procedure)"/>
+            </concept>
+            <concept>
+                <code value="385956002"/>
+                <display value="Foot care education (procedure)"/>
+            </concept>
+            <concept>
+                <code value="423011000124102"/>
+                <display value="Pregnancy and lactation education (procedure)"/>
+            </concept>
+            <concept>
+                <code value="427541008"/>
+                <display value="Education about risk of fall (procedure)"/>
+            </concept>
+            <concept>
+                <code value="439035007"/>
+                <display value="Education about sleep hygiene behavior (procedure)"/>
+            </concept>
+            <concept>
+                <code value="11816003"/>
+                <display value="Diet education (procedure)"/>
+            </concept>
+            <concept>
+                <code value="171054004"/>
+                <display value="Pregnancy diet education (procedure)"/>
+            </concept>
+            <concept>
+                <code value="183057009"/>
+                <display value="Gluten-free diet education (procedure)"/>
+            </concept>
+            <concept>
+                <code value="183058004"/>
+                <display value="Phenylalanine-free diet education (procedure)"/>
+            </concept>
+            <concept>
+                <code value="183061003"/>
+                <display value="Low fat diet education (procedure)"/>
+            </concept>
+            <concept>
+                <code value="183062005"/>
+                <display value="Low cholesterol diet education (procedure)"/>
+            </concept>
+            <concept>
+                <code value="183063000"/>
+                <display value="Low salt diet education (procedure)"/>
+            </concept>
+            <concept>
+                <code value="183065007"/>
+                <display value="Low carbohydrate diet education (procedure)"/>
+            </concept>
+            <concept>
+                <code value="183067004"/>
+                <display value="High protein diet education (procedure)"/>
+            </concept>
+            <concept>
+                <code value="266724001"/>
+                <display value="Weight-reducing diet education (procedure)"/>
+            </concept>
+            <concept>
+                <code value="266725000"/>
+                <display value="Lactose-free diet education (procedure)"/>
+            </concept>
+            <concept>
+                <code value="284350006"/>
+                <display value="Diabetes mellitus diet education (procedure)"/>
+            </concept>
+            <concept>
+                <code value="284362005"/>
+                <display value="Phenylketonuria diet education (procedure)"/>
+            </concept>
+            <concept>
+                <code value="289134009"/>
+                <display value="Celiac disease diet education (procedure)"/>
+            </concept>
+            <concept>
+                <code value="304491008"/>
+                <display value="Dietary education for disorder (procedure)"/>
+            </concept>
+            <concept>
+                <code value="391024003"/>
+                <display value="Osteoporosis dietary education (procedure)"/>
+            </concept>
+            <concept>
+                <code value="427857000"/>
+                <display value="Dietary education for eating disorder (procedure)"/>
+            </concept>
+            <concept>
+                <code value="428691000124107"/>
+                <display value="Vitamin K dietary intake education (procedure)"/>
+            </concept>
+            <concept>
+                <code value="428754001"/>
+                <display value="Dietary education for food intolerance (procedure)"/>
+            </concept>
+            <concept>
+                <code value="429071001"/>
+                <display value="Dietary education for lipid disorder (procedure)"/>
+            </concept>
+            <concept>
+                <code value="429072008"/>
+                <display value="Dietary education for hyperlipidemia (procedure)"/>
+            </concept>
+            <concept>
+                <code value="429095004"/>
+                <display value="Dietary education for weight gain (procedure)"/>
+            </concept>
+            <concept>
+                <code value="438578000"/>
+                <display value="Dietary education for renal disorder (procedure)"/>
+            </concept>
+            <concept>
+                <code value="438588004"/>
+                <display value="Dietary education for hepatic disorder (procedure)"/>
+            </concept>
+            <concept>
+                <code value="440328002"/>
+                <display value="Dietary education for pancreatic disorder (procedure)"/>
+            </concept>
+            <concept>
+                <code value="443307007"/>
+                <display value="Dietary education for constipation (procedure)"/>
+            </concept>
+            <concept>
+                <code value="698612005"/>
+                <display value="Dietary education for impaired glucose tolerance (procedure)"/>
+            </concept>
+            <concept>
+                <code value="699827002"/>
+                <display value="Dietary education about fluid restriction (procedure)"/>
+            </concept>
+            <concept>
+                <code value="700258004"/>
+                <display value="Dietary education about vitamin intake (procedure)"/>
+            </concept>
+            <concept>
+                <code value="243072006"/>
+                <display value="Cancer education (procedure)"/>
+            </concept>
+            <concept>
+                <code value="39155009"/>
+                <display value="Hypertension education (procedure)"/>
+            </concept>
+            <concept>
+                <code value="398772000"/>
+                <display value="Hypoglycemia education (procedure)"/>
+            </concept>
+            <concept>
+                <code value="401135008"/>
+                <display value="Asthma education (procedure)"/>
+            </concept>
+            <concept>
+                <code value="408420007"/>
+                <display value="Renal disorder education (procedure)"/>
+            </concept>
+            <concept>
+                <code value="410011000124101"/>
+                <display value="Education about respiratory disorder (procedure)"/>
+            </concept>
+            <concept>
+                <code value="411011000124109"/>
+                <display value="Education about endocrine disorder (procedure)"/>
+            </concept>
+            <concept>
+                <code value="412011000124100"/>
+                <display value="Education about metabolic disease (procedure)"/>
+            </concept>
+            <concept>
+                <code value="413011000124108"/>
+                <display value="Education about infectious disease (procedure)"/>
+            </concept>
+            <concept>
+                <code value="413084000"/>
+                <display value="Rheumatology education (procedure)"/>
+            </concept>
+            <concept>
+                <code value="414011000124106"/>
+                <display value="Education about immune disorder (procedure)"/>
+            </concept>
+            <concept>
+                <code value="415011000124107"/>
+                <display value="Education about hematologic disorder (procedure)"/>
+            </concept>
+            <concept>
+                <code value="416011000124104"/>
+                <display value="Education about neurologic disorder (procedure)"/>
+            </concept>
+            <concept>
+                <code value="417011000124102"/>
+                <display value="Education about gastrointestinal disorder (procedure)"/>
+            </concept>
+            <concept>
+                <code value="423167009"/>
+                <display value="Chronic disease process education (procedure)"/>
+            </concept>
+            <concept>
+                <code value="423475008"/>
+                <display value="Heart failure education (procedure)"/>
+            </concept>
+            <concept>
+                <code value="424011000124104"/>
+                <display value="Chronic obstructive pulmonary disorder education (procedure)"/>
+            </concept>
+            <concept>
+                <code value="426011000124106"/>
+                <display value="Dyslipidemia education (procedure)"/>
+            </concept>
+            <concept>
+                <code value="426579008"/>
+                <display value="Coronary heart disease education (procedure)"/>
+            </concept>
+            <concept>
+                <code value="427011000124108"/>
+                <display value="Gout education (procedure)"/>
+            </concept>
+            <concept>
+                <code value="428011000124107"/>
+                <display value="Human immunodeficiency virus education (procedure)"/>
+            </concept>
+            <concept>
+                <code value="428891000124106"/>
+                <display value="Psychiatric disorder education (procedure)"/>
+            </concept>
+            <concept>
+                <code value="428901000124105"/>
+                <display value="Depression education (procedure)"/>
+            </concept>
+            <concept>
+                <code value="428941000124107"/>
+                <display value="Education about organ transplantation (procedure)"/>
+            </concept>
+            <concept>
+                <code value="429785003"/>
+                <display value="Education about cardiovascular disease (procedure)"/>
+            </concept>
+            <concept>
+                <code value="4881000124103"/>
+                <display value="Education about disorders requiring anticoagulation therapy (procedure)"/>
+            </concept>
+            <concept>
+                <code value="4891000124100"/>
+                <display value="Pain education (procedure)"/>
+            </concept>
+            <concept>
+                <code value="4901000124101"/>
+                <display value="Palliative care education (procedure)"/>
+            </concept>
+            <concept>
+                <code value="58332002"/>
+                <display value="Allergy education (procedure)"/>
+            </concept>
+            <concept>
+                <code value="6143009"/>
+                <display value="Diabetic education (procedure)"/>
+            </concept>
+            <concept>
+                <code value="171044003"/>
+                <display value="Immunization education (procedure)"/>
+            </concept>
+            <concept>
+                <code value="362978005"/>
+                <display value="Medical equipment or device education (procedure)"/>
+            </concept>
+            <concept>
+                <code value="50723001"/>
+                <display value="Blood pressure taking education (procedure)"/>
+            </concept>
+            <concept>
+                <code value="183053008"/>
+                <display value="Over-the-counter medication education (procedure)"/>
+            </concept>
+            <concept>
+                <code value="223418001"/>
+                <display value="Medication efficacy education (procedure)"/>
+            </concept>
+            <concept>
+                <code value="223419009"/>
+                <display value="Medication failure risk education (procedure)"/>
+            </concept>
+            <concept>
+                <code value="386465007"/>
+                <display value="Prescribed medication education (procedure)"/>
+            </concept>
+            <concept>
+                <code value="396074002"/>
+                <display value="Medication administration education (procedure)"/>
+            </concept>
+            <concept>
+                <code value="396075001"/>
+                <display value="Medication monitoring education (procedure)"/>
+            </concept>
+            <concept>
+                <code value="396080005"/>
+                <display value="Medication side effects education (procedure)"/>
+            </concept>
+            <concept>
+                <code value="410123007"/>
+                <display value="Medication regimen compliance education (procedure)"/>
+            </concept>
+            <concept>
+                <code value="424154003"/>
+                <display value="Route of medication administration education (procedure)"/>
+            </concept>
+            <concept>
+                <code value="428381000124102"/>
+                <display value="Medication interaction with food education (procedure)"/>
+            </concept>
+            <concept>
+                <code value="428391000124104"/>
+                <display value="Medication interaction with medication education (procedure)"/>
+            </concept>
+            <concept>
+                <code value="440670004"/>
+                <display value="Education about medication intake during pregnancy (procedure)"/>
+            </concept>
+            <concept>
+                <code value="698530005"/>
+                <display value="Education about safe storage and management of medication (procedure)"/>
+            </concept>
+            <concept>
+                <code value="698603008"/>
+                <display value="Medication interaction education (procedure)"/>
+            </concept>
+            <concept>
+                <code value="710885009"/>
+                <display value="Education about medication handling (procedure)"/>
+            </concept>
+            <concept>
+                <code value="967006"/>
+                <display value="Medication education (procedure)"/>
+            </concept>
+        </include>
+    </compose>
+</ValueSet>

@@ -1,1 +1,956 @@
-<?xml version="1.0" encoding="UTF-8"?><ValueSet xmlns="http://hl7.org/fhir"><id value="2.16.840.1.113762.1.4.1096.198"/><meta><versionId value="2"/><lastUpdated value="2019-03-11T00:38:37.000-04:00"/></meta><text><status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><h2>eCare Plan Interventions</h2><p>This value set includes codes from the following code systems:</p><ul><li/><li>Import all the codes that are contained in http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113762.1.4.1096.120</li><li/><li>Import all the codes that are contained in http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113762.1.4.1096.97</li><li/><li>Import all the codes that are contained in http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113762.1.4.1096.182</li><li/><li>Import all the codes that are contained in http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113762.1.4.1096.177</li><li/><li>Import all the codes that are contained in http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113762.1.4.1096.92</li><li/><li>Import all the codes that are contained in http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113762.1.4.1096.112</li><li/><li>Import all the codes that are contained in http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113762.1.4.1096.113</li><li/><li>Import all the codes that are contained in http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113762.1.4.1096.105</li><li/><li>Import all the codes that are contained in http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113762.1.4.1096.104</li><li/><li>Import all the codes that are contained in http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113762.1.4.1096.107</li><li/><li>Import all the codes that are contained in http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113762.1.4.1096.86</li><li/><li>Import all the codes that are contained in http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113762.1.4.1096.35</li><li/><li>Import all the codes that are contained in http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113762.1.4.1096.83</li><li/><li>Import all the codes that are contained in http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113762.1.4.1096.90</li><li/><li>Import all the codes that are contained in http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113762.1.4.1096.91</li><li/><li>Import all the codes that are contained in http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113762.1.4.1096.124</li><li/><li>Import all the codes that are contained in http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113762.1.4.1096.95</li><li/><li>Import all the codes that are contained in http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113762.1.4.1096.11</li><li/><li>Import all the codes that are contained in http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113762.1.4.1096.119</li><li/><li>Import all the codes that are contained in http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113762.1.4.1096.85</li><li/><li>Import all the codes that are contained in http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113762.1.4.1096.101</li><li/><li>Import all the codes that are contained in http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113762.1.4.1096.103</li><li/><li>Import all the codes that are contained in http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113762.1.4.1096.145</li><li/><li>Import all the codes that are contained in http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113762.1.4.1096.150</li><li/><li>Import all the codes that are contained in http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113762.1.4.1096.178</li><li/><li>Import all the codes that are contained in http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113762.1.4.1096.98</li><li/><li>Import all the codes that are contained in http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113762.1.4.1096.99</li><li/><li>Import all the codes that are contained in http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113762.1.4.1096.102</li><li/><li>Import all the codes that are contained in http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113762.1.4.1096.106</li><li/><li>Import all the codes that are contained in http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113762.1.4.1096.94</li><li/><li>Import all the codes that are contained in http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113762.1.4.1096.93</li><li/><li>Import all the codes that are contained in http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113762.1.4.1096.176</li><li/><li>Import all the codes that are contained in http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113762.1.4.1096.87</li><li/><li>Import all the codes that are contained in http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113762.1.4.1096.88</li><li/><li>Import all the codes that are contained in http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113762.1.4.1096.142</li><li/><li>Import all the codes that are contained in http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113762.1.4.1096.89</li><li/><li>Import all the codes that are contained in http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113762.1.4.1096.165</li></ul></div></text><url value="http://hl7.org/fhir/us/phcp/ValueSet/2.16.840.1.113762.1.4.1096.198"/><version value="20190125"/><name value="eCare Plan Interventions"/><status value="active"/><date value="2019-01-25T01:00:10-05:00"/><publisher value="PharmacyHIT"/><compose><include><valueSet value="http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113762.1.4.1096.120"/></include><include><valueSet value="http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113762.1.4.1096.97"/></include><include><valueSet value="http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113762.1.4.1096.182"/></include><include><valueSet value="http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113762.1.4.1096.177"/></include><include><valueSet value="http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113762.1.4.1096.92"/></include><include><valueSet value="http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113762.1.4.1096.112"/></include><include><valueSet value="http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113762.1.4.1096.113"/></include><include><valueSet value="http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113762.1.4.1096.105"/></include><include><valueSet value="http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113762.1.4.1096.104"/></include><include><valueSet value="http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113762.1.4.1096.107"/></include><include><valueSet value="http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113762.1.4.1096.86"/></include><include><valueSet value="http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113762.1.4.1096.35"/></include><include><valueSet value="http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113762.1.4.1096.83"/></include><include><valueSet value="http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113762.1.4.1096.90"/></include><include><valueSet value="http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113762.1.4.1096.91"/></include><include><valueSet value="http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113762.1.4.1096.124"/></include><include><valueSet value="http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113762.1.4.1096.95"/></include><include><valueSet value="http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113762.1.4.1096.11"/></include><include><valueSet value="http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113762.1.4.1096.119"/></include><include><valueSet value="http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113762.1.4.1096.85"/></include><include><valueSet value="http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113762.1.4.1096.101"/></include><include><valueSet value="http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113762.1.4.1096.103"/></include><include><valueSet value="http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113762.1.4.1096.145"/></include><include><valueSet value="http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113762.1.4.1096.150"/></include><include><valueSet value="http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113762.1.4.1096.178"/></include><include><valueSet value="http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113762.1.4.1096.98"/></include><include><valueSet value="http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113762.1.4.1096.99"/></include><include><valueSet value="http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113762.1.4.1096.102"/></include><include><valueSet value="http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113762.1.4.1096.106"/></include><include><valueSet value="http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113762.1.4.1096.94"/></include><include><valueSet value="http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113762.1.4.1096.93"/></include><include><valueSet value="http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113762.1.4.1096.176"/></include><include><valueSet value="http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113762.1.4.1096.87"/></include><include><valueSet value="http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113762.1.4.1096.88"/></include><include><valueSet value="http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113762.1.4.1096.142"/></include><include><valueSet value="http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113762.1.4.1096.89"/></include><include><valueSet value="http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113762.1.4.1096.165"/></include></compose></ValueSet>
+<?xml version="1.0" encoding="UTF-8"?>
+<ValueSet
+    xmlns="http://hl7.org/fhir">
+    <id value="2.16.840.1.113762.1.4.1096.198"/>
+    <meta>
+        <versionId value="3"/>
+        <lastUpdated value="2019-03-14T10:45:20.000-04:00"/>
+    </meta>
+    <text>
+        <status value="generated"/>
+        <div
+            xmlns="http://www.w3.org/1999/xhtml">
+            <h2>eCare Plan Interventions</h2>
+            <p>This value set includes codes from the following code systems:</p>
+            <ul>
+                <li/>
+                <li>Import all the codes that are contained in http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113762.1.4.1096.120</li>
+                <li/>
+                <li>Import all the codes that are contained in http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113762.1.4.1096.97</li>
+                <li/>
+                <li>Import all the codes that are contained in http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113762.1.4.1096.182</li>
+                <li/>
+                <li>Import all the codes that are contained in http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113762.1.4.1096.177</li>
+                <li/>
+                <li>Import all the codes that are contained in http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113762.1.4.1096.92</li>
+                <li/>
+                <li>Import all the codes that are contained in http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113762.1.4.1096.112</li>
+                <li/>
+                <li>Import all the codes that are contained in http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113762.1.4.1096.113</li>
+                <li/>
+                <li>Import all the codes that are contained in http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113762.1.4.1096.105</li>
+                <li/>
+                <li>Import all the codes that are contained in http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113762.1.4.1096.104</li>
+                <li/>
+                <li>Import all the codes that are contained in http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113762.1.4.1096.107</li>
+                <li/>
+                <li>Import all the codes that are contained in http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113762.1.4.1096.86</li>
+                <li/>
+                <li>Import all the codes that are contained in http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113762.1.4.1096.35</li>
+                <li/>
+                <li>Import all the codes that are contained in http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113762.1.4.1096.83</li>
+                <li/>
+                <li>Import all the codes that are contained in http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113762.1.4.1096.90</li>
+                <li/>
+                <li>Import all the codes that are contained in http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113762.1.4.1096.91</li>
+                <li/>
+                <li>Import all the codes that are contained in http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113762.1.4.1096.124</li>
+                <li/>
+                <li>Import all the codes that are contained in http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113762.1.4.1096.95</li>
+                <li/>
+                <li>Import all the codes that are contained in http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113762.1.4.1096.11</li>
+                <li/>
+                <li>Import all the codes that are contained in http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113762.1.4.1096.119</li>
+                <li/>
+                <li>Import all the codes that are contained in http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113762.1.4.1096.85</li>
+                <li/>
+                <li>Import all the codes that are contained in http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113762.1.4.1096.101</li>
+                <li/>
+                <li>Import all the codes that are contained in http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113762.1.4.1096.103</li>
+                <li/>
+                <li>Import all the codes that are contained in http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113762.1.4.1096.145</li>
+                <li/>
+                <li>Import all the codes that are contained in http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113762.1.4.1096.150</li>
+                <li/>
+                <li>Import all the codes that are contained in http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113762.1.4.1096.178</li>
+                <li/>
+                <li>Import all the codes that are contained in http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113762.1.4.1096.98</li>
+                <li/>
+                <li>Import all the codes that are contained in http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113762.1.4.1096.99</li>
+                <li/>
+                <li>Import all the codes that are contained in http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113762.1.4.1096.102</li>
+                <li/>
+                <li>Import all the codes that are contained in http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113762.1.4.1096.106</li>
+                <li/>
+                <li>Import all the codes that are contained in http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113762.1.4.1096.94</li>
+                <li/>
+                <li>Import all the codes that are contained in http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113762.1.4.1096.93</li>
+                <li/>
+                <li>Import all the codes that are contained in http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113762.1.4.1096.176</li>
+                <li/>
+                <li>Import all the codes that are contained in http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113762.1.4.1096.87</li>
+                <li/>
+                <li>Import all the codes that are contained in http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113762.1.4.1096.88</li>
+                <li/>
+                <li>Import all the codes that are contained in http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113762.1.4.1096.142</li>
+                <li/>
+                <li>Import all the codes that are contained in http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113762.1.4.1096.89</li>
+                <li/>
+                <li>Import all the codes that are contained in http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113762.1.4.1096.165</li>
+            </ul>
+        </div>
+    </text>
+    <url value="http://hl7.org/fhir/us/phcp/ValueSet/2.16.840.1.113762.1.4.1096.198"/>
+    <version value="20190125"/>
+    <name value="eCare Plan Interventions"/>
+    <status value="active"/>
+    <date value="2019-01-25T01:00:10-05:00"/>
+    <publisher value="PharmacyHIT"/>
+    <compose>
+        <include>
+            <system value="http://snomed.info/sct"/>
+            <concept>
+                <code value="394696007"/>
+                <display value="Discussed with doctor (situation)"/>
+            </concept>
+            <concept>
+                <code value="395084008"/>
+                <display value="Discussed with carer (situation)"/>
+            </concept>
+            <concept>
+                <code value="395085009"/>
+                <display value="Discussed with patient (situation)"/>
+            </concept>
+            <concept>
+                <code value="451621000124104"/>
+                <display value="Discussion about refilling prescription (procedure)"/>
+            </concept>
+            <concept>
+                <code value="451721000124107"/>
+                <display value="Medication care plan discussed with patient (situation)"/>
+            </concept>
+            <concept>
+                <code value="428761000124108"/>
+                <display value="Recommendation to change medication dosing interval (procedure)"/>
+            </concept>
+            <concept>
+                <code value="428771000124101"/>
+                <display value="Recommendation to increase medication dosing interval (procedure)"/>
+            </concept>
+            <concept>
+                <code value="428781000124103"/>
+                <display value="Recommendation to decrease medication dosing interval (procedure)"/>
+            </concept>
+            <concept>
+                <code value="127785005"/>
+                <display value="Administration of substance to produce immunity, either active or passive (procedure)"/>
+            </concept>
+            <concept>
+                <code value="18629005"/>
+                <display value="Administration of drug or medicament (procedure)"/>
+            </concept>
+            <concept>
+                <code value="311401005"/>
+                <display value="Patient education (procedure)"/>
+            </concept>
+            <concept>
+                <code value="362978005"/>
+                <display value="Medical equipment or device education (procedure)"/>
+            </concept>
+            <concept>
+                <code value="405262001"/>
+                <display value="Point of care testing (procedure)"/>
+            </concept>
+            <concept>
+                <code value="413095006"/>
+                <display value="Clinical management plan review (procedure)"/>
+            </concept>
+            <concept>
+                <code value="428191000124101"/>
+                <display value="Documentation of current medications (procedure)"/>
+            </concept>
+            <concept>
+                <code value="429111000124101"/>
+                <display value="Documentation of care summary (procedure)"/>
+            </concept>
+            <concept>
+                <code value="432351000124105"/>
+                <display value="Documentation of medication related action plan (procedure)"/>
+            </concept>
+            <concept>
+                <code value="439708006"/>
+                <display value="Home visit (procedure)"/>
+            </concept>
+            <concept>
+                <code value="441041000124100"/>
+                <display value="Counseling about nutrition (procedure)"/>
+            </concept>
+            <concept>
+                <code value="447281000124106"/>
+                <display value="Preparation of personal medication record (procedure)"/>
+            </concept>
+            <concept>
+                <code value="6041000124105"/>
+                <display value="Medication regimen review (procedure)"/>
+            </concept>
+            <concept>
+                <code value="399684003"/>
+                <display value="Development of care plan (procedure)"/>
+            </concept>
+            <concept>
+                <code value="451631000124101"/>
+                <display value="Development of medication-related goals (procedure)"/>
+            </concept>
+            <concept>
+                <code value="451641000124106"/>
+                <display value="Development of medication-related action plan (procedure)"/>
+            </concept>
+            <concept>
+                <code value="451651000124108"/>
+                <display value="Development of medication care plan (procedure)"/>
+            </concept>
+            <concept>
+                <code value="451741000124100"/>
+                <display value="Development of medication care plan with patient (procedure)"/>
+            </concept>
+            <concept>
+                <code value="428711000124105"/>
+                <display value="Recommendation to change medication (procedure)"/>
+            </concept>
+            <concept>
+                <code value="428831000124107"/>
+                <display value="Recommendation to change medication to generic equivalent (procedure)"/>
+            </concept>
+            <concept>
+                <code value="428841000124102"/>
+                <display value="Recommendation to change medication to therapeutic equivalent (procedure)"/>
+            </concept>
+            <concept>
+                <code value="428851000124100"/>
+                <display value="Recommendation to change medication to therapeutic equivalent on formulary (procedure)"/>
+            </concept>
+            <concept>
+                <code value="435411000124108"/>
+                <display value="Patient notified of eligibility for medication therapy management service (situation)"/>
+            </concept>
+            <concept>
+                <code value="711408005"/>
+                <display value="Short message service text message sent (situation)"/>
+            </concept>
+            <concept>
+                <code value="415693003"/>
+                <display value="Synchronization of repeat medication (procedure)"/>
+            </concept>
+            <concept>
+                <code value="432811000124101"/>
+                <display value="Medication course duration changed (situation)"/>
+            </concept>
+            <concept>
+                <code value="432821000124109"/>
+                <display value="Medication course duration lengthened (situation)"/>
+            </concept>
+            <concept>
+                <code value="432831000124107"/>
+                <display value="Medication course duration shortened (situation)"/>
+            </concept>
+            <concept>
+                <code value="432841000124102"/>
+                <display value="Medication dosage form changed (situation)"/>
+            </concept>
+            <concept>
+                <code value="274512008"/>
+                <display value="Drug therapy discontinued (situation)"/>
+            </concept>
+            <concept>
+                <code value="4721000124109"/>
+                <display value="Herbal supplement discontinued (situation)"/>
+            </concept>
+            <concept>
+                <code value="4731000124107"/>
+                <display value="Dietary supplement discontinued (situation)"/>
+            </concept>
+            <concept>
+                <code value="4741000124102"/>
+                <display value="Over-the counter medication discontinued (situation)"/>
+            </concept>
+            <concept>
+                <code value="4751000124100"/>
+                <display value="Prescription medication discontinued (situation)"/>
+            </concept>
+            <concept>
+                <code value="104686004"/>
+                <display value="Glucose measurement, blood, test strip (procedure)"/>
+            </concept>
+            <concept>
+                <code value="16254007"/>
+                <display value="Lipid panel (procedure)"/>
+            </concept>
+            <concept>
+                <code value="182809008"/>
+                <display value="Renal function monitoring (regime/therapy)"/>
+            </concept>
+            <concept>
+                <code value="268525008"/>
+                <display value="High risk drug monitoring (regime/therapy)"/>
+            </concept>
+            <concept>
+                <code value="275944005"/>
+                <display value="Hypertension monitoring (regime/therapy)"/>
+            </concept>
+            <concept>
+                <code value="284016005"/>
+                <display value="Neuromuscular blockade monitoring (regime/therapy)"/>
+            </concept>
+            <concept>
+                <code value="284030000"/>
+                <display value="Anesthetic agent monitoring (regime/therapy)"/>
+            </concept>
+            <concept>
+                <code value="307571006"/>
+                <display value="Anticoagulant drug monitoring (regime/therapy)"/>
+            </concept>
+            <concept>
+                <code value="370836008"/>
+                <display value="Monitoring physiological parameters (regime/therapy)"/>
+            </concept>
+            <concept>
+                <code value="395170001"/>
+                <display value="Medication monitoring (regime/therapy)"/>
+            </concept>
+            <concept>
+                <code value="398003001"/>
+                <display value="Train-of-four monitoring (regime/therapy)"/>
+            </concept>
+            <concept>
+                <code value="408867002"/>
+                <display value="Taking respiratory rate (procedure)"/>
+            </concept>
+            <concept>
+                <code value="431561000124105"/>
+                <display value="Monitoring of laboratory results (regime/therapy)"/>
+            </concept>
+            <concept>
+                <code value="43396009"/>
+                <display value="Hemoglobin A1c measurement (procedure)"/>
+            </concept>
+            <concept>
+                <code value="439202006"/>
+                <display value="Monitoring of international normalized ratio (regime/therapy)"/>
+            </concept>
+            <concept>
+                <code value="46973005"/>
+                <display value="Blood pressure taking (procedure)"/>
+            </concept>
+            <concept>
+                <code value="61746007"/>
+                <display value="Taking patient vital signs (procedure)"/>
+            </concept>
+            <concept>
+                <code value="65653002"/>
+                <display value="Pulse taking (procedure)"/>
+            </concept>
+            <concept>
+                <code value="698472009"/>
+                <display value="Blood glucose monitoring (regime/therapy)"/>
+            </concept>
+            <concept>
+                <code value="713116003"/>
+                <display value="Monitoring adherence to medication regime (regime/therapy)"/>
+            </concept>
+            <concept>
+                <code value="428911000124108"/>
+                <display value="Comprehensive medication therapy review (procedure)"/>
+            </concept>
+            <concept>
+                <code value="12894003"/>
+                <display value="Functional assessment (procedure)"/>
+            </concept>
+            <concept>
+                <code value="225399009"/>
+                <display value="Pain assessment (procedure)"/>
+            </concept>
+            <concept>
+                <code value="268558004"/>
+                <display value="Immunization status screening (procedure)"/>
+            </concept>
+            <concept>
+                <code value="396079007"/>
+                <display value="Assessment of adverse drug reactions (procedure)"/>
+            </concept>
+            <concept>
+                <code value="410122002"/>
+                <display value="Assessment of compliance with medication regimen (procedure)"/>
+            </concept>
+            <concept>
+                <code value="414191008"/>
+                <display value="Fall risk assessment (procedure)"/>
+            </concept>
+            <concept>
+                <code value="431531000124101"/>
+                <display value="Health literacy assessment (procedure)"/>
+            </concept>
+            <concept>
+                <code value="710843005"/>
+                <display value="Assessment of cultural beliefs (procedure)"/>
+            </concept>
+            <concept>
+                <code value="4761000124103"/>
+                <display value="Recommendation to continue a medication (procedure)"/>
+            </concept>
+            <concept>
+                <code value="306807008"/>
+                <display value="Recommendation to start drug treatment (procedure)"/>
+            </concept>
+            <concept>
+                <code value="428821000124109"/>
+                <display value="Recommendation to start prescription medication (procedure)"/>
+            </concept>
+            <concept>
+                <code value="4811000124105"/>
+                <display value="Recommendation to start over-the-counter medication (procedure)"/>
+            </concept>
+            <concept>
+                <code value="4821000124102"/>
+                <display value="Recommendation to start herbal supplement (procedure)"/>
+            </concept>
+            <concept>
+                <code value="4831000124104"/>
+                <display value="Recommendation to start dietary supplement (procedure)"/>
+            </concept>
+            <concept>
+                <code value="412710004"/>
+                <display value="Medication reminder chart given (situation)"/>
+            </concept>
+            <concept>
+                <code value="429131000124107"/>
+                <display value="Provision of personal medication record (procedure)"/>
+            </concept>
+            <concept>
+                <code value="429141000124102"/>
+                <display value="Provision of medication related action plan (procedure)"/>
+            </concept>
+            <concept>
+                <code value="451521000124103"/>
+                <display value="Medication care plan sent to primary care provider (situation)"/>
+            </concept>
+            <concept>
+                <code value="451531000124100"/>
+                <display value="Medication care plan sent to hospital pharmacist (situation)"/>
+            </concept>
+            <concept>
+                <code value="451541000124105"/>
+                <display value="Medication care plan sent to infusion pharmacist (situation)"/>
+            </concept>
+            <concept>
+                <code value="451551000124107"/>
+                <display value="Medication care plan sent to dispensing pharmacist (situation)"/>
+            </concept>
+            <concept>
+                <code value="451561000124109"/>
+                <display value="Medication care plan sent to patient (situation)"/>
+            </concept>
+            <concept>
+                <code value="713114000"/>
+                <display value="Provision of medication list (procedure)"/>
+            </concept>
+            <concept>
+                <code value="428721000124102"/>
+                <display value="Recommendation to change medication course duration (procedure)"/>
+            </concept>
+            <concept>
+                <code value="428731000124104"/>
+                <display value="Recommendation to shorten medication course duration (procedure)"/>
+            </concept>
+            <concept>
+                <code value="428741000124109"/>
+                <display value="Recommendation to lengthen medication course duration (procedure)"/>
+            </concept>
+            <concept>
+                <code value="430193006"/>
+                <display value="Medication Reconciliation (procedure)"/>
+            </concept>
+            <concept>
+                <code value="1701000124101"/>
+                <display value="Oncologic medication review (procedure)"/>
+            </concept>
+            <concept>
+                <code value="1751000124102"/>
+                <display value="Immunologic disorder medication review (procedure)"/>
+            </concept>
+            <concept>
+                <code value="1761000124100"/>
+                <display value="Rheumatologic disorder medication review (procedure)"/>
+            </concept>
+            <concept>
+                <code value="1771000124107"/>
+                <display value="Allergy medication review (procedure)"/>
+            </concept>
+            <concept>
+                <code value="1781000124105"/>
+                <display value="Transplant medication review (procedure)"/>
+            </concept>
+            <concept>
+                <code value="1801000124109"/>
+                <display value="Anticoagulation medication review (procedure)"/>
+            </concept>
+            <concept>
+                <code value="1811000124107"/>
+                <display value="Pain medication review (procedure)"/>
+            </concept>
+            <concept>
+                <code value="1821000124104"/>
+                <display value="Smoking cessation medication review (procedure)"/>
+            </concept>
+            <concept>
+                <code value="1831000124101"/>
+                <display value="Pregnancy and lactation medication review (procedure)"/>
+            </concept>
+            <concept>
+                <code value="1841000124106"/>
+                <display value="Palliative care medication review (procedure)"/>
+            </concept>
+            <concept>
+                <code value="1851000124108"/>
+                <display value="Geriatric syndrome medication review (procedure)"/>
+            </concept>
+            <concept>
+                <code value="394720003"/>
+                <display value="Asthma medication review (procedure)"/>
+            </concept>
+            <concept>
+                <code value="394724007"/>
+                <display value="Coronary heart disease medication review (procedure)"/>
+            </concept>
+            <concept>
+                <code value="394725008"/>
+                <display value="Diabetes medication review (procedure)"/>
+            </concept>
+            <concept>
+                <code value="413143000"/>
+                <display value="Mental health medication review (procedure)"/>
+            </concept>
+            <concept>
+                <code value="413974004"/>
+                <display value="Depression medication review (procedure)"/>
+            </concept>
+            <concept>
+                <code value="473219007"/>
+                <display value="Cardiovascular disorder medication review (procedure)"/>
+            </concept>
+            <concept>
+                <code value="473220001"/>
+                <display value="Hematologic disorder medication review (procedure)"/>
+            </concept>
+            <concept>
+                <code value="473221002"/>
+                <display value="Pulmonary disorder medication review (procedure)"/>
+            </concept>
+            <concept>
+                <code value="473223004"/>
+                <display value="Chronic obstructive lung disorder medication review (procedure)"/>
+            </concept>
+            <concept>
+                <code value="473224005"/>
+                <display value="Gout medication review (procedure)"/>
+            </concept>
+            <concept>
+                <code value="473225006"/>
+                <display value="Hypertension medication review (procedure)"/>
+            </concept>
+            <concept>
+                <code value="473226007"/>
+                <display value="Heart failure medication review (procedure)"/>
+            </concept>
+            <concept>
+                <code value="473227003"/>
+                <display value="Metabolic disorder medication review (procedure)"/>
+            </concept>
+            <concept>
+                <code value="473228008"/>
+                <display value="Neurological disorder medication review (procedure)"/>
+            </concept>
+            <concept>
+                <code value="473230005"/>
+                <display value="Gastrointestinal disorder medication review (procedure)"/>
+            </concept>
+            <concept>
+                <code value="473231009"/>
+                <display value="Renal disorder medication review (procedure)"/>
+            </concept>
+            <concept>
+                <code value="473232002"/>
+                <display value="Infectious disease medication review (procedure)"/>
+            </concept>
+            <concept>
+                <code value="473233007"/>
+                <display value="Human immunodeficiency virus medication review (procedure)"/>
+            </concept>
+            <concept>
+                <code value="473234001"/>
+                <display value="Dyslipidemia medication review (procedure)"/>
+            </concept>
+            <concept>
+                <code value="473235000"/>
+                <display value="Endocrine disorder medication review (procedure)"/>
+            </concept>
+            <concept>
+                <code value="6021000124103"/>
+                <display value="Targeted medication therapy review (procedure)"/>
+            </concept>
+            <concept>
+                <code value="385880002"/>
+                <display value="Instrumental activities of daily living assessment (procedure)"/>
+            </concept>
+            <concept>
+                <code value="404932006"/>
+                <display value="Timed up and go mobility test (procedure)"/>
+            </concept>
+            <concept>
+                <code value="445587006"/>
+                <display value="Assessment using geriatric depression scale (procedure)"/>
+            </concept>
+            <concept>
+                <code value="445598007"/>
+                <display value="Assessment using generalized anxiety disorder 7 item score (procedure)"/>
+            </concept>
+            <concept>
+                <code value="445676008"/>
+                <display value="Assessment using geriatric depression scale short form (procedure)"/>
+            </concept>
+            <concept>
+                <code value="445719003"/>
+                <display value="Assessment using visual analog pain scale (procedure)"/>
+            </concept>
+            <concept>
+                <code value="445984005"/>
+                <display value="Assessment using World Health Organization fracture risk assessment tool for osteoporotic fracture probability (procedure)"/>
+            </concept>
+            <concept>
+                <code value="446971008"/>
+                <display value="Assessment using mini-mental state examination (procedure)"/>
+            </concept>
+            <concept>
+                <code value="450742003"/>
+                <display value="Assessment using National Institutes of Health stroke scale (procedure)"/>
+            </concept>
+            <concept>
+                <code value="708018005"/>
+                <display value="Assessment using congestive heart failure, hypertension, age 2, diabetes mellitus, stroke 2 - vascular disease, age, sex category score (procedure)"/>
+            </concept>
+            <concept>
+                <code value="713773009"/>
+                <display value="Assessment using Mini-cog brief cognitive screening test (procedure)"/>
+            </concept>
+            <concept>
+                <code value="715252007"/>
+                <display value="Depression screening using Patient Health Questionnaire Nine Item score (procedure)"/>
+            </concept>
+            <concept>
+                <code value="266709005"/>
+                <display value="Medication commenced (situation)"/>
+            </concept>
+            <concept>
+                <code value="432851000124100"/>
+                <display value="Over-the-counter medication started (situation)"/>
+            </concept>
+            <concept>
+                <code value="432861000124103"/>
+                <display value="Prescription medication started (situation)"/>
+            </concept>
+            <concept>
+                <code value="432871000124105"/>
+                <display value="Dietary supplement started (situation)"/>
+            </concept>
+            <concept>
+                <code value="432881000124108"/>
+                <display value="Herbal supplement started (situation)"/>
+            </concept>
+            <concept>
+                <code value="432751000124106"/>
+                <display value="Medication dose changed (situation)"/>
+            </concept>
+            <concept>
+                <code value="432761000124108"/>
+                <display value="Medication dose increased (situation)"/>
+            </concept>
+            <concept>
+                <code value="432771000124101"/>
+                <display value="Medication dose decreased (situation)"/>
+            </concept>
+            <concept>
+                <code value="183298008"/>
+                <display value="Fitting/adjustment of crutches (procedure)"/>
+            </concept>
+            <concept>
+                <code value="225176002"/>
+                <display value="Fitting stoma bag (procedure)"/>
+            </concept>
+            <concept>
+                <code value="228602004"/>
+                <display value="Fitting of splint (procedure)"/>
+            </concept>
+            <concept>
+                <code value="37030005"/>
+                <display value="Fitting of orthotic device (procedure)"/>
+            </concept>
+            <concept>
+                <code value="438299001"/>
+                <display value="Fitting of arm sling (procedure)"/>
+            </concept>
+            <concept>
+                <code value="61533004"/>
+                <display value="Fitting of shoe (procedure)"/>
+            </concept>
+            <concept>
+                <code value="103742009"/>
+                <display value="Renewal of prescription (procedure)"/>
+            </concept>
+            <concept>
+                <code value="435871000124102"/>
+                <display value="Documentation of past medical history (procedure)"/>
+            </concept>
+            <concept>
+                <code value="451671000124103"/>
+                <display value="Documentation of adverse drug event history (procedure)"/>
+            </concept>
+            <concept>
+                <code value="4701000124104"/>
+                <display value="Recommendation to discontinue medication (procedure)"/>
+            </concept>
+            <concept>
+                <code value="4711000124101"/>
+                <display value="Recommendation to discontinue dietary supplement (procedure)"/>
+            </concept>
+            <concept>
+                <code value="4781000124108"/>
+                <display value="Recommendation to discontinue prescription medication (procedure)"/>
+            </concept>
+            <concept>
+                <code value="4791000124106"/>
+                <display value="Recommendation to discontinue herbal supplement (procedure)"/>
+            </concept>
+            <concept>
+                <code value="4801000124107"/>
+                <display value="Recommendation to discontinue over-the-counter medication (procedure)"/>
+            </concept>
+            <concept>
+                <code value="428871000124105"/>
+                <display value="Recommendation to start medication monitoring (procedure)"/>
+            </concept>
+            <concept>
+                <code value="428881000124108"/>
+                <display value="Recommendation to monitor laboratory results (procedure)"/>
+            </concept>
+            <concept>
+                <code value="432371000124100"/>
+                <display value="Recommendation to monitor physiologic parameters (procedure)"/>
+            </concept>
+            <concept>
+                <code value="407611006"/>
+                <display value="Medication change to generic (procedure)"/>
+            </concept>
+            <concept>
+                <code value="432701000124107"/>
+                <display value="Medication therapy changed (situation)"/>
+            </concept>
+            <concept>
+                <code value="432901000124105"/>
+                <display value="Medication changed to therapeutic equivalent (situation)"/>
+            </concept>
+            <concept>
+                <code value="432911000124108"/>
+                <display value="Medication changed to therapeutic equivalent on formulary (situation)"/>
+            </concept>
+            <concept>
+                <code value="432781000124103"/>
+                <display value="Medication dosing interval changed (situation)"/>
+            </concept>
+            <concept>
+                <code value="432791000124100"/>
+                <display value="Medication dosing interval decreased (situation)"/>
+            </concept>
+            <concept>
+                <code value="432801000124104"/>
+                <display value="Medication dosing interval increased (situation)"/>
+            </concept>
+            <concept>
+                <code value="428751000124106"/>
+                <display value="Recommendation to change medication dose form (procedure)"/>
+            </concept>
+            <concept>
+                <code value="428791000124100"/>
+                <display value="Recommendation to change medication dose (procedure)"/>
+            </concept>
+            <concept>
+                <code value="428801000124104"/>
+                <display value="Recommendation to decrease medication dose (procedure)"/>
+            </concept>
+            <concept>
+                <code value="428811000124101"/>
+                <display value="Recommendation to increase medication dose (procedure)"/>
+            </concept>
+            <concept>
+                <code value="451571000124102"/>
+                <display value="Gathering of past medical history (procedure)"/>
+            </concept>
+            <concept>
+                <code value="451581000124104"/>
+                <display value="Gathering of current medication list (procedure)"/>
+            </concept>
+            <concept>
+                <code value="451591000124101"/>
+                <display value="Gathering of allergy history (procedure)"/>
+            </concept>
+            <concept>
+                <code value="451681000124100"/>
+                <display value="Gathering of adverse drug event history (procedure)"/>
+            </concept>
+            <concept>
+                <code value="11429006"/>
+                <display value="Consultation (procedure)"/>
+            </concept>
+            <concept>
+                <code value="281036007"/>
+                <display value="Follow-up consultation (procedure)"/>
+            </concept>
+            <concept>
+                <code value="428921000124100"/>
+                <display value="Consultation for transition of care (procedure)"/>
+            </concept>
+            <concept>
+                <code value="428931000124102"/>
+                <display value="Pharmacogenetic consultation (procedure)"/>
+            </concept>
+            <concept>
+                <code value="6051000124107"/>
+                <display value="Pharmacokinetic consultation (procedure)"/>
+            </concept>
+            <concept>
+                <code value="6061000124109"/>
+                <display value="Risk evaluation and mitigation strategy consultation (procedure)"/>
+            </concept>
+            <concept>
+                <code value="103699006"/>
+                <display value="Patient referral to dietitian (procedure)"/>
+            </concept>
+            <concept>
+                <code value="183515008"/>
+                <display value="Referral to physician (procedure)"/>
+            </concept>
+            <concept>
+                <code value="183561008"/>
+                <display value="Referral to general practitioner (procedure)"/>
+            </concept>
+            <concept>
+                <code value="183866009"/>
+                <display value="Referral to emergency clinic (procedure)"/>
+            </concept>
+            <concept>
+                <code value="276490004"/>
+                <display value="Refer to member of Primary Health Care Team (procedure)"/>
+            </concept>
+            <concept>
+                <code value="281100006"/>
+                <display value="Referral to health worker (procedure)"/>
+            </concept>
+            <concept>
+                <code value="306250006"/>
+                <display value="Referral to genetic counselor (procedure)"/>
+            </concept>
+            <concept>
+                <code value="306328008"/>
+                <display value="Referral to nurse behavioral therapist (procedure)"/>
+            </concept>
+            <concept>
+                <code value="306338003"/>
+                <display value="Referral to nurse practitioner (procedure)"/>
+            </concept>
+            <concept>
+                <code value="306362008"/>
+                <display value="Referral to pharmacist (procedure)"/>
+            </concept>
+            <concept>
+                <code value="308440001"/>
+                <display value="Referral to social worker (procedure)"/>
+            </concept>
+            <concept>
+                <code value="308453003"/>
+                <display value="Referral to occupational therapist (procedure)"/>
+            </concept>
+            <concept>
+                <code value="308459004"/>
+                <display value="Referral to psychologist (procedure)"/>
+            </concept>
+            <concept>
+                <code value="3457005"/>
+                <display value="Patient referral (procedure)"/>
+            </concept>
+            <concept>
+                <code value="428451000124103"/>
+                <display value="Referral to physician assistant (procedure)"/>
+            </concept>
+            <concept>
+                <code value="428461000124101"/>
+                <display value="Referral to nutrition professional (procedure)"/>
+            </concept>
+            <concept>
+                <code value="449221000124102"/>
+                <display value="Referral to different healthcare provider (procedure)"/>
+            </concept>
+            <concept>
+                <code value="453661000124106"/>
+                <display value="Referral to care coordinator (procedure)"/>
+            </concept>
+            <concept>
+                <code value="698561001"/>
+                <display value="Referral to nurse case manager (procedure)"/>
+            </concept>
+            <concept>
+                <code value="422865007"/>
+                <display value="Interpreter/translator services education, guidance, counseling (procedure)"/>
+            </concept>
+            <concept>
+                <code value="183838001"/>
+                <display value="Referral for electrocardiogram (procedure)"/>
+            </concept>
+            <concept>
+                <code value="266753000"/>
+                <display value="Referral for laboratory tests (procedure)"/>
+            </concept>
+            <concept>
+                <code value="306228005"/>
+                <display value="Referral for diagnostic investigation (procedure)"/>
+            </concept>
+            <concept>
+                <code value="415263003"/>
+                <display value="Referral for warfarin monitoring (procedure)"/>
+            </concept>
+            <concept>
+                <code value="415270003"/>
+                <display value="Referral to diabetes structured education program (procedure)"/>
+            </concept>
+            <concept>
+                <code value="4266003"/>
+                <display value="Patient referral for drug addiction rehabilitation (procedure)"/>
+            </concept>
+            <concept>
+                <code value="444831000124102"/>
+                <display value="Referral for physical therapy (procedure)"/>
+            </concept>
+            <concept>
+                <code value="54395008"/>
+                <display value="Patient referral for medical consultation (procedure)"/>
+            </concept>
+            <concept>
+                <code value="702475000"/>
+                <display value="Referral to clinical trial (procedure)"/>
+            </concept>
+            <concept>
+                <code value="386336002"/>
+                <display value="Insurance authorization (procedure)"/>
+            </concept>
+            <concept>
+                <code value="451601000124109"/>
+                <display value="Enrollment in co-pay assistance program (procedure)"/>
+            </concept>
+            <concept>
+                <code value="451611000124107"/>
+                <display value="Enrollment in medication assistance program (procedure)"/>
+            </concept>
+            <concept>
+                <code value="451661000124105"/>
+                <display value="Benefits investigation (procedure)"/>
+            </concept>
+        </include>
+    </compose>
+</ValueSet>
