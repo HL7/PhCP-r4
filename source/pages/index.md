@@ -33,10 +33,6 @@ This guide contains a library of Fast Health Interoperability Resources (FHIR) p
 </thead>
 <tbody>
 <tr>
-<td>undefined</td>
-<td></td>
-</tr>
-<tr>
 <td>Rick Geimer</td>
 <td><a href="mailto:rick.geimer@lantanagroup.com">rick.geimer@lantanagroup.com</a></td>
 </tr>
