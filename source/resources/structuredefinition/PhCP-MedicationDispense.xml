@@ -10,7 +10,7 @@
     <name value="PhCP-MedicationDispense"/>
     <status value="draft"/>
     <date value="2017-07-20T15:29:09.2599666-04:00"/>
-    <fhirVersion value="3.0.1"/>
+    <fhirVersion value="4.0.0"/>
     <kind value="resource"/>
     <abstract value="false"/>
     <type value="MedicationDispense"/>
