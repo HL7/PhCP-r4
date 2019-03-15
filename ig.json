@@ -1,4 +1,4 @@
-{
+{ 
 	"tool": "jekyll",
 	"source": "implementationguide/phcp.xml",
 	"version": "4.0.0",
