@@ -3,8 +3,8 @@
     xmlns="http://hl7.org/fhir">
     <id value="PhCP-Coverage"/>
     <meta>
-        <versionId value="6"/>
-        <lastUpdated value="2019-03-11T16:09:07.000-04:00"/>
+        <versionId value="7"/>
+        <lastUpdated value="2019-03-14T22:38:03.000-04:00"/>
     </meta>
     <text>
         <status value="generated"/>
@@ -89,8 +89,10 @@
                     <td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">
                         <a href="http://hl7.org/fhir/references.html">Reference</a>(
 						
+                        
                         <a href="http://hl7.org/fhir/us/core//StructureDefinition-us-core-patient.html">US Core Patient Profile</a>)
 					
+                    
                     </td>
                     <td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"/>
                 </tr>
@@ -122,16 +124,22 @@
                     <td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">
                         <a href="http://hl7.org/fhir/references.html">Reference</a>(
 						
+                        
                         <a href="http://hl7.org/fhir/us/core//StructureDefinition-us-core-organization.html">US Core Organization Core Profile</a>), 
 						
+                        
                         <a href="http://hl7.org/fhir/references.html">Reference</a>(
 						
+                        
                         <a href="http://hl7.org/fhir/patient.html">Patient</a>), 
 						
+                        
                         <a href="http://hl7.org/fhir/references.html">Reference</a>(
 						
+                        
                         <a href="http://hl7.org/fhir/relatedperson.html">RelatedPerson</a>)
 					
+                    
                     </td>
                     <td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"/>
                 </tr>
@@ -157,6 +165,7 @@
                             <img src="http://hl7.org/fhir/help16.png" alt="doco" style="background-color: inherit"/> Documentation for
                             this format
 						
+                        
                         </a>
                     </td>
                 </tr>
@@ -246,13 +255,6 @@
                 <targetProfile value="http://hl7.org/fhir/StructureDefinition/Patient"/>
                 <targetProfile value="http://hl7.org/fhir/StructureDefinition/RelatedPerson"/>
             </type>
-        </element>
-        <element id="Coverage.grouping">
-            <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-explicit-type-name">
-                <valueString value="Group"/>
-            </extension>
-            <path value="Coverage.grouping"/>
-            <min value="1"/>
         </element>
     </differential>
 </StructureDefinition>
