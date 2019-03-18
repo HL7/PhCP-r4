@@ -1,8 +1,6 @@
-{ 
+{
 	"tool": "jekyll",
 	"source": "implementationguide/phcp.xml",
-	"version": "4.0.0",
-	"fixed-business-version": "4.0.0",
 	"npm-name": "hl7.fhir.us.phcp",
 	"license": "CC0-1.0",
 	"paths": {
@@ -161,6 +159,8 @@
 			"defns": "StructureDefinition-PhCP-Intervention-Procedure-definitions.html"
 		}
 	},
+	"version": "4.0.0",
+	"fixed-business-version": "4.0.0",
 	"dependencyList": [
 		{
 			"location": "http://hl7.org/fhir/us/core",

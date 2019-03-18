@@ -3,8 +3,8 @@
     xmlns="http://hl7.org/fhir">
     <id value="PhCP-CareCoordination"/>
     <meta>
-        <versionId value="9"/>
-        <lastUpdated value="2019-03-11T01:08:30.000-04:00"/>
+        <versionId value="11"/>
+        <lastUpdated value="2019-03-18T04:47:58.000-04:00"/>
     </meta>
     <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-wg">
         <valueCode value="pc"/>
@@ -13,6 +13,7 @@
     <name value="PhCP-CareCoordination"/>
     <status value="draft"/>
     <date value="2017-07-21T12:08:27.5989601-04:00"/>
+    <description value="This profile represents communication regarding care coordination for the patient. "/>
     <fhirVersion value="4.0.0"/>
     <kind value="resource"/>
     <abstract value="false"/>

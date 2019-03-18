@@ -3,8 +3,8 @@
     xmlns="http://hl7.org/fhir">
     <id value="PhCP-Composition"/>
     <meta>
-        <versionId value="10"/>
-        <lastUpdated value="2019-03-11T03:31:16.000-04:00"/>
+        <versionId value="13"/>
+        <lastUpdated value="2019-03-18T04:16:34.000-04:00"/>
     </meta>
     <url value="http://hl7.org/fhir/us/phcp/StructureDefinition/PhCP-Composition"/>
     <name value="Pharmacist Care Plan Document"/>
@@ -19,6 +19,7 @@
             <use value="work"/>
         </telecom>
     </contact>
+    <description value="The Pharmacist Care Plan standardizes the information gathered and developed through the process of medication planning and management in community, hospital, and long term post-acute care (LTPAC) settings. It allows exchange of information between providers of care to optimize medication-related decision support and patient adherence to medication regimens both within a healthcare setting and when a patient moves between healthcare settings.&#xA;Standardization of information used in this form will promote interoperability; support a comprehensive, multi-discipline longitudinal care plan; and create information suitable for reuse in quality measurement, public health reporting, research, and for reimbursement.&#xA;In assessment of and consultation with the patient, the Pharmacist Care Plan focuses on:&#xA;&#xA;* 	Maximizing the effectiveness of medications ordered and currently used&#xA;* 	Identifying and addressing barriers to successful implementation of the therapy regimen&#xA;* 	Assuring patient understanding of the reasons for and use of the medication and the goals of therapy&#xA;* 	Resolving conflicting orders and plans&#xA;&#xA;These activities help the patient achieve the best possible outcomes of treatment and an enhanced sense of wellbeing.&#xA;"/>
     <fhirVersion value="4.0.0"/>
     <kind value="resource"/>
     <abstract value="false"/>
