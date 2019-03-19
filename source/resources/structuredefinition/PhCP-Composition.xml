@@ -170,7 +170,7 @@
                     </td>
                     <td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">
                         <a href="http://hl7.org/fhir/R4/references.html">Reference</a>(
-                        <span style="opacity: 0.4">http://hl7.org/fhir/us/core-r4/StructureDefinition/us-core-careplan</span>)
+                        <span style="opacity: 0.4">http://hl7.org/fhir/us/core/StructureDefinition/us-core-careplan</span>)
                     </td>
                     <td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">
                         <span style="opacity: 0.4">Care Plan Detail</span>
@@ -309,7 +309,7 @@
                         <a href="StructureDefinition-PhCP-CareCoordination.html">PhCP Care Coordination</a> | 
                         <a href="StructureDefinition-PhCP-Instruction-Procedure.html">PhCP Instruction Procedure</a> | 
                         <a href="StructureDefinition-PhCP-Intervention-Procedure.html">PhCP Intervention Procedure</a> | 
-                        <a href="StructureDefinition-PhCP-ServiceRequest.html">PhCP ServiceRequest</a> | http://hl7.org/fhir/us/core-r4/StructureDefinition/us-core-medicationstatement | http://hl7.org/fhir/us/core-r4/StructureDefinition/us-core-medicationrequest)
+                        <a href="StructureDefinition-PhCP-ServiceRequest.html">PhCP ServiceRequest</a> | http://hl7.org/fhir/us/core/StructureDefinition/us-core-medicationstatement | http://hl7.org/fhir/us/core/StructureDefinition/us-core-medicationrequest)
                     </td>
                     <td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">entry</td>
                 </tr>
@@ -489,7 +489,7 @@
             <short value="Care Plan Detail"/>
             <type>
                 <code value="Reference"/>
-                <targetProfile value="http://hl7.org/fhir/us/core-r4/StructureDefinition/us-core-careplan"/>
+                <targetProfile value="http://hl7.org/fhir/us/core/StructureDefinition/us-core-careplan"/>
             </type>
         </element>
         <element id="Composition.section">
@@ -555,8 +555,8 @@
                 <targetProfile value="http://hl7.org/fhir/us/phcp/StructureDefinition/PhCP-Instruction-Procedure"/>
                 <targetProfile value="http://hl7.org/fhir/us/phcp/StructureDefinition/PhCP-Intervention-Procedure"/>
                 <targetProfile value="http://hl7.org/fhir/us/phcp/StructureDefinition/PhCP-ServiceRequest"/>
-                <targetProfile value="http://hl7.org/fhir/us/core-r4/StructureDefinition/us-core-medicationstatement"/>
-                <targetProfile value="http://hl7.org/fhir/us/core-r4/StructureDefinition/us-core-medicationrequest"/>
+                <targetProfile value="http://hl7.org/fhir/us/core/StructureDefinition/us-core-medicationstatement"/>
+                <targetProfile value="http://hl7.org/fhir/us/core/StructureDefinition/us-core-medicationrequest"/>
             </type>
         </element>
         <element id="Composition.section:payer_section_slice">
