@@ -3,9 +3,426 @@
     xmlns="http://hl7.org/fhir">
     <id value="PhCP-Composition"/>
     <meta>
-        <versionId value="15"/>
-        <lastUpdated value="2019-03-18T22:43:13.000-04:00"/>
+        <versionId value="19"/>
+        <lastUpdated value="2019-03-19T01:24:09.000-04:00"/>
     </meta>
+    <text>
+        <status value="generated"/>
+        <div
+            xmlns="http://www.w3.org/1999/xhtml">
+            <table border="0" cellpadding="0" cellspacing="0" style="border: 0px #F0F0F0 solid; font-size: 11px; font-family: verdana; vertical-align: top;">
+                <tr style="border: 1px #F0F0F0 solid; font-size: 11px; font-family: verdana; vertical-align: top;">
+                    <th style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">
+                        <a href="http://hl7.org/fhir/R4/formats.html#table" title="The logical name of the element">Name</a>
+                    </th>
+                    <th style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">
+                        <a href="http://hl7.org/fhir/R4/formats.html#table" title="Information about the use of the element">Flags</a>
+                    </th>
+                    <th style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">
+                        <a href="http://hl7.org/fhir/R4/formats.html#table" title="Minimum and Maximum # of times the the element can appear in the instance">Card.</a>
+                    </th>
+                    <th style="width: 100px" class="hierarchy">
+                        <a href="http://hl7.org/fhir/R4/formats.html#table" title="Reference to the type of the element">Type</a>
+                    </th>
+                    <th style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">
+                        <a href="http://hl7.org/fhir/R4/formats.html#table" title="Additional information about the element">Description &amp; Constraints</a>
+                        <span style="float: right">
+                            <a href="http://hl7.org/fhir/R4/formats.html#table" title="Legend for this format">
+                                <img src="http://hl7.org/fhir/R4/help16.png" alt="doco" style="background-color: inherit"/>
+                            </a>
+                        </span>
+                    </th>
+                </tr>
+                <tr style="border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white;">
+                    <td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck1.png)" class="hierarchy">
+                        <img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy"/>
+                        <img src="icon_element.gif" alt="." style="background-color: white; background-color: inherit" title="Element" class="hierarchy"/>
+                        <a href="StructureDefinition-PhCP-Composition-definitions.html#Composition" title="null">Composition</a>
+                        <a name="Composition"/>
+                    </td>
+                    <td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"/>
+                    <td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">
+                        <span style="opacity: 0.4">0</span>
+                        <span style="opacity: 0.5">..</span>
+                        <span style="opacity: 0.4">*</span>
+                    </td>
+                    <td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"/>
+                    <td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"/>
+                </tr>
+                <tr style="border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white;">
+                    <td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck10.png)" class="hierarchy">
+                        <img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy"/>
+                        <img src="tbl_vjoin.png" alt="." style="background-color: inherit" class="hierarchy"/>
+                        <img src="icon_reference.png" alt="." style="background-color: white; background-color: inherit" title="Reference to another Resource" class="hierarchy"/>
+                        <a href="StructureDefinition-PhCP-Composition-definitions.html#Composition.encounter" title="null">encounter</a>
+                        <a name="Composition.encounter"/>
+                    </td>
+                    <td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"/>
+                    <td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">
+                        <span style="opacity: 0.4">0</span>
+                        <span style="opacity: 0.5">..</span>
+                        <span style="opacity: 0.4">1</span>
+                    </td>
+                    <td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">
+                        <a href="http://hl7.org/fhir/R4/references.html">Reference</a>(
+                        <a href="StructureDefinition-PhCP-Encounter.html">PhCP Encounter</a>)
+                    </td>
+                    <td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"/>
+                </tr>
+                <tr style="border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white;">
+                    <td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck11.png)" class="hierarchy">
+                        <img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy"/>
+                        <img src="tbl_vjoin.png" alt="." style="background-color: inherit" class="hierarchy"/>
+                        <img src="icon_element.gif" alt="." style="background-color: white; background-color: inherit" title="Element" class="hierarchy"/>
+                        <a href="StructureDefinition-PhCP-Composition-definitions.html#Composition.event" title="A reference to the dynamic CarePlan resource from which this static document was generated, if one exists.">event</a>
+                        <a name="Composition.event"/>
+                    </td>
+                    <td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"/>
+                    <td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">
+                        <span style="opacity: 0.4">0</span>
+                        <span style="opacity: 0.5">..</span>
+                        <span style="opacity: 0.4">1</span>
+                    </td>
+                    <td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">
+                        <a style="opacity: 0.4" href="http://hl7.org/fhir/R4/datatypes.html#BackboneElement">BackboneElement</a>
+                    </td>
+                    <td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">A reference to the dynamic CarePlan resource from which this static document was generated, if one exists.</td>
+                </tr>
+                <tr style="border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white;">
+                    <td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck110.png)" class="hierarchy">
+                        <img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy"/>
+                        <img src="tbl_vline.png" alt="." style="background-color: inherit" class="hierarchy"/>
+                        <img src="tbl_vjoin.png" alt="." style="background-color: inherit" class="hierarchy"/>
+                        <img src="icon_element.gif" alt="." style="background-color: white; background-color: inherit" title="Element" class="hierarchy"/>
+                        <a href="StructureDefinition-PhCP-Composition-definitions.html#Composition.event.code" title="null">code</a>
+                        <a name="Composition.event.code"/>
+                    </td>
+                    <td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"/>
+                    <td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">
+                        <span style="opacity: 0.4">0</span>..
+                        <span style="opacity: 0.4">1</span>
+                    </td>
+                    <td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">
+                        <a style="opacity: 0.4" href="http://hl7.org/fhir/R4/datatypes.html#CodeableConcept">CodeableConcept</a>
+                    </td>
+                    <td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">
+                        <span style="font-weight:bold">Binding: </span>
+                        <a href="http://hl7.org/fhir/R4/terminologies.html#unbound">(unbound)</a> (
+                        <a href="http://hl7.org/fhir/R4/terminologies.html#preferred" title="Instances are encouraged to draw from the specified codes for interoperability purposes but are not required to do so to be considered conformant.">preferred</a>)
+                    </td>
+                </tr>
+                <tr style="border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white;">
+                    <td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck110.png)" class="hierarchy">
+                        <img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy"/>
+                        <img src="tbl_vline.png" alt="." style="background-color: inherit" class="hierarchy"/>
+                        <img src="tbl_vjoin.png" alt="." style="background-color: inherit" class="hierarchy"/>
+                        <img src="icon_element.gif" alt="." style="background-color: white; background-color: inherit" title="Element" class="hierarchy"/>
+                        <a href="StructureDefinition-PhCP-Composition-definitions.html#Composition.event.period" title="null">period</a>
+                        <a name="Composition.event.period"/>
+                    </td>
+                    <td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"/>
+                    <td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">
+                        <span style="opacity: 0.4">1</span>
+                        <span style="opacity: 0.5">..</span>
+                        <span style="opacity: 0.4">1</span>
+                    </td>
+                    <td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">
+                        <a style="opacity: 0.4" href="http://hl7.org/fhir/R4/datatypes.html#Period">Period</a>
+                    </td>
+                    <td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"/>
+                </tr>
+                <tr style="border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white;">
+                    <td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck112.png)" class="hierarchy">
+                        <img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy"/>
+                        <img src="tbl_vline.png" alt="." style="background-color: inherit" class="hierarchy"/>
+                        <img src="tbl_vjoin.png" alt="." style="background-color: inherit" class="hierarchy"/>
+                        <img src="icon_slice.png" alt="." style="background-color: white; background-color: inherit" title="Slice Definition" class="hierarchy"/>
+                        <a style="font-style: italic" href="StructureDefinition-PhCP-Composition-definitions.html#Composition.event.detail" title="null">detail</a>
+                        <a name="Composition.event.detail"/>
+                    </td>
+                    <td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"/>
+                    <td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"/>
+                    <td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">
+                        <a style="font-style: italic" href="http://hl7.org/fhir/R4/references.html">Reference</a>
+                        <span style="font-style: italic">(</span>
+                        <a style="opacity: 0.4; font-style: italic" href="http://hl7.org/fhir/R4/resource.html">Resource</a>
+                        <span style="font-style: italic">)</span>
+                    </td>
+                    <td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">
+                        <span style="font-weight:bold; font-style: italic">Slice: </span>
+                        <span style="font-style: italic">Unordered, Open by profile:reference</span>
+                    </td>
+                </tr>
+                <tr style="border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white;">
+                    <td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck104.png)" class="hierarchy">
+                        <img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy"/>
+                        <img src="tbl_vline.png" alt="." style="background-color: inherit" class="hierarchy"/>
+                        <img src="tbl_vjoin_end.png" alt="." style="background-color: inherit" class="hierarchy"/>
+                        <img src="icon_reference.png" alt="." style="background-color: white; background-color: inherit" title="Reference to another Resource" class="hierarchy"/>
+                        <a href="StructureDefinition-PhCP-Composition-definitions.html#Composition.event.detail:care_plan_slice" title="Slice care_plan_slice: null">detail</a>
+                        <a name="Composition.event.detail"/>
+                    </td>
+                    <td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"/>
+                    <td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">
+                        <span style="opacity: 0.4">0</span>
+                        <span style="opacity: 0.5">..</span>
+                        <span style="opacity: 0.4">*</span>
+                    </td>
+                    <td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">
+                        <a href="http://hl7.org/fhir/R4/references.html">Reference</a>(
+                        <span style="opacity: 0.4">http://hl7.org/fhir/us/core-r4/StructureDefinition/us-core-careplan</span>)
+                    </td>
+                    <td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">
+                        <span style="opacity: 0.4">Care Plan Detail</span>
+                    </td>
+                </tr>
+                <tr style="border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white;">
+                    <td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck12.png)" class="hierarchy">
+                        <img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy"/>
+                        <img src="tbl_vjoin.png" alt="." style="background-color: inherit" class="hierarchy"/>
+                        <img src="icon_slice.png" alt="." style="background-color: white; background-color: inherit" title="Slice Definition" class="hierarchy"/>
+                        <a style="font-style: italic" href="StructureDefinition-PhCP-Composition-definitions.html#Composition.section" title="null">section</a>
+                        <a name="Composition.section"/>
+                    </td>
+                    <td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"/>
+                    <td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"/>
+                    <td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">
+                        <a style="opacity: 0.4; font-style: italic" href="http://hl7.org/fhir/R4/datatypes.html#BackboneElement">BackboneElement</a>
+                    </td>
+                    <td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">
+                        <span style="font-weight:bold; font-style: italic">Slice: </span>
+                        <span style="font-style: italic">Unordered, Open by value:code</span>
+                    </td>
+                </tr>
+                <tr style="border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white;">
+                    <td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck15.png)" class="hierarchy">
+                        <img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy"/>
+                        <img src="tbl_vjoin.png" alt="." style="background-color: inherit" class="hierarchy"/>
+                        <img src="icon_element.gif" alt="." style="background-color: white; background-color: inherit" title="Element" class="hierarchy"/>
+                        <a href="StructureDefinition-PhCP-Composition-definitions.html#Composition.section:interventions_section_slice/phcp_interventions_section_slice" title="Slice interventions_section_slice/phcp_interventions_section_slice: null">section</a>
+                        <a name="Composition.section"/>
+                    </td>
+                    <td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"/>
+                    <td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">
+                        <span style="opacity: 0.4">0</span>..
+                        <span style="opacity: 0.4">1</span>
+                    </td>
+                    <td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">
+                        <a style="opacity: 0.4" href="http://hl7.org/fhir/R4/datatypes.html#BackboneElement">BackboneElement</a>
+                    </td>
+                    <td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">Interventions Section</td>
+                </tr>
+                <tr style="border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white;">
+                    <td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck150.png)" class="hierarchy">
+                        <img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy"/>
+                        <img src="tbl_vline.png" alt="." style="background-color: inherit" class="hierarchy"/>
+                        <img src="tbl_vjoin_slice.png" alt="." style="background-color: inherit" class="hierarchy"/>
+                        <img src="icon_element.gif" alt="." style="background-color: white; background-color: inherit" title="Element" class="hierarchy"/>
+                        <a href="StructureDefinition-PhCP-Composition-definitions.html#Composition.section:interventions_section_slice/phcp_interventions_section_slice.title" title="null">title</a>
+                        <a name="Composition.section.title"/>
+                    </td>
+                    <td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"/>
+                    <td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">1..1</td>
+                    <td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">
+                        <a style="opacity: 0.4" href="http://hl7.org/fhir/R4/datatypes.html#string">string</a>
+                    </td>
+                    <td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">title</td>
+                </tr>
+                <tr style="border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white;">
+                    <td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck150.png)" class="hierarchy">
+                        <img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy"/>
+                        <img src="tbl_vline.png" alt="." style="background-color: inherit" class="hierarchy"/>
+                        <img src="tbl_vjoin_slice.png" alt="." style="background-color: inherit" class="hierarchy"/>
+                        <img src="icon_element.gif" alt="." style="background-color: white; background-color: inherit" title="Element" class="hierarchy"/>
+                        <a href="StructureDefinition-PhCP-Composition-definitions.html#Composition.section:interventions_section_slice/phcp_interventions_section_slice.code" title="null">code</a>
+                        <a name="Composition.section.code"/>
+                    </td>
+                    <td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"/>
+                    <td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">1..1</td>
+                    <td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">
+                        <a style="opacity: 0.4" href="http://hl7.org/fhir/R4/datatypes.html#CodeableConcept">CodeableConcept</a>
+                    </td>
+                    <td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">Interventions provided
+                        <br/>
+                        <span style="font-weight:bold">Required Pattern: </span>
+                        <span style="color: darkgreen">{"coding":[{"system":"http://loinc.org","code":"62387-6"}]}</span>
+                    </td>
+                </tr>
+                <tr style="border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white;">
+                    <td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck150.png)" class="hierarchy">
+                        <img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy"/>
+                        <img src="tbl_vline.png" alt="." style="background-color: inherit" class="hierarchy"/>
+                        <img src="tbl_vjoin_slice.png" alt="." style="background-color: inherit" class="hierarchy"/>
+                        <img src="icon_element.gif" alt="." style="background-color: white; background-color: inherit" title="Element" class="hierarchy"/>
+                        <a href="StructureDefinition-PhCP-Composition-definitions.html#Composition.section:interventions_section_slice/phcp_interventions_section_slice.text" title="null">text</a>
+                        <a name="Composition.section.text"/>
+                    </td>
+                    <td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"/>
+                    <td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">1..1</td>
+                    <td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">
+                        <a style="opacity: 0.4" href="http://hl7.org/fhir/R4/datatypes.html#Narrative">Narrative</a>
+                    </td>
+                    <td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">text</td>
+                </tr>
+                <tr style="border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white;">
+                    <td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck152.png)" class="hierarchy">
+                        <img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy"/>
+                        <img src="tbl_vline.png" alt="." style="background-color: inherit" class="hierarchy"/>
+                        <img src="tbl_vjoin_slice.png" alt="." style="background-color: inherit" class="hierarchy"/>
+                        <img src="icon_slice.png" alt="." style="background-color: white; background-color: inherit" title="Slice Definition" class="hierarchy"/>
+                        <a style="font-style: italic" href="StructureDefinition-PhCP-Composition-definitions.html#Composition.section:interventions_section_slice/phcp_interventions_section_slice.entry" title="null">entry</a>
+                        <a name="Composition.section.entry"/>
+                    </td>
+                    <td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"/>
+                    <td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"/>
+                    <td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">
+                        <a style="font-style: italic" href="http://hl7.org/fhir/R4/references.html">Reference</a>
+                        <span style="font-style: italic">(</span>
+                        <a style="opacity: 0.4; font-style: italic" href="http://hl7.org/fhir/R4/resource.html">Resource</a>
+                        <span style="font-style: italic">)</span>
+                    </td>
+                    <td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">
+                        <span style="font-style: italic">entry</span>
+                        <br style="font-style: italic"/>
+                        <span style="font-weight:bold; font-style: italic">Slice: </span>
+                        <span style="font-style: italic">Unordered, Open by profile:reference</span>
+                    </td>
+                </tr>
+                <tr style="border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white;">
+                    <td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck144.png)" class="hierarchy">
+                        <img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy"/>
+                        <img src="tbl_vline.png" alt="." style="background-color: inherit" class="hierarchy"/>
+                        <img src="tbl_vjoin_end_slice.png" alt="." style="background-color: inherit" class="hierarchy"/>
+                        <img src="icon_reference.png" alt="." style="background-color: white; background-color: inherit" title="Reference to another Resource" class="hierarchy"/>
+                        <a href="StructureDefinition-PhCP-Composition-definitions.html#Composition.section:interventions_section_slice/phcp_interventions_section_slice.entry:interventions_section_slice/phcp_interventions_section_slice" title="Slice interventions_section_slice/phcp_interventions_section_slice: null">entry</a>
+                        <a name="Composition.section.entry"/>
+                    </td>
+                    <td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"/>
+                    <td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">
+                        <span style="opacity: 0.4">0</span>
+                        <span style="opacity: 0.5">..</span>
+                        <span style="opacity: 0.4">*</span>
+                    </td>
+                    <td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">
+                        <a href="http://hl7.org/fhir/R4/references.html">Reference</a>(
+                        <a href="StructureDefinition-PhCP-MedicationDispense.html">PhCP MedicationDispense</a> | 
+                        <a href="StructureDefinition-PhCP-CareCoordination.html">PhCP Care Coordination</a> | 
+                        <a href="StructureDefinition-PhCP-Instruction-Procedure.html">PhCP Instruction Procedure</a> | 
+                        <a href="StructureDefinition-PhCP-Intervention-Procedure.html">PhCP Intervention Procedure</a> | 
+                        <a href="StructureDefinition-PhCP-ServiceRequest.html">PhCP ServiceRequest</a> | http://hl7.org/fhir/us/core-r4/StructureDefinition/us-core-medicationstatement | http://hl7.org/fhir/us/core-r4/StructureDefinition/us-core-medicationrequest)
+                    </td>
+                    <td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">entry</td>
+                </tr>
+                <tr style="border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white;">
+                    <td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck05.png)" class="hierarchy">
+                        <img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy"/>
+                        <img src="tbl_vjoin_end.png" alt="." style="background-color: inherit" class="hierarchy"/>
+                        <img src="icon_element.gif" alt="." style="background-color: white; background-color: inherit" title="Element" class="hierarchy"/>
+                        <a href="StructureDefinition-PhCP-Composition-definitions.html#Composition.section:payer_section_slice" title="Slice payer_section_slice: null">section</a>
+                        <a name="Composition.section"/>
+                    </td>
+                    <td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"/>
+                    <td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">
+                        <span style="opacity: 0.4">0</span>..
+                        <span style="opacity: 0.4">1</span>
+                    </td>
+                    <td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">
+                        <a style="opacity: 0.4" href="http://hl7.org/fhir/R4/datatypes.html#BackboneElement">BackboneElement</a>
+                    </td>
+                    <td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">Payer Section</td>
+                </tr>
+                <tr style="border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white;">
+                    <td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck050.png)" class="hierarchy">
+                        <img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy"/>
+                        <img src="tbl_blank.png" alt="." style="background-color: inherit" class="hierarchy"/>
+                        <img src="tbl_vjoin_slice.png" alt="." style="background-color: inherit" class="hierarchy"/>
+                        <img src="icon_element.gif" alt="." style="background-color: white; background-color: inherit" title="Element" class="hierarchy"/>
+                        <a href="StructureDefinition-PhCP-Composition-definitions.html#Composition.section:payer_section_slice.title" title="null">title</a>
+                        <a name="Composition.section.title"/>
+                    </td>
+                    <td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"/>
+                    <td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">1..1</td>
+                    <td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">
+                        <a style="opacity: 0.4" href="http://hl7.org/fhir/R4/datatypes.html#string">string</a>
+                    </td>
+                    <td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">title</td>
+                </tr>
+                <tr style="border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white;">
+                    <td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck050.png)" class="hierarchy">
+                        <img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy"/>
+                        <img src="tbl_blank.png" alt="." style="background-color: inherit" class="hierarchy"/>
+                        <img src="tbl_vjoin_slice.png" alt="." style="background-color: inherit" class="hierarchy"/>
+                        <img src="icon_element.gif" alt="." style="background-color: white; background-color: inherit" title="Element" class="hierarchy"/>
+                        <a href="StructureDefinition-PhCP-Composition-definitions.html#Composition.section:payer_section_slice.code" title="null">code</a>
+                        <a name="Composition.section.code"/>
+                    </td>
+                    <td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"/>
+                    <td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">1..1</td>
+                    <td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">
+                        <a style="opacity: 0.4" href="http://hl7.org/fhir/R4/datatypes.html#CodeableConcept">CodeableConcept</a>
+                    </td>
+                    <td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">Payers
+                        <br/>
+                        <span style="font-weight:bold">Required Pattern: </span>
+                        <span style="color: darkgreen">{"coding":[{"system":"http://loinc.org","code":"48768-6"}]}</span>
+                    </td>
+                </tr>
+                <tr style="border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white;">
+                    <td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck052.png)" class="hierarchy">
+                        <img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy"/>
+                        <img src="tbl_blank.png" alt="." style="background-color: inherit" class="hierarchy"/>
+                        <img src="tbl_vjoin_slice.png" alt="." style="background-color: inherit" class="hierarchy"/>
+                        <img src="icon_slice.png" alt="." style="background-color: white; background-color: inherit" title="Slice Definition" class="hierarchy"/>
+                        <a style="font-style: italic" href="StructureDefinition-PhCP-Composition-definitions.html#Composition.section:payer_section_slice.entry" title="null">entry</a>
+                        <a name="Composition.section.entry"/>
+                    </td>
+                    <td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"/>
+                    <td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"/>
+                    <td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">
+                        <a style="font-style: italic" href="http://hl7.org/fhir/R4/references.html">Reference</a>
+                        <span style="font-style: italic">(</span>
+                        <a style="opacity: 0.4; font-style: italic" href="http://hl7.org/fhir/R4/resource.html">Resource</a>
+                        <span style="font-style: italic">)</span>
+                    </td>
+                    <td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">
+                        <span style="font-style: italic">entry</span>
+                        <br style="font-style: italic"/>
+                        <span style="font-weight:bold; font-style: italic">Slice: </span>
+                        <span style="font-style: italic">Unordered, Open by profile:reference</span>
+                    </td>
+                </tr>
+                <tr style="border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white;">
+                    <td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck044.png)" class="hierarchy">
+                        <img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy"/>
+                        <img src="tbl_blank.png" alt="." style="background-color: inherit" class="hierarchy"/>
+                        <img src="tbl_vjoin_end_slice.png" alt="." style="background-color: inherit" class="hierarchy"/>
+                        <img src="icon_reference.png" alt="." style="background-color: white; background-color: inherit" title="Reference to another Resource" class="hierarchy"/>
+                        <a href="StructureDefinition-PhCP-Composition-definitions.html#Composition.section:payer_section_slice.entry:eval_outcomes_entry_slice" title="Slice eval_outcomes_entry_slice: null">entry</a>
+                        <a name="Composition.section.entry"/>
+                    </td>
+                    <td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"/>
+                    <td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">
+                        <span style="opacity: 0.4">0</span>
+                        <span style="opacity: 0.5">..</span>
+                        <span style="opacity: 0.4">*</span>
+                    </td>
+                    <td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">
+                        <a href="http://hl7.org/fhir/R4/references.html">Reference</a>(
+                        <a href="StructureDefinition-PhCP-Coverage.html">PhCPCoverage</a>)
+                    </td>
+                    <td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">entry</td>
+                </tr>
+                <tr>
+                    <td colspan="5" class="hierarchy">
+                        <br/>
+                        <a href="http://hl7.org/fhir/R4/formats.html#table" title="Legend for this format">
+                            <img src="http://hl7.org/fhir/R4/help16.png" alt="doco" style="background-color: inherit"/> Documentation for this format
+                        </a>
+                    </td>
+                </tr>
+            </table>
+        </div>
+    </text>
     <url value="http://hl7.org/fhir/us/phcp/StructureDefinition/PhCP-Composition"/>
     <name value="PharmacistCarePlanDocument"/>
     <status value="draft"/>
@@ -30,16 +447,6 @@
         <element id="Composition">
             <path value="Composition"/>
         </element>
-        <element id="Composition.type">
-            <path value="Composition.type"/>
-            <short value="Overall Plan of Care/Advance Care Directives"/>
-            <patternCodeableConcept>
-                <coding>
-                    <system value="http://loinc.org"/>
-                    <code value="52521-2"/>
-                </coding>
-            </patternCodeableConcept>
-        </element>
         <element id="Composition.encounter">
             <path value="Composition.encounter"/>
             <max value="1"/>
@@ -59,6 +466,7 @@
             <max value="1"/>
             <binding>
                 <strength value="preferred"/>
+                <valueSet value="http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113762.1.4.1096.181"/>
             </binding>
         </element>
         <element id="Composition.event.period">

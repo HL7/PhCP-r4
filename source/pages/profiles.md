@@ -51,6 +51,11 @@ active: profiles
 <td>This profile records the act of supplying medications (i.e., dispensing).</td>
 </tr>
 <tr>
+<td><a href="StructureDefinition-PhCP-Medication-Therapy-Condition.html">PhCPMedicationTherapyCondition</a></td>
+<td>This profile represents a medication therapy problem. A medication therapy problem is any undesirable event experienced by a patient that involves, or is suspected to involve, drug therapy, and that interferes with achieving the desired goals of therapy and requires professional judgment to resolve.
+</td>
+</tr>
+<tr>
 <td><a href="StructureDefinition-PhCP-Organization.html">PhCPOrganization</a></td>
 <td>This profile represents the Organization providing the environment of care. </td>
 </tr>

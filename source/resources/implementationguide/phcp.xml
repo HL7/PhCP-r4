@@ -3,12 +3,12 @@
     xmlns="http://hl7.org/fhir">
     <id value="phcp"/>
     <meta>
-        <versionId value="12"/>
-        <lastUpdated value="2019-03-18T14:30:14.000-04:00"/>
+        <versionId value="30"/>
+        <lastUpdated value="2019-03-19T02:24:38.000-04:00"/>
     </meta>
     <url value="http://hl7.org/fhir/us/phcp/ImplementationGuide/phcp"/>
     <version value="1.0.0"/>
-    <name value="Pharmacist_Services_and_Summaries_FHIR_PhCP"/>
+    <name value="PharmacistServicesAndSummariesPhCP"/>
     <title value="Pharmacist Services and Summaries - FHIR (PhCP)"/>
     <status value="draft"/>
     <publisher value="HL7 Structured Documents  Work Group"/>
@@ -38,85 +38,34 @@
                 <reference value="StructureDefinition/PhCP-CareCoordination"/>
                 <display value="PhCP-CareCoordination"/>
             </reference>
+            <exampleBoolean value="false"/>
         </resource>
         <resource>
             <reference>
                 <reference value="StructureDefinition/PhCP-Coverage"/>
                 <display value="PhCP-Coverage"/>
             </reference>
+            <exampleBoolean value="false"/>
         </resource>
         <resource>
             <reference>
                 <reference value="StructureDefinition/PhCP-MedicationDispense"/>
                 <display value="PhCP-MedicationDispense"/>
             </reference>
+            <exampleBoolean value="false"/>
         </resource>
         <resource>
             <reference>
                 <reference value="StructureDefinition/PhCP-Composition"/>
                 <display value="PhCP Composition"/>
             </reference>
+            <exampleBoolean value="false"/>
         </resource>
         <resource>
             <reference>
                 <reference value="StructureDefinition/PhCP-ServiceRequest"/>
                 <display value="PhCP-ServiceRequest"/>
             </reference>
-        </resource>
-        <resource>
-            <reference>
-                <reference value="ValueSet/2.16.840.1.113762.1.4.1096.214"/>
-                <display value="eCare Plan Education"/>
-            </reference>
-            <name value="eCare Plan Education"/>
-            <exampleBoolean value="false"/>
-        </resource>
-        <resource>
-            <reference>
-                <reference value="ValueSet/2.16.840.1.113762.1.4.1096.202"/>
-                <display value="eCare Plan Care Coordination"/>
-            </reference>
-            <name value="eCare Plan Care Coordination"/>
-            <exampleBoolean value="false"/>
-        </resource>
-        <resource>
-            <reference>
-                <reference value="ValueSet/2.16.840.1.113762.1.4.1096.181"/>
-                <display value="eCare Plan Encounter Reason"/>
-            </reference>
-            <name value="eCare Plan Encounter Reason"/>
-            <exampleBoolean value="false"/>
-        </resource>
-        <resource>
-            <reference>
-                <reference value="ValueSet/2.16.840.1.113762.1.4.1096.208"/>
-                <display value="eCare Plan Encounter Type"/>
-            </reference>
-            <name value="eCare Plan Encounter Type"/>
-            <exampleBoolean value="false"/>
-        </resource>
-        <resource>
-            <reference>
-                <reference value="ValueSet/2.16.840.1.113762.1.4.1096.207"/>
-                <display value="eCare Plan Environments of Care"/>
-            </reference>
-            <name value="eCare Plan Environments of Care"/>
-            <exampleBoolean value="false"/>
-        </resource>
-        <resource>
-            <reference>
-                <reference value="ValueSet/2.16.840.1.113762.1.4.1096.198"/>
-                <display value="eCare Plan Interventions"/>
-            </reference>
-            <name value="eCare Plan Interventions"/>
-            <exampleBoolean value="false"/>
-        </resource>
-        <resource>
-            <reference>
-                <reference value="ValueSet/2.16.840.1.113762.1.4.1096.213"/>
-                <display value="eCare Plan Problem Type"/>
-            </reference>
-            <name value="eCare Plan Problem Type"/>
             <exampleBoolean value="false"/>
         </resource>
         <resource>
@@ -124,24 +73,35 @@
                 <reference value="StructureDefinition/PhCP-Instruction-Procedure"/>
                 <display value="PhCP-Instruction-Procedure"/>
             </reference>
+            <exampleBoolean value="false"/>
         </resource>
         <resource>
             <reference>
                 <reference value="StructureDefinition/PhCP-Encounter"/>
                 <display value="PhCP Encounter"/>
             </reference>
+            <exampleBoolean value="false"/>
         </resource>
         <resource>
             <reference>
                 <reference value="StructureDefinition/PhCP-Organization"/>
                 <display value="PhCP-Organization"/>
             </reference>
+            <exampleBoolean value="false"/>
         </resource>
         <resource>
             <reference>
                 <reference value="StructureDefinition/PhCP-Intervention-Procedure"/>
                 <display value="PhCP-Intervention-Procedure"/>
             </reference>
+            <exampleBoolean value="false"/>
+        </resource>
+        <resource>
+            <reference>
+                <reference value="StructureDefinition/PhCP-Medication-Therapy-Condition"/>
+                <display value="PhCP Condition"/>
+            </reference>
+            <exampleBoolean value="false"/>
         </resource>
     </definition>
 </ImplementationGuide>

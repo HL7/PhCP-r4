@@ -114,34 +114,6 @@
 			"base": "StructureDefinition-PhCP-ServiceRequest.html",
 			"defns": "StructureDefinition-PhCP-ServiceRequest-definitions.html"
 		},
-		"ValueSet/2.16.840.1.113762.1.4.1096.214": {
-			"base": "ValueSet-2.16.840.1.113762.1.4.1096.214.html",
-			"defns": "ValueSet-2.16.840.1.113762.1.4.1096.214-definitions.html"
-		},
-		"ValueSet/2.16.840.1.113762.1.4.1096.202": {
-			"base": "ValueSet-2.16.840.1.113762.1.4.1096.202.html",
-			"defns": "ValueSet-2.16.840.1.113762.1.4.1096.202-definitions.html"
-		},
-		"ValueSet/2.16.840.1.113762.1.4.1096.181": {
-			"base": "ValueSet-2.16.840.1.113762.1.4.1096.181.html",
-			"defns": "ValueSet-2.16.840.1.113762.1.4.1096.181-definitions.html"
-		},
-		"ValueSet/2.16.840.1.113762.1.4.1096.208": {
-			"base": "ValueSet-2.16.840.1.113762.1.4.1096.208.html",
-			"defns": "ValueSet-2.16.840.1.113762.1.4.1096.208-definitions.html"
-		},
-		"ValueSet/2.16.840.1.113762.1.4.1096.207": {
-			"base": "ValueSet-2.16.840.1.113762.1.4.1096.207.html",
-			"defns": "ValueSet-2.16.840.1.113762.1.4.1096.207-definitions.html"
-		},
-		"ValueSet/2.16.840.1.113762.1.4.1096.198": {
-			"base": "ValueSet-2.16.840.1.113762.1.4.1096.198.html",
-			"defns": "ValueSet-2.16.840.1.113762.1.4.1096.198-definitions.html"
-		},
-		"ValueSet/2.16.840.1.113762.1.4.1096.213": {
-			"base": "ValueSet-2.16.840.1.113762.1.4.1096.213.html",
-			"defns": "ValueSet-2.16.840.1.113762.1.4.1096.213-definitions.html"
-		},
 		"StructureDefinition/PhCP-Instruction-Procedure": {
 			"base": "StructureDefinition-PhCP-Instruction-Procedure.html",
 			"defns": "StructureDefinition-PhCP-Instruction-Procedure-definitions.html"
@@ -157,6 +129,10 @@
 		"StructureDefinition/PhCP-Intervention-Procedure": {
 			"base": "StructureDefinition-PhCP-Intervention-Procedure.html",
 			"defns": "StructureDefinition-PhCP-Intervention-Procedure-definitions.html"
+		},
+		"StructureDefinition/PhCP-Medication-Therapy-Condition": {
+			"base": "StructureDefinition-PhCP-Medication-Therapy-Condition.html",
+			"defns": "StructureDefinition-PhCP-Medication-Therapy-Condition-definitions.html"
 		}
 	},
 	"version": "4.0.0",
