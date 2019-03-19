@@ -3,14 +3,15 @@
     xmlns="http://hl7.org/fhir">
     <id value="PhCP-ServiceRequest"/>
     <meta>
-        <versionId value="3"/>
-        <lastUpdated value="2019-03-18T04:40:26.000-04:00"/>
+        <versionId value="4"/>
+        <lastUpdated value="2019-03-18T22:17:55.000-04:00"/>
     </meta>
     <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-wg">
         <valueCode value="oo"/>
     </extension>
     <url value="http://hl7.org/fhir/us/phcp/StructureDefinition/PhCP-ServiceRequest"/>
-    <name value="PhCP-ServiceRequest"/>
+    <name value="PhCPServiceRequest"/>
+    <title value="PhCP ServiceRequest"/>
     <status value="draft"/>
     <date value="2017-07-21T14:17:28.7282071-04:00"/>
     <description value="This profile represents any of a number of planned interventions for the patient. For example, an activity such as &quot;elevate head of bed&quot; combined with &quot;provide humidified O2 per nasal cannula&quot; may be the interventions performed for a health concern of &quot;respiratory insufficiency&quot; to achieve a goal of &quot;pulse oximetry greater than 92%&quot;. These intervention activities may be newly described or derived from a variety of sources within an EHR. Interventions are actions taken to increase the likelihood of achieving the patient's or providers' goals. "/>

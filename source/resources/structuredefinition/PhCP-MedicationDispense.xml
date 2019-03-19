@@ -3,11 +3,12 @@
     xmlns="http://hl7.org/fhir">
     <id value="PhCP-MedicationDispense"/>
     <meta>
-        <versionId value="7"/>
-        <lastUpdated value="2019-03-18T04:23:28.000-04:00"/>
+        <versionId value="8"/>
+        <lastUpdated value="2019-03-18T22:19:22.000-04:00"/>
     </meta>
     <url value="http://hl7.org/fhir/us/phcp/StructureDefinition/PhCP-MedicationDispense"/>
-    <name value="PhCP-MedicationDispense"/>
+    <name value="PhCPMedicationDispense"/>
+    <title value="PhCP MedicationDispense"/>
     <status value="draft"/>
     <date value="2017-07-20T15:29:09.2599666-04:00"/>
     <description value="This profile records the act of supplying medications (i.e., dispensing)."/>

@@ -27,39 +27,39 @@ active: profiles
 </thead>
 <tbody>
 <tr>
-<td><a href="StructureDefinition-PhCP-CareCoordination.html">PhCP-CareCoordination</a></td>
+<td><a href="StructureDefinition-PhCP-CareCoordination.html">PhCPCareCoordination</a></td>
 <td>This profile represents communication regarding care coordination for the patient. </td>
 </tr>
 <tr>
-<td><a href="StructureDefinition-PhCP-Coverage.html">PhCP-Coverage</a></td>
+<td><a href="StructureDefinition-PhCP-Coverage.html">PhCPCoverage</a></td>
 <td>The Coverage profile groups the policy and authorization acts within a Payers Section to order the payment sources. The Coverage.identifier is the ID from the patient's insurance card. </td>
 </tr>
 <tr>
-<td><a href="StructureDefinition-PhCP-Encounter.html">PhCP-Encounter</a></td>
+<td><a href="StructureDefinition-PhCP-Encounter.html">PhCPEncounter</a></td>
 <td></td>
 </tr>
 <tr>
-<td><a href="StructureDefinition-PhCP-Instruction-Procedure.html">PhCP-Instruction-Procedure</a></td>
+<td><a href="StructureDefinition-PhCP-Instruction-Procedure.html">PhCPInstructionProcedure</a></td>
 <td>The Instruction profile can be used in several ways, such as to record patient medication instructions or to record fill instructions for an order. The code defines the type of instruction. </td>
 </tr>
 <tr>
-<td><a href="StructureDefinition-PhCP-Intervention-Procedure.html">PhCP-Intervention-Procedure</a></td>
+<td><a href="StructureDefinition-PhCP-Intervention-Procedure.html">PhCPInterventionProcedure</a></td>
 <td>This profile records the pharmacists observation of new information about the patient obtained from monitoring devices such as blood glucose, blood pressure monitors, weight,scales, and movement trackers.</td>
 </tr>
 <tr>
-<td><a href="StructureDefinition-PhCP-MedicationDispense.html">PhCP-MedicationDispense</a></td>
+<td><a href="StructureDefinition-PhCP-MedicationDispense.html">PhCPMedicationDispense</a></td>
 <td>This profile records the act of supplying medications (i.e., dispensing).</td>
 </tr>
 <tr>
-<td><a href="StructureDefinition-PhCP-Organization.html">PhCP-Organization</a></td>
+<td><a href="StructureDefinition-PhCP-Organization.html">PhCPOrganization</a></td>
 <td>This profile represents the Organization providing the environment of care. </td>
 </tr>
 <tr>
-<td><a href="StructureDefinition-PhCP-ServiceRequest.html">PhCP-ServiceRequest</a></td>
+<td><a href="StructureDefinition-PhCP-ServiceRequest.html">PhCPServiceRequest</a></td>
 <td>This profile represents any of a number of planned interventions for the patient. For example, an activity such as "elevate head of bed" combined with "provide humidified O2 per nasal cannula" may be the interventions performed for a health concern of "respiratory insufficiency" to achieve a goal of "pulse oximetry greater than 92%". These intervention activities may be newly described or derived from a variety of sources within an EHR. Interventions are actions taken to increase the likelihood of achieving the patient's or providers' goals. </td>
 </tr>
 <tr>
-<td><a href="StructureDefinition-PhCP-Composition.html">Pharmacist Care Plan Document</a></td>
+<td><a href="StructureDefinition-PhCP-Composition.html">PharmacistCarePlanDocument</a></td>
 <td>The Pharmacist Care Plan standardizes the information gathered and developed through the process of medication planning and management in community, hospital, and long term post-acute care (LTPAC) settings. It allows exchange of information between providers of care to optimize medication-related decision support and patient adherence to medication regimens both within a healthcare setting and when a patient moves between healthcare settings.
 Standardization of information used in this form will promote interoperability; support a comprehensive, multi-discipline longitudinal care plan; and create information suitable for reuse in quality measurement, public health reporting, research, and for reimbursement.
 In assessment of and consultation with the patient, the Pharmacist Care Plan focuses on:

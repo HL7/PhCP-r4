@@ -3,12 +3,13 @@
     xmlns="http://hl7.org/fhir">
     <id value="phcp"/>
     <meta>
-        <versionId value="11"/>
-        <lastUpdated value="2019-03-15T07:06:56.000-04:00"/>
+        <versionId value="12"/>
+        <lastUpdated value="2019-03-18T14:30:14.000-04:00"/>
     </meta>
     <url value="http://hl7.org/fhir/us/phcp/ImplementationGuide/phcp"/>
     <version value="1.0.0"/>
-    <name value="Pharmacist Services and Summaries - FHIR (PhCP)"/>
+    <name value="Pharmacist_Services_and_Summaries_FHIR_PhCP"/>
+    <title value="Pharmacist Services and Summaries - FHIR (PhCP)"/>
     <status value="draft"/>
     <publisher value="HL7 Structured Documents  Work Group"/>
     <contact>

@@ -3,11 +3,12 @@
     xmlns="http://hl7.org/fhir">
     <id value="PhCP-Intervention-Procedure"/>
     <meta>
-        <versionId value="7"/>
-        <lastUpdated value="2019-03-18T04:42:43.000-04:00"/>
+        <versionId value="8"/>
+        <lastUpdated value="2019-03-18T22:32:25.000-04:00"/>
     </meta>
     <url value="http://hl7.org/fhir/us/phcp/StructureDefinition/PhCP-Intervention-Procedure"/>
-    <name value="PhCP-Intervention-Procedure"/>
+    <name value="PhCPInterventionProcedure"/>
+    <title value="PhCP Intervention Procedure"/>
     <status value="draft"/>
     <description value="This profile records the pharmacists observation of new information about the patient obtained from monitoring devices such as blood glucose, blood pressure monitors, weight,scales, and movement trackers."/>
     <fhirVersion value="4.0.0"/>

@@ -3,11 +3,12 @@
     xmlns="http://hl7.org/fhir">
     <id value="PhCP-Organization"/>
     <meta>
-        <versionId value="7"/>
-        <lastUpdated value="2019-03-18T04:33:57.000-04:00"/>
+        <versionId value="8"/>
+        <lastUpdated value="2019-03-18T22:20:37.000-04:00"/>
     </meta>
     <url value="http://hl7.org/fhir/us/phcp/StructureDefinition/PhCP-Organization"/>
-    <name value="PhCP-Organization"/>
+    <name value="PhCPOrganization"/>
+    <title value="PhCP Organization"/>
     <status value="draft"/>
     <description value="This profile represents the Organization providing the environment of care. "/>
     <fhirVersion value="4.0.0"/>

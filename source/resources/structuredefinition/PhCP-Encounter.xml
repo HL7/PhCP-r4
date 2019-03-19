@@ -3,11 +3,11 @@
     xmlns="http://hl7.org/fhir">
     <id value="PhCP-Encounter"/>
     <meta>
-        <versionId value="7"/>
-        <lastUpdated value="2019-03-14T23:01:21.000-04:00"/>
+        <versionId value="8"/>
+        <lastUpdated value="2019-03-18T22:13:28.000-04:00"/>
     </meta>
     <url value="http://hl7.org/fhir/us/phcp/StructureDefinition/PhCP-Encounter"/>
-    <name value="PhCP-Encounter"/>
+    <name value="PhCPEncounter"/>
     <title value="PhCP Encounter"/>
     <status value="draft"/>
     <fhirVersion value="4.0.0"/>

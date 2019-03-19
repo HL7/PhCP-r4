@@ -3,14 +3,14 @@
     xmlns="http://hl7.org/fhir">
     <id value="PhCP-Coverage"/>
     <meta>
-        <versionId value="9"/>
-        <lastUpdated value="2019-03-18T04:15:05.000-04:00"/>
+        <versionId value="10"/>
+        <lastUpdated value="2019-03-18T22:13:08.000-04:00"/>
     </meta>
     <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-wg">
         <valueCode value="fm"/>
     </extension>
     <url value="http://hl7.org/fhir/us/phcp/StructureDefinition/PhCP-Coverage"/>
-    <name value="PhCP-Coverage"/>
+    <name value="PhCPCoverage"/>
     <status value="draft"/>
     <date value="2017-07-21T16:02:00.2312151-04:00"/>
     <description value="The Coverage profile groups the policy and authorization acts within a Payers Section to order the payment sources. The Coverage.identifier is the ID from the patient's insurance card. "/>
