@@ -7,7 +7,7 @@
         <lastUpdated value="2019-03-20T04:47:09.000-04:00"/>
     </meta>
     <url value="http://hl7.org/fhir/us/phcp/ImplementationGuide/phcp"/>
-    <version value="1.0.0"/>
+    <version value="0.2.0"/>
     <name value="PharmacistServicesAndSummariesPhCP"/>
     <title value="Pharmacist Services and Summaries - FHIR (PhCP)"/>
     <status value="draft"/>
