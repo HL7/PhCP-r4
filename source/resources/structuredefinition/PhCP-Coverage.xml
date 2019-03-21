@@ -3,8 +3,8 @@
     xmlns="http://hl7.org/fhir">
     <id value="PhCP-Coverage"/>
     <meta>
-        <versionId value="11"/>
-        <lastUpdated value="2019-03-19T01:14:13.000-04:00"/>
+        <versionId value="12"/>
+        <lastUpdated value="2019-03-21T08:58:52.000-04:00"/>
     </meta>
     <text>
         <status value="generated"/>
@@ -183,36 +183,38 @@
         </element>
         <element id="Coverage.identifier">
             <path value="Coverage.identifier"/>
-            <min value="1"/>
+            <mustSupport value="true"/>
         </element>
         <element id="Coverage.type">
             <path value="Coverage.type"/>
-            <min value="1"/>
+            <mustSupport value="true"/>
         </element>
         <element id="Coverage.subscriber">
             <path value="Coverage.subscriber"/>
-            <min value="1"/>
             <type>
                 <code value="Reference"/>
                 <targetProfile value="http://hl7.org/fhir/us/core/StructureDefinition/us-core-patient"/>
             </type>
+            <mustSupport value="true"/>
         </element>
         <element id="Coverage.subscriberId">
             <path value="Coverage.subscriberId"/>
             <min value="1"/>
+            <mustSupport value="true"/>
         </element>
         <element id="Coverage.relationship">
             <path value="Coverage.relationship"/>
+            <mustSupport value="true"/>
         </element>
         <element id="Coverage.payor">
             <path value="Coverage.payor"/>
-            <min value="1"/>
             <type>
                 <code value="Reference"/>
                 <targetProfile value="http://hl7.org/fhir/us/core/StructureDefinition/us-core-organization"/>
-                <targetProfile value="http://hl7.org/fhir/StructureDefinition/Patient"/>
+                <targetProfile value="http://hl7.org/fhir/us/core/StructureDefinition/us-core-patient"/>
                 <targetProfile value="http://hl7.org/fhir/StructureDefinition/RelatedPerson"/>
             </type>
+            <mustSupport value="true"/>
         </element>
     </differential>
 </StructureDefinition>

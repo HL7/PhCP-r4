@@ -3,8 +3,8 @@
     xmlns="http://hl7.org/fhir">
     <id value="PhCP-Encounter"/>
     <meta>
-        <versionId value="11"/>
-        <lastUpdated value="2019-03-19T02:45:56.000-04:00"/>
+        <versionId value="13"/>
+        <lastUpdated value="2019-03-21T09:07:13.000-04:00"/>
     </meta>
     <text>
         <status value="generated"/>
@@ -71,7 +71,9 @@
                     <td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">
                         <span style="font-weight:bold">Binding: </span>
                         <a href="http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113762.1.4.1096.208">http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113762.1.4.1096.208</a> (
+                        
                         <a href="http://hl7.org/fhir/R4/terminologies.html#required" title="To be conformant, the concept in this element SHALL be from the specified value set.">required</a>)
+                    
                     </td>
                 </tr>
                 <tr style="border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white;">
@@ -90,7 +92,9 @@
                     </td>
                     <td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">
                         <a href="http://hl7.org/fhir/R4/references.html">Reference</a>(
+                        
                         <a href="StructureDefinition-PhCP-Organization.html">PhCP Organization</a>)
+                    
                     </td>
                     <td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"/>
                 </tr>
@@ -99,6 +103,7 @@
                         <br/>
                         <a href="http://hl7.org/fhir/R4/formats.html#table" title="Legend for this format">
                             <img src="http://hl7.org/fhir/R4/help16.png" alt="doco" style="background-color: inherit"/> Documentation for this format
+                        
                         </a>
                     </td>
                 </tr>
@@ -124,7 +129,7 @@
             <min value="1"/>
             <mustSupport value="true"/>
             <binding>
-                <strength value="required"/>
+                <strength value="preferred"/>
                 <valueSet value="http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113762.1.4.1096.208"/>
             </binding>
         </element>
@@ -135,6 +140,7 @@
                 <code value="Reference"/>
                 <targetProfile value="http://hl7.org/fhir/us/phcp/StructureDefinition/PhCP-Organization"/>
             </type>
+            <mustSupport value="true"/>
         </element>
     </differential>
 </StructureDefinition>

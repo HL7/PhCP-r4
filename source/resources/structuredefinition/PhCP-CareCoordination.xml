@@ -3,8 +3,8 @@
     xmlns="http://hl7.org/fhir">
     <id value="PhCP-CareCoordination"/>
     <meta>
-        <versionId value="14"/>
-        <lastUpdated value="2019-03-19T01:33:26.000-04:00"/>
+        <versionId value="17"/>
+        <lastUpdated value="2019-03-21T08:55:07.000-04:00"/>
     </meta>
     <text>
         <status value="generated"/>
@@ -192,6 +192,7 @@
         <element id="Communication.category">
             <path value="Communication.category"/>
             <max value="1"/>
+            <mustSupport value="true"/>
             <binding>
                 <strength value="preferred"/>
                 <valueSet value="http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113762.1.4.1096.202"/>
@@ -199,37 +200,39 @@
         </element>
         <element id="Communication.subject">
             <path value="Communication.subject"/>
-            <min value="1"/>
             <type>
                 <code value="Reference"/>
                 <targetProfile value="http://hl7.org/fhir/us/core/StructureDefinition/us-core-patient"/>
             </type>
+            <mustSupport value="true"/>
         </element>
         <element id="Communication.sent">
             <path value="Communication.sent"/>
-            <min value="1"/>
+            <mustSupport value="true"/>
         </element>
         <element id="Communication.recipient">
             <path value="Communication.recipient"/>
-            <min value="1"/>
             <type>
                 <code value="Reference"/>
                 <profile value="http://hl7.org/fhir/us/core/StructureDefinition/us-core-practitioner"/>
-                <targetProfile value="http://hl7.org/fhir/StructureDefinition/Device"/>
+                <targetProfile value="http://hl7.org/fhir/us/core/StructureDefinition/us-core-practitionerrole"/>
+                <targetProfile value="http://hl7.org/fhir/us/core/StructureDefinition/us-core-practitioner"/>
             </type>
+            <mustSupport value="true"/>
         </element>
         <element id="Communication.sender">
             <path value="Communication.sender"/>
-            <min value="1"/>
             <type>
                 <code value="Reference"/>
                 <profile value="http://hl7.org/fhir/us/core/StructureDefinition/us-core-practitioner"/>
-                <targetProfile value="http://hl7.org/fhir/StructureDefinition/Device"/>
+                <targetProfile value="http://hl7.org/fhir/us/core/StructureDefinition/us-core-practitionerrole"/>
+                <targetProfile value="http://hl7.org/fhir/us/core/StructureDefinition/us-core-practitioner"/>
             </type>
+            <mustSupport value="true"/>
         </element>
         <element id="Communication.payload">
             <path value="Communication.payload"/>
-            <min value="1"/>
+            <mustSupport value="true"/>
         </element>
     </differential>
 </StructureDefinition>

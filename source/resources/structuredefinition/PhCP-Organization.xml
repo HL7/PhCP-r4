@@ -3,8 +3,8 @@
     xmlns="http://hl7.org/fhir">
     <id value="PhCP-Organization"/>
     <meta>
-        <versionId value="11"/>
-        <lastUpdated value="2019-03-21T05:07:00.000-04:00"/>
+        <versionId value="12"/>
+        <lastUpdated value="2019-03-21T09:01:55.000-04:00"/>
     </meta>
     <text>
         <status value="generated"/>
@@ -105,6 +105,7 @@
             <path value="Organization.type"/>
             <min value="0"/>
             <max value="1"/>
+            <mustSupport value="true"/>
             <binding>
                 <strength value="preferred"/>
                 <valueSet value="http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113762.1.4.1096.207"/>

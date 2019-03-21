@@ -3,8 +3,8 @@
     xmlns="http://hl7.org/fhir">
     <id value="PhCP-Composition"/>
     <meta>
-        <versionId value="30"/>
-        <lastUpdated value="2019-03-20T17:19:27.000-04:00"/>
+        <versionId value="31"/>
+        <lastUpdated value="2019-03-21T08:56:30.000-04:00"/>
     </meta>
     <text>
         <status value="generated"/>
@@ -514,12 +514,14 @@
                 <code value="Reference"/>
                 <targetProfile value="http://hl7.org/fhir/us/phcp/StructureDefinition/PhCP-Encounter"/>
             </type>
+            <mustSupport value="true"/>
         </element>
         <element id="Composition.event">
             <path value="Composition.event"/>
             <short value="A reference to the dynamic CarePlan resource from which this static document was generated, if one exists."/>
             <definition value="A reference to the dynamic CarePlan resource from which this static document was generated, if one exists."/>
             <max value="1"/>
+            <mustSupport value="true"/>
         </element>
         <element id="Composition.event.code">
             <path value="Composition.event.code"/>
@@ -574,11 +576,13 @@
             <short value="Interventions Section"/>
             <comment value="Interventions Section"/>
             <max value="1"/>
+            <mustSupport value="true"/>
         </element>
         <element id="Composition.section:interventions_section.title">
             <path value="Composition.section.title"/>
             <short value="title"/>
             <min value="1"/>
+            <mustSupport value="true"/>
         </element>
         <element id="Composition.section:interventions_section.code">
             <path value="Composition.section.code"/>
@@ -590,11 +594,13 @@
                     <code value="62387-6"/>
                 </coding>
             </patternCodeableConcept>
+            <mustSupport value="true"/>
         </element>
         <element id="Composition.section:interventions_section.text">
             <path value="Composition.section.text"/>
             <short value="text"/>
             <min value="1"/>
+            <mustSupport value="true"/>
         </element>
         <element id="Composition.section:interventions_section.entry">
             <path value="Composition.section.entry"/>
@@ -606,6 +612,7 @@
                 <rules value="open"/>
             </slicing>
             <short value="entry"/>
+            <mustSupport value="true"/>
         </element>
         <element id="Composition.section:interventions_section_slice.entry:interventions_section_slice/phcp_interventions_section_slice">
             <path value="Composition.section.entry"/>
@@ -635,6 +642,7 @@
             <path value="Composition.section.title"/>
             <short value="title"/>
             <min value="1"/>
+            <mustSupport value="true"/>
         </element>
         <element id="Composition.section:payer_section_slice.code">
             <path value="Composition.section.code"/>
@@ -646,6 +654,7 @@
                     <code value="48768-6"/>
                 </coding>
             </patternCodeableConcept>
+            <mustSupport value="true"/>
         </element>
         <element id="Composition.section:payer_section_slice.entry">
             <path value="Composition.section.entry"/>
@@ -657,6 +666,7 @@
                 <rules value="open"/>
             </slicing>
             <short value="entry"/>
+            <mustSupport value="true"/>
         </element>
         <element id="Composition.section:payer_section_slice.entry:payer_section_entry">
             <path value="Composition.section.entry"/>
@@ -666,6 +676,7 @@
                 <code value="Reference"/>
                 <targetProfile value="http://hl7.org/fhir/us/phcp/StructureDefinition/PhCP-Coverage"/>
             </type>
+            <mustSupport value="true"/>
         </element>
     </differential>
 </StructureDefinition>
