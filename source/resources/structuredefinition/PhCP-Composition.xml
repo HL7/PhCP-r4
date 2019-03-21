@@ -3,8 +3,8 @@
     xmlns="http://hl7.org/fhir">
     <id value="PhCP-Composition"/>
     <meta>
-        <versionId value="31"/>
-        <lastUpdated value="2019-03-21T08:56:30.000-04:00"/>
+        <versionId value="33"/>
+        <lastUpdated value="2019-03-21T13:38:14.000-04:00"/>
     </meta>
     <text>
         <status value="generated"/>
@@ -68,7 +68,9 @@
                         
                         
                         
+                        
                         <a href="StructureDefinition-PhCP-Encounter.html">PhCP Encounter</a>)
+                    
                     
                     
                     
@@ -109,6 +111,7 @@
                         
                         
                         
+                        
                         <span style="opacity: 0.4">1</span>
                     </td>
                     <td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">
@@ -120,7 +123,9 @@
                         
                         
                         
+                        
                         <a href="http://hl7.org/fhir/R4/terminologies.html#preferred" title="Instances are encouraged to draw from the specified codes for interoperability purposes but are not required to do so to be considered conformant.">preferred</a>)
+                    
                     
                     
                     
@@ -188,7 +193,9 @@
                         
                         
                         
+                        
                         <span style="opacity: 0.4">http://hl7.org/fhir/us/core/StructureDefinition/us-core-careplan</span>)
+                    
                     
                     
                     
@@ -226,6 +233,7 @@
                     <td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"/>
                     <td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">
                         <span style="opacity: 0.4">0</span>..
+                        
                         
                         
                         
@@ -267,6 +275,7 @@
                         <a style="opacity: 0.4" href="http://hl7.org/fhir/R4/datatypes.html#CodeableConcept">CodeableConcept</a>
                     </td>
                     <td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">Interventions provided
+                        
                         
                         
                         
@@ -335,7 +344,9 @@
                         
                         
                         
+                        
                         <a href="StructureDefinition-PhCP-MedicationDispense.html">PhCP MedicationDispense</a> | 
+                        
                         
                         
                         
@@ -343,7 +354,9 @@
                         
                         
                         
+                        
                         <a href="StructureDefinition-PhCP-Instruction-Procedure.html">PhCP Instruction Procedure</a> | 
+                        
                         
                         
                         
@@ -351,7 +364,9 @@
                         
                         
                         
+                        
                         <a href="StructureDefinition-PhCP-ServiceRequest.html">PhCP ServiceRequest</a> | http://hl7.org/fhir/us/core/StructureDefinition/us-core-medicationstatement | http://hl7.org/fhir/us/core/StructureDefinition/us-core-medicationrequest)
+                    
                     
                     
                     
@@ -369,6 +384,7 @@
                     <td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"/>
                     <td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">
                         <span style="opacity: 0.4">0</span>..
+                        
                         
                         
                         
@@ -410,6 +426,7 @@
                         <a style="opacity: 0.4" href="http://hl7.org/fhir/R4/datatypes.html#CodeableConcept">CodeableConcept</a>
                     </td>
                     <td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">Payers
+                        
                         
                         
                         
@@ -462,7 +479,9 @@
                         
                         
                         
+                        
                         <a href="StructureDefinition-PhCP-Coverage.html">PhCPCoverage</a>)
+                    
                     
                     
                     
@@ -474,6 +493,7 @@
                         <br/>
                         <a href="http://hl7.org/fhir/R4/formats.html#table" title="Legend for this format">
                             <img src="http://hl7.org/fhir/R4/help16.png" alt="doco" style="background-color: inherit"/> Documentation for this format
+                        
                         
                         
                         
@@ -513,6 +533,7 @@
             <type>
                 <code value="Reference"/>
                 <targetProfile value="http://hl7.org/fhir/us/phcp/StructureDefinition/PhCP-Encounter"/>
+                <targetProfile value="http://hl7.org/fhir/us/core/StructureDefinition/us-core-encounter"/>
             </type>
             <mustSupport value="true"/>
         </element>
@@ -622,9 +643,10 @@
                 <code value="Reference"/>
                 <targetProfile value="http://hl7.org/fhir/us/phcp/StructureDefinition/PhCP-MedicationDispense"/>
                 <targetProfile value="http://hl7.org/fhir/us/phcp/StructureDefinition/PhCP-CareCoordination"/>
+                <targetProfile value="http://hl7.org/fhir/us/phcp/StructureDefinition/PhCP-ServiceRequest"/>
                 <targetProfile value="http://hl7.org/fhir/us/phcp/StructureDefinition/PhCP-Instruction-Procedure"/>
                 <targetProfile value="http://hl7.org/fhir/us/phcp/StructureDefinition/PhCP-Intervention-Procedure"/>
-                <targetProfile value="http://hl7.org/fhir/us/phcp/StructureDefinition/PhCP-ServiceRequest"/>
+                <targetProfile value="http://hl7.org/fhir/us/core/StructureDefinition/us-core-procedure"/>
                 <targetProfile value="http://hl7.org/fhir/us/core/StructureDefinition/us-core-medicationstatement"/>
                 <targetProfile value="http://hl7.org/fhir/us/core/StructureDefinition/us-core-medicationrequest"/>
             </type>

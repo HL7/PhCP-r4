@@ -3,8 +3,8 @@
     xmlns="http://hl7.org/fhir">
     <id value="phcp"/>
     <meta>
-        <versionId value="77"/>
-        <lastUpdated value="2019-03-21T04:23:34.000-04:00"/>
+        <versionId value="79"/>
+        <lastUpdated value="2019-03-21T13:44:53.000-04:00"/>
     </meta>
     <url value="http://hl7.org/fhir/us/phcp/ImplementationGuide/phcp"/>
     <version value="0.2.0"/>
@@ -106,7 +106,7 @@
         <resource>
             <reference>
                 <reference value="Composition/PhCP-Composition-Example"/>
-                <display value="Care Plan"/>
+                <display value="phcp-composition-example"/>
             </reference>
             <name value="Care Plan"/>
             <exampleBoolean value="true"/>
@@ -114,7 +114,7 @@
         <resource>
             <reference>
                 <reference value="Patient/phcp-patient-example"/>
-                <display value="Patient Amy V. Shaw"/>
+                <display value="phcp-patient-example"/>
             </reference>
             <name value="Patient Amy V. Shaw"/>
             <exampleBoolean value="true"/>
@@ -122,7 +122,7 @@
         <resource>
             <reference>
                 <reference value="Practitioner/phcp-practitioner-example"/>
-                <display value="Practitioner Ronald Bone"/>
+                <display value="phcp-practitioner-example"/>
             </reference>
             <name value="Practitioner Ronald Bone"/>
             <exampleBoolean value="true"/>
@@ -138,7 +138,7 @@
         <resource>
             <reference>
                 <reference value="Organization/phcp-organization-example"/>
-                <display value="Acme Labs"/>
+                <display value="phcp-organization-example"/>
             </reference>
             <name value="Acme Labs"/>
             <exampleBoolean value="true"/>

@@ -36,7 +36,7 @@ active: profiles
 </tr>
 <tr>
 <td><a href="StructureDefinition-PhCP-Encounter.html">PhCPEncounter</a></td>
-<td></td>
+<td>This is where the main encounter information is recorded. It includes codes for describing the care environment. </td>
 </tr>
 <tr>
 <td><a href="StructureDefinition-PhCP-Instruction-Procedure.html">PhCPInstructionProcedure</a></td>
