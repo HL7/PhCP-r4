@@ -3,8 +3,8 @@
     xmlns="http://hl7.org/fhir">
     <id value="PhCP-ServiceRequest"/>
     <meta>
-        <versionId value="5"/>
-        <lastUpdated value="2019-03-19T02:53:10.000-04:00"/>
+        <versionId value="8"/>
+        <lastUpdated value="2019-03-21T10:53:28.000-04:00"/>
     </meta>
     <text>
         <status value="generated"/>
@@ -78,18 +78,30 @@
     <baseDefinition value="http://hl7.org/fhir/StructureDefinition/ServiceRequest"/>
     <derivation value="constraint"/>
     <differential>
+        <element id="ServiceRequest.subject">
+            <path value="ServiceRequest.subject"/>
+            <type>
+                <code value="Reference"/>
+                <targetProfile value="http://hl7.org/fhir/us/core/StructureDefinition/us-core-patient"/>
+                <targetProfile value="http://hl7.org/fhir/StructureDefinition/Group"/>
+            </type>
+            <mustSupport value="true"/>
+        </element>
         <element id="ServiceRequest.occurrence[x]">
             <path value="ServiceRequest.occurrence[x]"/>
-            <min value="1"/>
+            <mustSupport value="true"/>
         </element>
         <element id="ServiceRequest.requester">
             <path value="ServiceRequest.requester"/>
-            <min value="1"/>
             <type>
                 <code value="Reference"/>
                 <targetProfile value="http://hl7.org/fhir/us/core/StructureDefinition/us-core-practitioner"/>
                 <targetProfile value="http://hl7.org/fhir/us/core/StructureDefinition/us-core-practitionerrole"/>
+                <targetProfile value="http://hl7.org/fhir/us/core/StructureDefinition/us-core-patient"/>
+                <targetProfile value="http://hl7.org/fhir/StructureDefinition/RelatedPerson"/>
+                <targetProfile value="http://hl7.org/fhir/StructureDefinition/Device"/>
             </type>
+            <mustSupport value="true"/>
         </element>
     </differential>
 </StructureDefinition>
