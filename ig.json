@@ -133,6 +133,30 @@
 		"StructureDefinition/PhCP-Medication-Therapy-Condition": {
 			"base": "StructureDefinition-PhCP-Medication-Therapy-Condition.html",
 			"defns": "StructureDefinition-PhCP-Medication-Therapy-Condition-definitions.html"
+		},
+		"Composition/PhCP-Composition-Example": {
+			"base": "Composition-PhCP-Composition-Example.html",
+			"defns": "Composition-PhCP-Composition-Example-definitions.html"
+		},
+		"Patient/phcp-patient-example": {
+			"base": "Patient-phcp-patient-example.html",
+			"defns": "Patient-phcp-patient-example-definitions.html"
+		},
+		"Practitioner/phcp-practitioner-example": {
+			"base": "Practitioner-phcp-practitioner-example.html",
+			"defns": "Practitioner-phcp-practitioner-example-definitions.html"
+		},
+		"PractitionerRole/phcp-practitionerrole-example": {
+			"base": "PractitionerRole-phcp-practitionerrole-example.html",
+			"defns": "PractitionerRole-phcp-practitionerrole-example-definitions.html"
+		},
+		"Organization/phcp-organization-example": {
+			"base": "Organization-phcp-organization-example.html",
+			"defns": "Organization-phcp-organization-example-definitions.html"
+		},
+		"RelatedPerson/phcp-relatedperson-example": {
+			"base": "RelatedPerson-phcp-relatedperson-example.html",
+			"defns": "RelatedPerson-phcp-relatedperson-example-definitions.html"
 		}
 	},
 	"version": "4.0.0",

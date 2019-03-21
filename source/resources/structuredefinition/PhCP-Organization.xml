@@ -3,8 +3,8 @@
     xmlns="http://hl7.org/fhir">
     <id value="PhCP-Organization"/>
     <meta>
-        <versionId value="9"/>
-        <lastUpdated value="2019-03-19T02:53:10.000-04:00"/>
+        <versionId value="11"/>
+        <lastUpdated value="2019-03-21T05:07:00.000-04:00"/>
     </meta>
     <text>
         <status value="generated"/>
@@ -60,6 +60,7 @@
                     <td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"/>
                     <td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">
                         <span style="opacity: 0.4">0</span>..
+                        
                         <span style="opacity: 0.4">1</span>
                     </td>
                     <td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">
@@ -68,7 +69,9 @@
                     <td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">
                         <span style="font-weight:bold">Binding: </span>
                         <a href="http://hl7.org/fhir/R4/terminologies.html#unbound">(unbound)</a> (
+                        
                         <a href="http://hl7.org/fhir/R4/terminologies.html#required" title="To be conformant, the concept in this element SHALL be from the specified value set.">required</a>)
+                    
                     </td>
                 </tr>
                 <tr>
@@ -76,6 +79,7 @@
                         <br/>
                         <a href="http://hl7.org/fhir/R4/formats.html#table" title="Legend for this format">
                             <img src="http://hl7.org/fhir/R4/help16.png" alt="doco" style="background-color: inherit"/> Documentation for this format
+                        
                         </a>
                     </td>
                 </tr>
@@ -102,7 +106,8 @@
             <min value="0"/>
             <max value="1"/>
             <binding>
-                <strength value="required"/>
+                <strength value="preferred"/>
+                <valueSet value="http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113762.1.4.1096.207"/>
             </binding>
         </element>
     </differential>
