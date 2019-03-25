@@ -13,7 +13,7 @@
   "version" : "0.2.0",  
   "date" : "2019-04-01",
   "desc" : "Ballot for STU 1 release of IG (FHIR R4)",   
-  "path" : "http://www.hl7.org/fhir/us/phcp/2019May",   
+  "path" : "http://hl7.org/fhir/us/phcp/2019May",   
   "status" : "draft",   
   "sequence" : "STU 1",
   "current" : true
@@ -21,7 +21,7 @@
   "version" : "0.1.0",  
   "date" : "2017-07-30", 
   "desc" : "STU 1 Draft for Comment",   
-  "path" : "http://www.hl7.org/fhir/us/phcp/2017Sep",   
+  "path" : "http://hl7.org/fhir/us/phcp/2017Sep",   
   "status" : "draft",   
   "sequence" : "STU 1",
   "current" : true
