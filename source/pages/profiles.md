@@ -32,19 +32,25 @@ active: profiles
 </tr>
 <tr>
 <td><a href="StructureDefinition-PhCP-Coverage.html">PhCPCoverage</a></td>
-<td>The Coverage profile groups the policy and authorization acts within a Payers Section to order the payment sources. The Coverage.identifier is the ID from the patient's insurance card. </td>
+<td>The Coverage profile groups the policy and authorization acts within a Payers Section to order the payment sources. 
+The Coverage.identifier is the ID from the patient's insurance card. 
+</td>
 </tr>
 <tr>
 <td><a href="StructureDefinition-PhCP-Encounter.html">PhCPEncounter</a></td>
-<td>This is where the main encounter information is recorded. It includes codes for describing the care environment. </td>
+<td>This is where the main encounter information is recorded. It includes codes for describing the care environment. 
+This profile constrains the US Core Encounter profile. It includes value sets intended for use by pharmacy systems. Everywhere it referenced, an unconstrained US Core Encounter reference is also allowed. </td>
 </tr>
 <tr>
 <td><a href="StructureDefinition-PhCP-Instruction-Procedure.html">PhCPInstructionProcedure</a></td>
-<td>The Instruction profile can be used in several ways, such as to record patient medication instructions or to record fill instructions for an order. The code defines the type of instruction. </td>
+<td>The Instruction profile can be used in several ways, such as to record patient medication instructions or to record fill instructions for an order. The code defines the type of instruction. 
+This profile constrains the US Core Procedure profile. It includes value sets intended for use by pharmacy systems. Everywhere it referenced, an unconstrained US Core Procedure reference is also allowed. </td>
 </tr>
 <tr>
 <td><a href="StructureDefinition-PhCP-Intervention-Procedure.html">PhCPInterventionProcedure</a></td>
-<td>This profile records the pharmacists observation of new information about the patient obtained from monitoring devices such as blood glucose, blood pressure monitors, weight,scales, and movement trackers.</td>
+<td>This profile records the pharmacists observation of new information about the patient obtained from monitoring devices such as blood glucose, blood pressure monitors, weight,scales, and movement trackers.
+This profile constrains the US Core Procedure profile. It includes value sets intended for use by pharmacy systems. Everywhere it referenced, an unconstrained US Core Procedure reference is also allowed. 
+</td>
 </tr>
 <tr>
 <td><a href="StructureDefinition-PhCP-MedicationDispense.html">PhCPMedicationDispense</a></td>
@@ -53,11 +59,14 @@ active: profiles
 <tr>
 <td><a href="StructureDefinition-PhCP-Medication-Therapy-Condition.html">PhCPMedicationTherapyCondition</a></td>
 <td>This profile represents a medication therapy problem. A medication therapy problem is any undesirable event experienced by a patient that involves, or is suspected to involve, drug therapy, and that interferes with achieving the desired goals of therapy and requires professional judgment to resolve.
+This profile constrains the US Core Condition profile. It includes value sets intended for use by pharmacy systems. Everywhere it referenced, an unconstrained US Core Condition reference is also allowed. 
 </td>
 </tr>
 <tr>
 <td><a href="StructureDefinition-PhCP-Organization.html">PhCPOrganization</a></td>
-<td>This profile represents the Organization providing the environment of care. </td>
+<td>This profile represents the Organization providing the environment of care. 
+This profile constrains the US Core Organization profile. It includes value sets intended for use by pharmacy systems. Everywhere it referenced, an unconstrained US Core Organization reference is also allowed. 
+</td>
 </tr>
 <tr>
 <td><a href="StructureDefinition-PhCP-ServiceRequest.html">PhCPServiceRequest</a></td>

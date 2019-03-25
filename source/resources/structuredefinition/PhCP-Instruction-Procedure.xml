@@ -3,8 +3,8 @@
     xmlns="http://hl7.org/fhir">
     <id value="PhCP-Instruction-Procedure"/>
     <meta>
-        <versionId value="13"/>
-        <lastUpdated value="2019-03-21T13:32:38.000-04:00"/>
+        <versionId value="14"/>
+        <lastUpdated value="2019-03-24T22:18:58.000-04:00"/>
     </meta>
     <text>
         <status value="generated"/>
@@ -112,7 +112,7 @@
     <title value="PhCP Instruction Procedure"/>
     <status value="draft"/>
     <date value="2017-07-21T14:29:48.4142999-04:00"/>
-    <description value="The Instruction profile can be used in several ways, such as to record patient medication instructions or to record fill instructions for an order. The code defines the type of instruction. "/>
+    <description value="The Instruction profile can be used in several ways, such as to record patient medication instructions or to record fill instructions for an order. The code defines the type of instruction. &#xA;This profile constrains the US Core Procedure profile. It includes value sets intended for use by pharmacy systems. Everywhere it referenced, an unconstrained US Core Procedure reference is also allowed. "/>
     <fhirVersion value="4.0.0"/>
     <kind value="resource"/>
     <abstract value="false"/>
