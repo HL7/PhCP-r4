@@ -4,6 +4,7 @@
 	"npm-name": "hl7.fhir.us.phcp",
 	"license": "CC0-1.0",
 	"paths": {
+		"history": "http://hl7.org/fhir/us/phcp/history.cfml",
 		"qa": "generated_output/qa",
 		"temp": "generated_output/temp",
 		"output": "output",
