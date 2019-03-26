@@ -1,17 +1,66 @@
-<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <ImplementationGuide
     xmlns="http://hl7.org/fhir">
     <id value="phcp"/>
     <meta>
-        <versionId value="80"/>
-        <lastUpdated value="2019-03-21T23:35:49.000-04:00"/>
+        <versionId value="81"/>
+        <lastUpdated value="2019-03-25T21:29:59.000-04:00"/>
     </meta>
+    <contained>
+        <Binary>
+            <id value="5035"/>
+            <contentType value="text/markdown"/>
+            <data value="VGhpcyBndWlkZSB3YXMgcHJvZHVjZWQgYW5kIGRldmVsb3BlZCB0aHJvdWdoIHRoZSBlZmZvcnRzIG9mIGEgcHJvamVjdCBzdXBwb3J0ZWQgYnkgdGhlIE9mZmljZSBvZiB0aGUgTmF0aW9uYWwgQ29vcmRpbmF0b3IgKE9OQykgSGlnaCBJbXBhY3QgUGlsb3QgKEhJUCkgR3JhbnQsIE5hdGlvbmFsIENvdW5jaWwgZm9yIFByZXNjcmlwdGlvbiBEcnVnIFByb2dyYW1zIChOQ1BEUCksIFBoYXJtYWN5IEhlYWx0aCBJbmZvcm1hdGlvbiBUZWNobm9sb2d5IChISVQpIENvbGxhYm9yYXRpdmUsIGFuZCBIZWFsdGggTGV2ZWwgU2V2ZW4gKEhMNykgU3RydWN0dXJlZCBEb2N1bWVudHMgV29yayBHcm91cCBhbmQgUGhhcm1hY3kgV29yayBHcm91cCwgd2hpY2ggcHJvdmlkZWQgZXhwZXJ0IGFkdmljZSBhbmQgaW5wdXQgdG8gdGhlIHJlcHJlc2VudGF0aW9uIHBoYXJtYWN5IGFuZCBwYXRpZW50IGNhcmUgcmVsYXRlZCBtZWRpY2F0aW9uIGNsaW5pY2FsIHN0YXRlbWVudHMuCgpUaGlzIG1hdGVyaWFsIGNvbnRhaW5zIGNvbnRlbnQgZnJvbSBTTk9NRUQgQ1QgKGh0dHA6Ly93d3cuaWh0c2RvLm9yZy9zbm9tZWQtY3QvKS4gU05PTUVEIENUIGlzIGEgcmVnaXN0ZXJlZCB0cmFkZW1hcmsgb2YgdGhlIEludGVybmF0aW9uYWwgSGVhbHRoIFRlcm1pbm9sb2d5IFN0YW5kYXJkIERldmVsb3BtZW50IE9yZ2FuaXNhdGlvbiAoSUhUU0RPKS4KClRoaXMgbWF0ZXJpYWwgY29udGFpbnMgY29udGVudCBmcm9tIExPSU5DIChodHRwOi8vbG9pbmMub3JnKS4gVGhlIExPSU5DIHRhYmxlLCBMT0lOQyBjb2RlcywgYW5kIExPSU5DIHBhbmVscyBhbmQgZm9ybXMgZmlsZSBhcmUgY29weXJpZ2h0ICAxOTk1LTIwMTcsIFJlZ2Vuc3RyaWVmIEluc3RpdHV0ZSwgSW5jLiBhbmQgdGhlIExvZ2ljYWwgT2JzZXJ2YXRpb24gSWRlbnRpZmllcnMgTmFtZXMgYW5kIENvZGVzIChMT0lOQykgQ29tbWl0dGVlIGFuZCBhcmUgYXZhaWxhYmxlIGF0IG5vIGNvc3QgdW5kZXIgdGhlIGxpY2Vuc2UgYXQgaHR0cDovL2xvaW5jLm9yZy90ZXJtcy1vZi11c2UuCg=="/>
+        </Binary>
+    </contained>
+    <contained>
+        <Binary>
+            <id value="5282"/>
+            <contentType value="text/markdown"/>
+            <data value="VGhpcyBkb2N1bWVudCBkZXNjcmliZXMgY29uc3RyYWludHMgb24gdGhlIEMtQ0RBIG9uIEZISVIgaGVhZGVyIGFuZCBib2R5IGVsZW1lbnRzIGZvciB0aGUgUGhhcm1hY2lzdCBDYXJlIFBsYW4sIHdoaWNoIGFyZSBkZXJpdmVkIGZyb20gcmVxdWlyZW1lbnRzIHNldCBmb3J0aCBieSB0aGUgUGhhcm1hY3kgSGVhbHRoIEluZm9ybWF0aW9uIFRlY2hub2xvZ3kgKEhJVCkgQ29sbGFib3JhdGl2ZSAgYW5kIHRoZSBOYXRpb25hbCBDb3VuY2lsIGZvciBQcmVzY3JpcHRpb24gRHJ1ZyBQcm9ncmFtcyAoTkNQRFApIFdHMTAgUHJvZmVzc2lvbmFsIFBoYXJtYWN5IFNlcnZpY2VzLCAgdmVuZG9ycywgYW5kIEhlYWx0aCBMZXZlbCBTZXZlbiAoSEw3KSBzdGFrZWhvbGRlciB3b3JrZ3JvdXBzLiBUZW1wbGF0ZXMgaW4gdGhpcyBVUyBSZWFsbSBpbXBsZW1lbnRhdGlvbiBndWlkZSBhcmUgc3BlY2lmaWMgdG8gcGhhcm1hY3kgbWFuYWdlbWVudCB0cmVhdG1lbnQgYW5kIGludGVydmVudGlvbnMgdGhhdCB3aWxsIHByb21vdGUgaW50ZXJvcGVyYWJpbGl0eSBhbmQgd2lsbCBjcmVhdGUgaW5mb3JtYXRpb24gc3VpdGFibGUgZm9yIHJldXNlIGluIHF1YWxpdHkgbWVhc3VyZW1lbnQsIHB1YmxpYyBoZWFsdGggcmVwb3J0aW5nLCByZXNlYXJjaCwgYW5kIHJlaW1idXJzZW1lbnQuCgpUaGlzIGd1aWRlIGNvbnRhaW5zIGEgbGlicmFyeSBvZiBGSElSIHByb2ZpbGVzIGFuZCBpcyBjb21wbGlhbnQgd2l0aCBGSElSIFJlbGVhc2UgNC4gIAo="/>
+        </Binary>
+    </contained>
+    <contained>
+        <Binary>
+            <id value="8598"/>
+            <contentType value="text/markdown"/>
+            <data value="VGhlIGF1ZGllbmNlIGZvciB0aGlzIGRvY3VtZW50IGluY2x1ZGVzIHBoYXJtYWN5IHZlbmRvcnMsIHNvZnR3YXJlIGRldmVsb3BlcnMsIGFuZCBpbXBsZW1lbnRlcnMgd2l0aCByZXBvcnRpbmcgY2FwYWJpbGl0aWVzIHdpdGhpbiB0aGVpciBlbGVjdHJvbmljIGhlYWx0aCByZWNvcmQgKEVIUikgc3lzdGVtczsgZGV2ZWxvcGVycyBhbmQgYW5hbHlzdHMgaW4gcmVjZWl2aW5nIGluc3RpdHV0aW9uczsgYW5kIGxvY2FsLCByZWdpb25hbCwgYW5kIG5hdGlvbmFsIGhlYWx0aCBpbmZvcm1hdGlvbiBleGNoYW5nZSBuZXR3b3JrcyB3aG8gd2lzaCB0byBjcmVhdGUgb3IgcHJvY2VzcyBwaGFybWFjeSBjbGluaWNhbCBkb2N1bWVudHMgYWNjb3JkaW5nIHRvIHRoaXMgc3BlY2lmaWNhdGlvbi4KCkJ1c2luZXNzIGFuYWx5c3RzIGFuZCBwb2xpY3kgbWFuYWdlcnMgY2FuIGFsc28gYmVuZWZpdCBmcm9tIGEgYmFzaWMgdW5kZXJzdGFuZGluZyBvZiB0aGUgdXNlIG9mIEZISVIgcHJvZmlsZXMgYWNyb3NzIG11bHRpcGxlIGltcGxlbWVudGF0aW9uIHVzZSBjYXNlcy4K"/>
+        </Binary>
+    </contained>
+    <contained>
+        <Binary>
+            <id value="8572"/>
+            <contentType value="text/markdown"/>
+            <data value="UGhhcm1hY2lzdHMgd29yayBpbiBtdWx0aXBsZSBlbnZpcm9ubWVudHMgKGNvbW11bml0eSwgaG9zcGl0YWwsIGxvbmcgdGVybSBjYXJlLCBjbGluaWNzLCBldGMuKSBhbmQgaW5jcmVhc2luZ2x5IHBhcnRpY2lwYXRlIGluIHBhdGllbnQtY2VudGVyZWQgY2FyZSB0ZWFtcyBwcm92aWRpbmcgZXNzZW50aWFsIGNsaW5pY2FsbHktb3JpZW50ZWQgcGF0aWVudCBjYXJlIHNlcnZpY2VzIHN1Y2ggYXMgbWVkaWNhdGlvbiB0aGVyYXB5IG1hbmFnZW1lbnQsIGNsaW5pY2FsIHJlY29uY2lsaWF0aW9uIChtZWRpY2F0aW9uLCBhbGxlcmdpZXMgYW5kIHByb2JsZW1zKSwgcGF0aWVudCBpbW11bml6YXRpb24gbWFuYWdlbWVudCwgZGlzZWFzZSBzdGF0ZSBtb25pdG9yaW5nLCBhbmQgdGhlcmFweSBhZGhlcmVuY2UgcHJvZ3JhbXMuIFRoZXNlIHNlcnZpY2VzIHJlZHVjZSBhZHZlcnNlIGRydWcgZXZlbnRzLCBpbXByb3ZlIHBhdGllbnQgc2FmZXR5LCBhbmQgb3B0aW1pemUgbWVkaWNhdGlvbiB1c2UgYW5kIGhlYWx0aCBvdXRjb21lcy4gUGhhcm1hY2lzdHMgYXJlIGludGVncmFsIG1lbWJlcnMgb2YgdGhlIGhlYWx0aCBjYXJlIHRlYW0gYW5kIGhhdmUgdW5pcXVlIGFuZCBmcmVxdWVudCBhY2Nlc3MgdG8gcGF0aWVudHMsIHJvdXRpbmVseSB3b3JraW5nIHdpdGggcGF0aWVudHMgdG8gZmFjaWxpdGF0ZSB1bmRlcnN0YW5kaW5nIGFuZCBjb21wbGlhbmNlIHdpdGggZHJ1ZyByZWdpbWVucywgcmVjb25jaWxlIG1lZGljYXRpb25zIGZyb20gbXVsdGlwbGUgcHJlc2NyaWJlcnMsIGFuZCBtb25pdG9yIGVmZmVjdGl2ZW5lc3Mgb2YgdGhlIHRyZWF0bWVudC4gVGhlc2UgYWN0aXZpdGllcyBhZmZlY3QgdGhlIHRyZWF0bWVudCBwbGFucyBvZiBvdGhlciBjYXJlZ2l2ZXJzLiBIYXZpbmcgYSBtZWRpY2F0aW9uLXJlbGF0ZWQgcGxhbiBvZiBjYXJlIHNoYXJlZCB3aXRoIHRob3NlIHByb3ZpZGVycyBhbmQgaW5jb3Jwb3JhdGVkIHdpdGggY2FyZSBwbGFucyBkZXZlbG9wZWQgYnkgb3RoZXIgY2FyZSB0ZWFtIG1lbWJlcnMgaXMgY3JpdGljYWwgdG8gdGhlIG92ZXJhbGwgc3VjY2VzcyBvZiBwYXRpZW50cyByZWFjaGluZyB0aGVpciBwcm9wb3NlZCBjYXJlIGdvYWxzIG9mIGNhcmUuIAoKVG9kYXksIHBoYXJtYWNpc3RzIGRvY3VtZW50IHdpdGhpbiBwcm9wcmlldGFyeSBzeXN0ZW1zIHRoYXQgZG8gbm90IGV4cG9ydCBhbmQgY2Fubm90IHJlY2VpdmUgc3RhbmRhcmRzLWJhc2VkIGRhdGEuIFdoZXJlIGNhcmUgcGxhbiBpbmZvcm1hdGlvbiBpcyBzaGFyZWQgZnJvbSBwaGFybWFjeSBtYW5hZ2VtZW50IHN5c3RlbXMsIGl0IGlzIGRvbmUgdXNpbmcgcHJvcHJpZXRhcnkgaW50ZXJmYWNlcyBhbmQgZnJlZSB0ZXh0OyB0aGVyZSBpcyBubyBzdGFuZGFyZCBjb3ZlcmluZyBwaGFybWFjaXN0IGNhcmUgcGxhbnMuIFRodXMsIHNoYXJpbmcgZGF0YSByZXF1aXJlcyB0aW1lIGNvbnN1bWluZyByZWR1bmRhbnQgZGF0YSBlbnRyeSB3aGljaCBpcyBhIG1ham9yIGZhY3RvciBsaW1pdGluZyBjYXJlIHBsYW5uaW5nLiBGdXJ0aGVybW9yZSwgY2FyZSBwbGFuIGRvY3VtZW50YXRpb24gdGhhdCBpcyBmcmVlIHRleHQgaXMgaW5jb25zaXN0ZW50IGFuZCBpbmNhcGFibGUgb2Ygc3VwcG9ydGluZyBlbGVjdHJvbmljIHF1YWxpdHkgbWVhc3VyZW1lbnQgYW5kIHJlcG9ydGluZy4gCg=="/>
+        </Binary>
+    </contained>
+    <contained>
+        <Binary>
+            <id value="9584"/>
+            <contentType value="text/markdown"/>
+            <data value="VGhlIGN1cnJlbnQgcHJvamVjdCBzcGVjaWZpZXMgdGhlIFBoYXJtYWNpc3QgQ2FyZSBQbGFuLCBhbiBlbGVjdHJvbmljIGNhcmUgcGxhbiBkb2N1bWVudCB3aXRoIGVuaGFuY2VkIG1lZGljYXRpb24gbWFuYWdlbWVudCBjb250ZW50IGJhc2VkIG9uIHRoZSBwcm9maWxlcyBpbiB0aGUgQy1DREEgb24gRkhJUiBzcGVjaWZpY2F0aW9uLiBUaGUgUGhhcm1hY2lzdCBDYXJlIFBsYW4gaXMgYSBzdGFuZGFyZGl6ZWQsIGludGVyb3BlcmFibGUgZG9jdW1lbnQgY29udGFpbmluZyBpbmZvcm1hdGlvbiBvbiBtZWRpY2F0aW9uLXJlbGF0ZWQgYWN0aXZpdGllcywgYXMgd2VsbCBhcyBwYXRpZW50LXByb3ZpZGVyIHNoYXJlZCBnb2FscyBhbmQgcGxhbnMgZm9yIGNhcmUuIFRoZSBQaGFybWFjaXN0IENhcmUgUGxhbiBpZGVudGlmaWVzIHJlc291cmNlcyBmb3IgYW5kIG9ic3RhY2xlcyB0byBwYXRpZW50IGNvbXBsaWFuY2Ugd2l0aCB0aGUgcmVjb21tZW5kZWQgdHJlYXRtZW50LiBUaGlzIHR5cGUgb2YgZGF0YSBpcyBub3Qgb2Z0ZW4gY2FwdHVyZWQgaW4gYSBzdHJ1Y3R1cmVkIGFuZCBzdGFuZGFyZCBmb3JtYXQgdGhhdCBjYW4gYmUgdXNlZCBmb3IgcmVzZWFyY2gsIHF1YWxpdHkgbWVhc3VyZW1lbnQsIG9yIHB1YmxpYyBoZWFsdGggcmVwb3J0aW5nLiBUaGUgUGhhcm1hY2lzdCBDYXJlIFBsYW4gc3VwcG9ydHMgdGhlIHN0cmF0ZWd5IG9mIGludGVyb3BlcmFiaWxpdHkgYW5kIGluZm9ybWF0aW9uIGV4Y2hhbmdlIHByb21vdGluZyBjb29yZGluYXRpb24gb2YgY2FyZSBhbW9uZyBhIHZhcmlldHkgb2Ygc2V0dGluZ3MsIHRodXMgaW1wcm92aW5nIHRoZSBxdWFsaXR5IG9mIGNhcmUgZm9yIHRoZSBwYXRpZW50LiAKClRoZSBQaGFybWFjaXN0IENhcmUgUGxhbiBzZXJ2ZXMgdHdvIG5lZWRzLiBJdCBzdXBwb3J0cyB0aGUgQ01TIE1lZGljYXJlIFBhcnQgRCBFbmhhbmNlZCBNZWRpY2FyZSBUaGVyYXB5IE1hbmFnZW1lbnQgKE1UTSkgcHJvZ3JhbSB0aGF0IHN0YXJ0ZWQgb24gSmFudWFyeSAxLCAyMDE3LiBUaGUgcHJvZ3JhbSBsYXVuY2hlZCBhIHBpbG90IGluIGZpdmUgTWVkaWNhcmUgUGFydCBEIHJlZ2lvbnMuIFByb2dyYW0gcGFydGljaXBhbnRzIGluIHRoZXNlIHJlZ2lvbnMgaGF2ZSB0aGUgb3Bwb3J0dW5pdHkgY29vcmRpbmF0ZSBjYXJlIHdpdGggcGhhcm1hY3kgcHJvdmlkZXJzIG9uIGlzc3VlcyByZWxhdGVkIHRvIG1lZGljYXRpb24gbWFuYWdlbWVudCBhbmQgYWR2ZXJzZSBvdXRjb21lcyB0aHJvdWdoIHRoZSBNVE0gbW9kZWwgb2YgZW5oYW5jZWQgY2FyZSwgd2hpY2ggaW5jbHVkZXMgYW4gaW5kaXZpZHVhbHMgZ29hbHMgZm9yIHRoZXJhcHkgYW5kIG91dGNvbWVzLiAKClNlY29uZGx5LCB0aGUgbW92ZW1lbnQgdG93YXJkcyB2YWx1ZS1iYXNlZCBwYXltZW50IChWQlApIG1vZGVscyBoYXMgcmVjb2duaXplZCBwaGFybWFjaXN0cyBhcyBhbiBpbXBvcnRhbnQgcGFydCBvZiB0aGUgd2VsbC1jb25uZWN0ZWQgY2FyZSB0ZWFtIHRoYXQgYWRkcmVzc2VzIHRoZSBuZWVkcyBvZiB0aGUgcGF0aWVudC4gIEluIGEgVkJQIG1vZGVsLCBhIHBhdGllbnRzIGNhcmUgaXMgY29vcmRpbmF0ZWQsIG1hbmFnZWQsIGFuZCBzdXBwb3J0ZWQgdGhyb3VnaCBkb2N1bWVudGF0aW9uIG9mIGdvYWxzIGFuZCBvdXRjb21lcy4gVGhlIFBoYXJtYWNpc3QgQ2FyZSBQbGFuIHByb3ZpZGVzIHRoYXQgZG9jdW1lbnRhdGlvbiBmb3IgbWVkaWNhdGlvbnMgYW5kIG1lZGljYXRpb24tcmVsYXRlZCBpc3N1ZXMuCgpUaGUgY3VycmVudCBwcm9qZWN0IGJ1aWxkcyBvbiB0aGUgd29yayBzdGFydGVkIGluIHRoZSBOQ1BEUCBQaGFybWFjaXN0IGVDYXJlIFBsYW4sIHdoaWNoIHByb3ZpZGVzIGd1aWRhbmNlIGZvciBwaGFybWFjaXN0IGFuZCB2ZW5kb3JzIGFzIHRoZXkgaW1wbGVtZW50IHRoZSBzdGFuZGFyZCBDREEgUjIuMSBDYXJlIFBsYW4gZG9jdW1lbnQuIFRoZSBQaGFybWFjaXN0IENhcmUgUGxhbiBlbGVjdHJvbmljIGRvY3VtZW50IHN0YW5kYXJkaXplcyBleGNoYW5nZSBvZiBpbmZvcm1hdGlvbiBvbiBtZWRpY2F0aW9ucyBkaXNwZW5zZWQgYW5kIG1lZGljYXRpb24gdGhlcmFweSBwcm9ibGVtcyB3aGljaCBhcmUgbm90IHNwZWNpZmllZCBpbiB0aGUgY3VycmVudCBDYXJlIFBsYW4gZG9jdW1lbnQgdHlwZS4gVGhpcyB2ZXJzaW9uIGNvbnRhaW5zIHJlY29uY2lsZWQgYmFsbG90IGNvbW1lbnQgY2hhbmdlcyBhbmQgaW5jbHVkZXMgcGhhcm1hY3kgSElUIHZhbHVlIHNldHMgdGhhdCBhcmUgcHVibGlzaGVkIGluIHRoZSBWYWx1ZSBTZXQgQXV0aG9yaXR5IENlbnRlciAoVlNBQykuIAoKVGhlIHByb2plY3QgaGFzIGltcGxlbWVudGVkIGJvdGggdGhlIENEQSBhbmQgdGhlIEZISVIgKEZhc3QgSGVhbHRoY2FyZSBJbnRlcm9wZXJhYmlsaXR5IFJlc291cmNlcykgUGhhcm1hY2lzdCBDYXJlIFBsYW4gc3BlY2lmaWNhdGlvbnMgaW4gYSBwaWxvdCBhdCBDb21tdW5pdHkgQ2FyZSBvZiBOb3J0aCBDYXJvbGluYSAoQ0NOQykgYW5kIG9uZ29pbmcgdXNlIGF0IENvbW11bml0eSBQaGFybWFjeSBFbmhhbmNlZCBTZXJ2aWNlIE5ldHdvcmsgKENQRVNOKSBVU0EuLiBQbGVhc2Ugbm90ZSwgdGhpcyBGSElSIFBoYXJtYWNpc3QgQ2FyZSBQbGFuIGlzIGJhbGxvdGVkIHNlcGFyYXRlbHkgZnJvbSB0aGUgQ0RBIHN0YW5kYXJkLiBUaGUgYnVyZGVuIG9mIHJlZHVuZGFudCBkYXRhIGVudHJ5IGlzIGEgbWFqb3IgZmFjdG9yIGxpbWl0aW5nIGNhcmUgcGxhbm5pbmcgdG8gbGVzcyB0aGFuIDE1JSBvZiB0aGUgQ0NOQyBwb3B1bGF0aW9uLCB3aGljaCBpbmNsdWRlcyBtYW55IGF0IHJpc2sgYW5kIGNhcmUtaW50ZW5zaXZlIHBhdGllbnRzLiBSZWR1Y2luZyByZWR1bmRhbnQgZGF0YSBlbnRyeSBhbmQgcHJvdmlkaW5nIHN0YW5kYXJkLCBzdHJ1Y3R1cmVkIGRhdGEgd2lsbCBlbmhhbmNlIHRoZSBhYmlsaXR5IG9mIHBoYXJtYWNpc3RzIHRvIGVuZ2FnZSB3aXRoIHBhdGllbnRzIGFuZCB3aWxsIGltcHJvdmUgdGhlIHBhdGllbnQgZXhwZXJpZW5jZSBvZiBjYXJlIHRocm91Z2ggY29tcHJlaGVuc2l2ZSBtZWRpY2F0aW9uIHJldmlldyB3aXRoIHRoZSBwaGFybWFjaXN0cyBhbmQgY2FyZSBtYW5hZ2Vycy4gRmFjaWxpdGllcyByZWNlaXZlZCBQaGFybWFjaXN0IENhcmUgUGxhbiBmaWxlcyBpbiBib3RoIENEQSBhbmQgRkhJUiBmb3JtYXRzIGZyb20gaW1wbGVtZW50aW5nIEVIUnMuIEluIGFkZGl0aW9uLCBwYXJ0aWNpcGF0aW5nIHN5c3RlbXMgY29udmVydCBDREEtYmFzZWQgUGhhcm1hY2lzdCBDYXJlIFBsYW5zIHRvIHRoZSBGSElSIGZvcm1hdCB1c2luZyB0cmFuc2Zvcm1hdGlvbiBmaWxlcy4K"/>
+        </Binary>
+    </contained>
+    <contained>
+        <Binary>
+            <id value="6924"/>
+            <contentType value="text/markdown"/>
+            <data value="VGhpcyBpbXBsZW1lbnRhdGlvbiBndWlkZSBtZWV0cyB0aGUgbmVlZCBvZiBmb3VyIHVzZSBjYXNlcyB1bmlxdWUgdG8gdGhlIHBoYXJtYWN5IGVudmlyb25tZW50LiAgVGhvdWdoIHRoZSBzY29wZSBvZiB0aGUgcGlsb3QgdGVzdGluZyBmb2N1c2VkIG9uIFVzZSBDYXNlIDQsIHRoZSBzdGFuZGFyZCB3YXMgZGVzaWduZWQgdG8gbWVldCB0aGUgbmVlZHMgZm9yIGNsaW5pY2FsIGRhdGEgZXhjaGFuZ2UgaW4gZWFjaCBvZiB0aGUgY2FzZXMgZGVzY3JpYmVkIGluIHRoaXMgc2VjdGlvbi4KCiMjIFVzZSBDYXNlIDE6IE5ldyBjb25kaXRpb24gZm9yIGEgcGF0aWVudCBhdCByaXNrIGZvciBhIHB1bG1vbmFyeSBlbWJvbGlzbQoKVGhlIGNvbW11bml0eSBwaGFybWFjaXN0IG1lZXRzIHdpdGggdGhlIHBhdGllbnQgYW5kIHRoZSBjYXJlZ2l2ZXIgYWZ0ZXIgYSByZWNlbnQgZGlzY2hhcmdlIGZyb20gYSBob3NwaXRhbCBmb3IgYSBwdWxtb25hcnkgZW1ib2xpc20uIFRoZSBwYXRpZW50IGlzIGRpYWdub3NlZCB3aXRoIGh5cGVydGVuc2lvbiBhbmQgZGlhYmV0ZXMuIFRoZSBwYXRpZW50IGhhcyBiZWVuIGVucm9sbGVkIGluIGEgZGlhYmV0ZXMgb3V0cGF0aWVudCBjbGluaWMgYW5kIGhhcyBub3cgYmVlbiByZWZlcnJlZCB0byBhbiBhbnRpY29hZ3VsYXRpb24gb3V0cGF0aWVudCBjbGluaWMuIApUaGUgY29tbXVuaXR5IHBoYXJtYWNpc3QgY29vcmRpbmF0ZXMgbWVkaWNhdGlvbiB0aGVyYXB5IG1hbmFnZW1lbnQgc2VydmljZXMgKGluY2x1ZGluZyByZWNvbmNpbGlhdGlvbiBvZiBtZWRpY2F0aW9ucywgYWxsZXJnaWVzIGFuZCBpbmRpY2F0aW9ucyBmb3IgbWVkaWNhdGlvbiB1c2UpIHdpdGggdGhlIHByaW1hcnkgY2FyZSBwcm92aWRlciAoUENQKSBhbmQgdGhlIGRpYWJldGVzIGFuZCBhbnRpY29hZ3VsYXRpb24gY2xpbmljcyBhbmQgZG9jdW1lbnRzIHRoZSBwYXRpZW50cyBtZWRpY2F0aW9uLXJlbGF0ZWQgZ29hbHMuIFRoZSBwaGFybWFjeSBnZW5lcmF0ZXMgdGhlIFBoYXJtYWNpc3QgQ2FyZSBQbGFuIHRvIHNoYXJlIG1lZGljYXRpb24gcmVsYXRlZCBnb2FscyBhbmQgZWxlY3Ryb25pY2FsbHkgZGVsaXZlcnMgdGhlIENhcmUgUGxhbiB0byB0aGUgcGF0aWVudCwgdGhlIFBDUCwgYW5kIHRoZSBvdXRwYXRpZW50IGNsaW5pY3MgZm9yIGNocm9uaWMgY2FyZSBtYW5hZ2VtZW50IGFuZCBjYXJlIGNvb3JkaW5hdGlvbi4KCiMjIFVzZSBDYXNlIDI6IFBhdGllbnQgc2NoZWR1bGVkIGZvciBhIGhpcCByZXBsYWNlbWVudAoKVGhlIHBoYXJtYWNpc3QsIHVuZGVyIGEgY29sbGFib3JhdGl2ZSBwcmFjdGljZSBhZ3JlZW1lbnQgd2l0aCB0aGUgb3J0aG9wZWRpYyBzdXJnZW9uLCBjb3Vuc2VscyB0aGUgcGF0aWVudCBwcmlvciB0byB0aGUgcHJvY2VkdXJlIHRvIGVuc3VyZSB0aGVyZSBhcmUgbm8gbWVkaWNhdGlvbi1yZWxhdGVkIHByb2JsZW1zLiBBZnRlciB0aGUgc3VyZ2VyeSwgdGhlIHBoYXJtYWNpc3QgY29vcmRpbmF0ZXMgbWVkaWNhdGlvbi1yZWxhdGVkIGdvYWxzIHdpdGggdGhlIHBhdGllbnQgcGVydGFpbmluZyB0byBkZWVwIHZlaW4gdGhyb21ib3NpcyByaXNrIGFuZCBwYWluIG1hbmFnZW1lbnQuIAoKVGhlIGNvbW11bml0eSBwaGFybWFjaXN0IHVzZXMgYSBoZWFsdGggSVQgc3lzdGVtIHRvIGRvY3VtZW50IHBhdGllbnQgY2FyZS4gVGhlIGhlYWx0aCBJVCBzeXN0ZW0gZ2VuZXJhdGVzIHRoZSBQaGFybWFjaXN0IENhcmUgUGxhbiB0byBzaGFyZSB0aGUgbWVkaWNhdGlvbiByZWxhdGVkIGdvYWxzIGVsZWN0cm9uaWNhbGx5IHdpdGggdGhlIHBhdGllbnQsIG9ydGhvcGVkaWMgc3VyZ2VvbiwgUENQLCBob21lIGhlYWx0aCBjYXJlIGFnZW5jeSwgYW5kIHRoZSByZWhhYmlsaXRhdGlvbiBjZW50ZXIgZm9yIGNhcmUgY29vcmRpbmF0aW9uLgoKIyMgVXNlIENhc2UgMzogUGF0aWVudCB3aXRoIGJlaGF2aW9yYWwgaGVhbHRoIGlzc3VlcyBhbmQgbXVsdGlwbGUgY2hyb25pYyBkaXNlYXNlcyBtZWV0cyB3aXRoIGEgY29uc3VsdGFudCBwaGFybWFjaXN0IGZvciB0aGUgeWVhcmx5IGNvbXByZWhlbnNpdmUgbWVkaWNhdGlvbiByZXZpZXcgdG8gbWVldCBNZWRpY2FyZSBQYXJ0IEQgTVRNIHJlcXVpcmVtZW50CgpUaGUgcGhhcm1hY2lzdCBkb2N1bWVudHMgY29uZmxpY3RpbmcgdHJlYXRtZW50IHN0cmF0ZWdpZXMgYW5kIG1lZGljYXRpb25zLiBUaGUgcGhhcm1hY2lzdCByZWNvbW1lbmRzIHN0cmF0ZWdpZXMvYWx0ZXJhdGlvbnMgdG8gZXhpc3RpbmcgdHJlYXRtZW50LCBkZXZlbG9wbWVudCBvZiBhIG1hbmFnZWFibGUgbWVkaWNhdGlvbiBzY2hlZHVsZSwgcGF0aWVudCBlZHVjYXRpb24sIGFuZCBvdXRjb21lIGZvbGxvdy11cC4KClRoZSBjb21tdW5pdHkgcGhhcm1hY2lzdCB1c2VzIGEgaGVhbHRoIElUIHN5c3RlbSB0byBkb2N1bWVudCBwYXRpZW50IGNhcmUuIFRoZSBoZWFsdGggSVQgc3lzdGVtIGdlbmVyYXRlcyB0aGUgUGhhcm1hY2lzdCBDYXJlIFBsYW4gdG8gc2hhcmUgdGhlIG1lZGljYXRpb24gcmVsYXRlZCBnb2FscyBhbmQgc3RyYXRlZ2llcyBlbGVjdHJvbmljYWxseSB3aXRoIHRoZSBwYXRpZW50LCB0aGUgcHN5Y2hpYXRyaXN0LCB0aGUgb3V0cGF0aWVudCBwc3ljaGlhdHJpYyBjbGluaWMsIGFuZCB0aGUgUENQIG9yIGNocm9uaWMgY2FyZSBtYW5hZ2VtZW50IGFuZCBjYXJlIGNvb3JkaW5hdGlvbi4KCiMjIFVzZSBDYXNlIDQ6IFBhdGllbnQgY29tZXMgdG8gdGhlIGNvbW11bml0eSBwaGFybWFjeSB0byBwaWNrIHVwIGh5ZHJvY29kb25lLCB3aGljaCBoYXMgYmVlbiBlLXByZXNjcmliZWQgYW5kIGNvbXBsYWludHMgb2YgY29uc3RpcGF0aW9uCgpUaGUgcGhhcm1hY2lzdCByZXZpZXdzIHRoZSBzdGF0ZSBQcmVzY3JpcHRpb24gRHJ1ZyBNb25pdG9yaW5nIFByb2dyYW0gKFBETVApIGRhdGFiYXNlIGFuZCBkaXNjb3ZlcnMgdGhhdCBtdWx0aXBsZSBwaHlzaWNpYW5zIGhhdmUgdHJlYXRlZCB0aGUgcGF0aWVudCBmb3IgcGFpbi4gVGhlIHBoYXJtYWNpc3Qgc3VzcGVjdHMgdGhlIHBhdGllbnQgbWF5IGhhdmUgYW4gb3Bpb2lkIGFidXNlIGNvbmRpdGlvbi4gVGhyb3VnaCBwYXRpZW50IGFzc2Vzc21lbnQgdXNpbmcgYSB2YWxpZGF0ZWQgbnV0cml0aW9uIHNjcmVlbmluZyB0b29sLCB0aGUgcGhhcm1hY2lzdCBkaXNjb3ZlcnMgdGhlIHBhdGllbnQgc2hvd3Mgc2lnbnMgb2YgcG90ZW50aWFsIG1hbG51dHJpdGlvbiwgaGFzIHRocmVlIGNocm9uaWMgY2FyZSBjb25kaXRpb25zLCBjb21wbGFpbnMgb2YgY29uc3RpcGF0aW9uLCBhbmQgaGFzIG5vIFBDUC4gVGhlIHBoYXJtYWNpc3QgcGVyZm9ybXMgY29tcHJlaGVuc2l2ZSBtZWRpY2F0aW9uIHJldmlldyBhbmQgaGVscHMgdGhlIHBhdGllbnQgaWRlbnRpZnkgYSBQQ1AuCgpUaGUgY29tbXVuaXR5IHBoYXJtYWNpc3QgZG9jdW1lbnRzIGNvbmZsaWN0aW5nIHRyZWF0bWVudCBzdHJhdGVnaWVzIGFuZCBtZWRpY2F0aW9ucyBpbmNsdWRpbmcgdGhlIG5lZWQgZm9yIG5hbG94b25lLiBUaGUgcGhhcm1hY2lzdCByZWNvbW1lbmRzIHN0cmF0ZWdpZXMvYWx0ZXJhdGlvbnMgdG8gZXhpc3RpbmcgdHJlYXRtZW50LCBwYWluIG1hbmFnZW1lbnQsIGRldmVsb3BtZW50IG9mIGEgbWFuYWdlYWJsZSBtZWRpY2F0aW9uIHNjaGVkdWxlLCBudXRyaXRpb25hbCBjb3Vuc2VsaW5nLCBwYXRpZW50IGVkdWNhdGlvbiwgYW5kIG91dGNvbWUgZm9sbG93LXVwLgoK"/>
+        </Binary>
+    </contained>
     <url value="http://hl7.org/fhir/us/phcp/ImplementationGuide/phcp"/>
     <version value="0.2.0"/>
     <name value="PharmacistServicesAndSummariesPhCP"/>
     <title value="Pharmacist Services and Summaries - FHIR (PhCP)"/>
     <status value="draft"/>
     <publisher value="HL7 Structured Documents  Work Group"/>
+    <contact>
+        <name value="HL7 International - Structured Documents Work Group"/>
+        <telecom>
+            <system value="url"/>
+            <value value="http://www.hl7.org/Special/committees/structure"/>
+        </telecom>
+    </contact>
     <contact>
         <name value="Rick Geimer"/>
         <telecom>
@@ -23,11 +72,23 @@
     <packageId value="hl7.fhir.us.phcp"/>
     <fhirVersion value="4.0.0"/>
     <dependsOn>
+        <extension url="https://trifolia-fhir.lantanagroup.com/r4/StructureDefinition/extension-ig-depends-on-location">
+            <valueString value="http://hl7.org/fhir/us/core"/>
+        </extension>
+        <extension url="https://trifolia-fhir.lantanagroup.com/r4/StructureDefinition/extension-ig-depends-on-name">
+            <valueString value="USCoreR4"/>
+        </extension>
         <uri value="http://hl7.org/fhir/us/core/ImplementationGuide/ig"/>
         <packageId value="hl7.fhir.us.core"/>
         <version value="current"/>
     </dependsOn>
     <dependsOn>
+        <extension url="https://trifolia-fhir.lantanagroup.com/r4/StructureDefinition/extension-ig-depends-on-location">
+            <valueString value="http://hl7.org/fhir/us/ccda-r4"/>
+        </extension>
+        <extension url="https://trifolia-fhir.lantanagroup.com/r4/StructureDefinition/extension-ig-depends-on-name">
+            <valueString value="CCDAonFHIRR4"/>
+        </extension>
         <uri value="http://hl7.org/fhir/us/ccda-r4/ImplementationGuide/CCDA-on-FHIR-R4"/>
         <packageId value="hl7.fhir.us.ccda.r4"/>
         <version value="current"/>
@@ -152,36 +213,57 @@
             <exampleBoolean value="true"/>
         </resource>
         <page>
+            <extension url="https://trifolia-on-fhir.lantanagroup.com/StructureDefinition/extension-ig-page-auto-generate-toc">
+                <valueBoolean value="true"/>
+            </extension>
             <nameUrl value="toc.md"/>
             <title value="Table of Contents"/>
             <generation value="generated"/>
             <page>
-                <nameUrl value="Acknowledgments.html"/>
+                <nameReference>
+                    <reference value="#5035"/>
+                    <display value="Page content 5035"/>
+                </nameReference>
                 <title value="Acknowledgments"/>
                 <generation value="markdown"/>
             </page>
             <page>
-                <nameUrl value="Purpose.html"/>
+                <nameReference>
+                    <reference value="#5282"/>
+                    <display value="Page content 5282"/>
+                </nameReference>
                 <title value="Purpose"/>
                 <generation value="markdown"/>
             </page>
             <page>
-                <nameUrl value="Audience.html"/>
+                <nameReference>
+                    <reference value="#8598"/>
+                    <display value="Page content 8598"/>
+                </nameReference>
                 <title value="Audience"/>
                 <generation value="markdown"/>
             </page>
             <page>
-                <nameUrl value="Project_Background.html"/>
+                <nameReference>
+                    <reference value="#8572"/>
+                    <display value="Page content 8572"/>
+                </nameReference>
                 <title value="Project Background"/>
                 <generation value="markdown"/>
             </page>
             <page>
-                <nameUrl value="Current_Project.html"/>
+                <nameReference>
+                    <reference value="#9584"/>
+                    <display value="Page content 9584"/>
+                </nameReference>
                 <title value="Current Project"/>
                 <generation value="markdown"/>
             </page>
             <page>
-                <nameUrl value="Use_Cases.html"/>
+                <nameReference>
+                    <reference value="#6924"/>
+                    <display value="Page content 6924"/>
+                </nameReference>
                 <title value="Use Cases"/>
                 <generation value="markdown"/>
             </page>
