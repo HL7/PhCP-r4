@@ -3,14 +3,14 @@
     xmlns="http://hl7.org/fhir">
     <id value="PhCP-Composition-Example"/>
     <meta>
-        <versionId value="11"/>
-        <lastUpdated value="2019-03-21T11:18:03.000-04:00"/>
+        <versionId value="12"/>
+        <lastUpdated value="2019-08-04T18:57:07.000-04:00"/>
         <profile value="http://hl7.org/fhir/us/phcp/StructureDefinition/PhCP-Composition"/>
     </meta>
     <language value="en-US"/>
     <text>
         <status value="generated"/>
-        <div lang="en-US"
+        <div
             xmlns="http://www.w3.org/1999/xhtml">
             <p>Pharmacist Care Plan document for Amy Shaw</p>
             <p>Managed by Community Health and Hospitals</p>
@@ -49,8 +49,8 @@
     <type>
         <coding>
             <system value="http://loinc.org"/>
-            <code value="52521-2"/>
-            <display value="Deprecated Overall Plan of Care/Advance Care Directives"/>
+            <code value="18776-5"/>
+            <display value="Plan of care note"/>
         </coding>
     </type>
     <subject>

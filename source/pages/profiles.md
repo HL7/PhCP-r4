@@ -27,6 +27,20 @@ active: profiles
 </thead>
 <tbody>
 <tr>
+<td><a href="StructureDefinition-PhCP-Composition.html">PharmacistCarePlanDocument</a></td>
+<td>The Pharmacist Care Plan standardizes the information gathered and developed through the process of medication planning and management in community, hospital, and long term post-acute care (LTPAC) settings. It allows exchange of information between providers of care to optimize medication-related decision support and patient adherence to medication regimens both within a healthcare setting and when a patient moves between healthcare settings.
+Standardization of information used in this form will promote interoperability; support a comprehensive, multi-discipline longitudinal care plan; and create information suitable for reuse in quality measurement, public health reporting, research, and for reimbursement.
+In assessment of and consultation with the patient, the Pharmacist Care Plan focuses on:
+
+* 	Maximizing the effectiveness of medications ordered and currently used
+* 	Identifying and addressing barriers to successful implementation of the therapy regimen
+* 	Assuring patient understanding of the reasons for and use of the medication and the goals of therapy
+* 	Resolving conflicting orders and plans
+
+These activities help the patient achieve the best possible outcomes of treatment and an enhanced sense of wellbeing.
+</td>
+</tr>
+<tr>
 <td><a href="StructureDefinition-PhCP-CareCoordination.html">PhCPCareCoordination</a></td>
 <td>This profile represents communication regarding care coordination for the patient. </td>
 </tr>
@@ -37,7 +51,7 @@ The Coverage.identifier is the ID from the patient's insurance card.
 </td>
 </tr>
 <tr>
-<td><a href="StructureDefinition-PhCP-Encounter.html">PhCPEncounter</a></td>
+<td><a href="StructureDefinition-PhCP-Encounter.html">PhCPEncounter_test</a></td>
 <td>This is where the main encounter information is recorded. It includes codes for describing the care environment. 
 This profile constrains the US Core Encounter profile. It includes value sets intended for use by pharmacy systems. Everywhere it is referenced, an unconstrained US Core Encounter reference is also allowed. </td>
 </tr>
@@ -72,21 +86,11 @@ This profile constrains the US Core Organization profile. It includes value sets
 <td><a href="StructureDefinition-PhCP-ServiceRequest.html">PhCPServiceRequest</a></td>
 <td>This profile represents any of a number of planned interventions for the patient. For example, an activity such as "elevate head of bed" combined with "provide humidified O2 per nasal cannula" may be the interventions performed for a health concern of "respiratory insufficiency" to achieve a goal of "pulse oximetry greater than 92%". These intervention activities may be newly described or derived from a variety of sources within an EHR. Interventions are actions taken to increase the likelihood of achieving the patient's or providers' goals. </td>
 </tr>
-<tr>
-<td><a href="StructureDefinition-PhCP-Composition.html">PharmacistCarePlanDocument</a></td>
-<td>The Pharmacist Care Plan standardizes the information gathered and developed through the process of medication planning and management in community, hospital, and long term post-acute care (LTPAC) settings. It allows exchange of information between providers of care to optimize medication-related decision support and patient adherence to medication regimens both within a healthcare setting and when a patient moves between healthcare settings.
-Standardization of information used in this form will promote interoperability; support a comprehensive, multi-discipline longitudinal care plan; and create information suitable for reuse in quality measurement, public health reporting, research, and for reimbursement.
-In assessment of and consultation with the patient, the Pharmacist Care Plan focuses on:
-
-* 	Maximizing the effectiveness of medications ordered and currently used
-* 	Identifying and addressing barriers to successful implementation of the therapy regimen
-* 	Assuring patient understanding of the reasons for and use of the medication and the goals of therapy
-* 	Resolving conflicting orders and plans
-
-These activities help the patient achieve the best possible outcomes of treatment and an enhanced sense of wellbeing.
-</td>
-</tr>
 </tbody>
 </table>
 
+
+### Extensions
+
+**No extensions are defined for this implementation guide**
 

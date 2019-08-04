@@ -4,7 +4,6 @@
 	"npm-name": "hl7.fhir.us.phcp",
 	"license": "CC0-1.0",
 	"paths": {
-		"history": "http://hl7.org/fhir/us/phcp/history.cfml",
 		"qa": "generated_output/qa",
 		"temp": "generated_output/temp",
 		"output": "output",
@@ -95,25 +94,9 @@
 		}
 	},
 	"resources": {
-		"StructureDefinition/PhCP-CareCoordination": {
-			"base": "StructureDefinition-PhCP-CareCoordination.html",
-			"defns": "StructureDefinition-PhCP-CareCoordination-definitions.html"
-		},
-		"StructureDefinition/PhCP-Coverage": {
-			"base": "StructureDefinition-PhCP-Coverage.html",
-			"defns": "StructureDefinition-PhCP-Coverage-definitions.html"
-		},
 		"StructureDefinition/PhCP-MedicationDispense": {
 			"base": "StructureDefinition-PhCP-MedicationDispense.html",
 			"defns": "StructureDefinition-PhCP-MedicationDispense-definitions.html"
-		},
-		"StructureDefinition/PhCP-Composition": {
-			"base": "StructureDefinition-PhCP-Composition.html",
-			"defns": "StructureDefinition-PhCP-Composition-definitions.html"
-		},
-		"StructureDefinition/PhCP-ServiceRequest": {
-			"base": "StructureDefinition-PhCP-ServiceRequest.html",
-			"defns": "StructureDefinition-PhCP-ServiceRequest-definitions.html"
 		},
 		"StructureDefinition/PhCP-Instruction-Procedure": {
 			"base": "StructureDefinition-PhCP-Instruction-Procedure.html",
@@ -123,25 +106,13 @@
 			"base": "StructureDefinition-PhCP-Encounter.html",
 			"defns": "StructureDefinition-PhCP-Encounter-definitions.html"
 		},
-		"StructureDefinition/PhCP-Organization": {
-			"base": "StructureDefinition-PhCP-Organization.html",
-			"defns": "StructureDefinition-PhCP-Organization-definitions.html"
-		},
-		"StructureDefinition/PhCP-Intervention-Procedure": {
-			"base": "StructureDefinition-PhCP-Intervention-Procedure.html",
-			"defns": "StructureDefinition-PhCP-Intervention-Procedure-definitions.html"
-		},
 		"StructureDefinition/PhCP-Medication-Therapy-Condition": {
 			"base": "StructureDefinition-PhCP-Medication-Therapy-Condition.html",
 			"defns": "StructureDefinition-PhCP-Medication-Therapy-Condition-definitions.html"
 		},
-		"Composition/PhCP-Composition-Example": {
-			"base": "Composition-PhCP-Composition-Example.html",
-			"defns": "Composition-PhCP-Composition-Example-definitions.html"
-		},
-		"Patient/phcp-patient-example": {
-			"base": "Patient-phcp-patient-example.html",
-			"defns": "Patient-phcp-patient-example-definitions.html"
+		"Organization/phcp-organization-example": {
+			"base": "Organization-phcp-organization-example.html",
+			"defns": "Organization-phcp-organization-example-definitions.html"
 		},
 		"Practitioner/phcp-practitioner-example": {
 			"base": "Practitioner-phcp-practitioner-example.html",
@@ -151,27 +122,57 @@
 			"base": "PractitionerRole-phcp-practitionerrole-example.html",
 			"defns": "PractitionerRole-phcp-practitionerrole-example-definitions.html"
 		},
-		"Organization/phcp-organization-example": {
-			"base": "Organization-phcp-organization-example.html",
-			"defns": "Organization-phcp-organization-example-definitions.html"
-		},
 		"RelatedPerson/phcp-relatedperson-example": {
 			"base": "RelatedPerson-phcp-relatedperson-example.html",
 			"defns": "RelatedPerson-phcp-relatedperson-example-definitions.html"
+		},
+		"Patient/phcp-patient-example": {
+			"base": "Patient-phcp-patient-example.html",
+			"defns": "Patient-phcp-patient-example-definitions.html"
+		},
+		"Composition/PhCP-Composition-Example": {
+			"base": "Composition-PhCP-Composition-Example.html",
+			"defns": "Composition-PhCP-Composition-Example-definitions.html"
+		},
+		"StructureDefinition/PhCP-Organization": {
+			"base": "StructureDefinition-PhCP-Organization.html",
+			"defns": "StructureDefinition-PhCP-Organization-definitions.html"
+		},
+		"StructureDefinition/PhCP-ServiceRequest": {
+			"base": "StructureDefinition-PhCP-ServiceRequest.html",
+			"defns": "StructureDefinition-PhCP-ServiceRequest-definitions.html"
+		},
+		"StructureDefinition/PhCP-Intervention-Procedure": {
+			"base": "StructureDefinition-PhCP-Intervention-Procedure.html",
+			"defns": "StructureDefinition-PhCP-Intervention-Procedure-definitions.html"
+		},
+		"StructureDefinition/PhCP-CareCoordination": {
+			"base": "StructureDefinition-PhCP-CareCoordination.html",
+			"defns": "StructureDefinition-PhCP-CareCoordination-definitions.html"
+		},
+		"StructureDefinition/PhCP-Composition": {
+			"base": "StructureDefinition-PhCP-Composition.html",
+			"defns": "StructureDefinition-PhCP-Composition-definitions.html"
+		},
+		"StructureDefinition/PhCP-Coverage": {
+			"base": "StructureDefinition-PhCP-Coverage.html",
+			"defns": "StructureDefinition-PhCP-Coverage-definitions.html"
 		}
 	},
 	"version": "4.0.0",
 	"fixed-business-version": "0.2.0",
 	"dependencyList": [
 		{
-			"location": "http://hl7.org/fhir/us/core",
-			"name": "USCoreR4",
-			"version": "current"
-		},
-		{
 			"location": "http://hl7.org/fhir/us/ccda-r4",
 			"name": "CCDAonFHIRR4",
-			"version": "current"
+			"version": "current",
+			"package": "hl7.fhir.us.ccda.r4"
+		},
+		{
+			"location": "http://hl7.org/fhir/us/core",
+			"name": "USCoreR4",
+			"version": "3.0.0",
+			"package": "hl7.fhir.us.core"
 		}
 	]
 }

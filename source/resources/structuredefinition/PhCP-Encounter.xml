@@ -3,8 +3,8 @@
     xmlns="http://hl7.org/fhir">
     <id value="PhCP-Encounter"/>
     <meta>
-        <versionId value="17"/>
-        <lastUpdated value="2019-03-26T01:08:40.000-04:00"/>
+        <versionId value="18"/>
+        <lastUpdated value="2019-05-10T12:03:19.000-04:00"/>
     </meta>
     <text>
         <status value="generated"/>
@@ -72,7 +72,11 @@
                         <span style="font-weight:bold">Binding: </span>
                         <a href="http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113762.1.4.1096.208">http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113762.1.4.1096.208</a> (
                         
+                        
+                        
                         <a href="http://hl7.org/fhir/R4/terminologies.html#required" title="To be conformant, the concept in this element SHALL be from the specified value set.">required</a>)
+                    
+                    
                     
                     </td>
                 </tr>
@@ -93,7 +97,11 @@
                     <td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">
                         <a href="http://hl7.org/fhir/R4/references.html">Reference</a>(
                         
+                        
+                        
                         <a href="StructureDefinition-PhCP-Organization.html">PhCP Organization</a>)
+                    
+                    
                     
                     </td>
                     <td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"/>
@@ -104,6 +112,8 @@
                         <a href="http://hl7.org/fhir/R4/formats.html#table" title="Legend for this format">
                             <img src="http://hl7.org/fhir/R4/help16.png" alt="doco" style="background-color: inherit"/> Documentation for this format
                         
+                        
+                        
                         </a>
                     </td>
                 </tr>
@@ -111,7 +121,7 @@
         </div>
     </text>
     <url value="http://hl7.org/fhir/us/phcp/StructureDefinition/PhCP-Encounter"/>
-    <name value="PhCPEncounter"/>
+    <name value="PhCPEncounter_test"/>
     <title value="PhCP Encounter"/>
     <status value="draft"/>
     <description value="This is where the main encounter information is recorded. It includes codes for describing the care environment. &#xA;This profile constrains the US Core Encounter profile. It includes value sets intended for use by pharmacy systems. Everywhere it is referenced, an unconstrained US Core Encounter reference is also allowed. "/>

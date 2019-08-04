@@ -4,6 +4,8 @@ layout: default
 active: Use Cases
 ---
 
+[Previous Page](Current_Project.html)
+
 This implementation guide meets the need of four use cases unique to the pharmacy environment.  Though the scope of the pilot testing focused on Use Case 4, the standard was designed to meet the needs for clinical data exchange in each of the cases described in this section.
 
 ## Use Case 1: New condition for a patient at risk for a pulmonary embolism
@@ -29,3 +31,4 @@ The pharmacist reviews the state Prescription Drug Monitoring Program (PDMP) dat
 
 The community pharmacist documents conflicting treatment strategies and medications including the need for naloxone. The pharmacist recommends strategies/alterations to existing treatment, pain management, development of a manageable medication schedule, nutritional counseling, patient education, and outcome follow-up.
 
+null

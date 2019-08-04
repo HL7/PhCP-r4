@@ -36,12 +36,12 @@ active: other
 <td><a href="Patient-phcp-patient-example.html">phcp-patient-example</a></td>
 </tr>
 <tr>
-<td>PractitionerRole</td>
-<td><a href="PractitionerRole-phcp-practitionerrole-example.html">phcp-practitionerrole-example</a></td>
-</tr>
-<tr>
 <td>Practitioner</td>
 <td><a href="Practitioner-phcp-practitioner-example.html">phcp-practitioner-example</a></td>
+</tr>
+<tr>
+<td>PractitionerRole</td>
+<td><a href="PractitionerRole-phcp-practitionerrole-example.html">phcp-practitionerrole-example</a></td>
 </tr>
 <tr>
 <td>RelatedPerson</td>
