@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PractitionerRole
+    xmlns="http://hl7.org/fhir">
+    <id value="phcp-practitionerrole-example"/>
+    <meta>
+        <versionId value="4"/>
+        <lastUpdated value="2019-03-21T05:21:39.000-04:00"/>
+        <profile value="http://hl7.org/fhir/us/core/StructureDefinition/us-core-practitionerrole"/>
+    </meta>
+    <practitioner>
+        <reference value="Practitioner/phcp-practitioner-example"/>
+    </practitioner>
+    <organization>
+        <reference value="Organization/phcp-organization-example"/>
+    </organization>
+    <code>
+        <coding>
+            <system value="http://nucc.org/provider-taxonomy"/>
+            <code value="261QP2300X"/>
+            <display value="Primary Care"/>
+        </coding>
+    </code>
+    <specialty>
+        <coding>
+            <system value="http://nucc.org/provider-taxonomy"/>
+            <code value="208D00000X"/>
+            <display value="General Practice"/>
+        </coding>
+    </specialty>
+    <telecom>
+        <system value="email"/>
+        <value value="doc@example.org"/>
+    </telecom>
+</PractitionerRole>

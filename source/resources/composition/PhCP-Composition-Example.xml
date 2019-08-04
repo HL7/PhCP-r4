@@ -1,0 +1,242 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Composition
+    xmlns="http://hl7.org/fhir">
+    <id value="PhCP-Composition-Example"/>
+    <meta>
+        <versionId value="12"/>
+        <lastUpdated value="2019-08-04T18:57:07.000-04:00"/>
+        <profile value="http://hl7.org/fhir/us/phcp/StructureDefinition/PhCP-Composition"/>
+    </meta>
+    <language value="en-US"/>
+    <text>
+        <status value="generated"/>
+        <div
+            xmlns="http://www.w3.org/1999/xhtml">
+            <p>Pharmacist Care Plan document for Amy Shaw</p>
+            <p>Managed by Community Health and Hospitals</p>
+        </div>
+    </text>
+    <extension url="http://hl7.org/fhir/us/ccda-r4/StructureDefinition/CCDA-on-FHIR-Data-Enterer">
+        <valueReference>
+            <reference value="Practitioner/phcp-practitioner-example"/>
+        </valueReference>
+    </extension>
+    <extension url="http://hl7.org/fhir/us/ccda-r4/StructureDefinition/CCDA-on-FHIR-Informant">
+        <valueReference>
+            <reference value="Practitioner/phcp-practitioner-example"/>
+        </valueReference>
+    </extension>
+    <extension url="http://hl7.org/fhir/us/ccda-r4/StructureDefinition/CCDA-on-FHIR-Information-Recipient">
+        <valueReference>
+            <reference value="Practitioner/phcp-practitioner-example"/>
+        </valueReference>
+    </extension>
+    <extension url="http://hl7.org/fhir/us/ccda-r4/StructureDefinition/CCDA-on-FHIR-Participant">
+        <valueReference>
+            <reference value="RelatedPerson/phcp-relatedperson-example"/>
+        </valueReference>
+    </extension>
+    <extension url="http://hl7.org/fhir/us/ccda-r4/StructureDefinition/CCDA-on-FHIR-Performer">
+        <valueReference>
+            <reference value="Practitioner/phcp-practitioner-example"/>
+        </valueReference>
+    </extension>
+    <identifier>
+        <system value="urn:ietf:rfc:3986"/>
+        <value value="urn:uuid:0c2721be-711a-43f4-b895-43ff66a9fd29"/>
+    </identifier>
+    <status value="preliminary"/>
+    <type>
+        <coding>
+            <system value="http://loinc.org"/>
+            <code value="18776-5"/>
+            <display value="Plan of care note"/>
+        </coding>
+    </type>
+    <subject>
+        <reference value="Patient/phcp-patient-example"/>
+        <display value="Amy V. Shaw"/>
+    </subject>
+    <date value="2016-02-28T09:10:14Z"/>
+    <author>
+        <reference value="Practitioner/phcp-practitioner-example"/>
+        <display value="Ronald Bone, MD"/>
+    </author>
+    <title value="Care Plan"/>
+    <confidentiality value="N"/>
+    <attester>
+        <mode value="legal"/>
+        <time value="2012-01-04T09:10:14Z"/>
+        <party>
+            <reference value="Practitioner/phcp-practitioner-example"/>
+            <display value="Ronald Boone, MD"/>
+        </party>
+    </attester>
+    <custodian>
+        <reference value="Organization/phcp-organization-example"/>
+        <display value="Acme Labs"/>
+    </custodian>
+    <event>
+        <period>
+            <start value="2015-11-18"/>
+            <end value="2015-12-12"/>
+        </period>
+    </event>
+    <section>
+        <title value="Health Concerns Section"/>
+        <code>
+            <coding>
+                <system value="http://loinc.org"/>
+                <code value="75310-3"/>
+                <display value="Health concerns document"/>
+            </coding>
+        </code>
+        <text>
+            <status value="generated"/>
+            <div
+                xmlns="http://www.w3.org/1999/xhtml">
+                <table>
+                    <tr>
+                        <td>
+                            <b>Concern</b>
+                        </td>
+                        <td>
+                            <b>Status</b>
+                        </td>
+                        <td>
+                            <b>Date</b>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Current every day smoker</td>
+                        <td>Active</td>
+                        <td>Concern from June 16, 2015</td>
+                    </tr>
+                    <tr>
+                        <td>Respiratory insufficiency</td>
+                        <td>Completed</td>
+                        <td>Concern from June 13, 2015</td>
+                    </tr>
+                    <tr>
+                        <td>Pneumonia</td>
+                        <td>Completed</td>
+                        <td>June 16, 2015</td>
+                    </tr>
+                </table>
+            </div>
+        </text>
+        <mode value="snapshot"/>
+    </section>
+    <section>
+        <title value="Goals Section"/>
+        <code>
+            <coding>
+                <system value="http://loinc.org"/>
+                <code value="61146-7"/>
+                <display value="Goals"/>
+            </coding>
+        </code>
+        <text>
+            <status value="generated"/>
+            <div
+                xmlns="http://www.w3.org/1999/xhtml">
+                <table>
+                    <tr>
+                        <td>
+                            <b>Goal</b>
+                        </td>
+                        <td>
+                            <b>Value</b>
+                        </td>
+                        <td>
+                            <b>Date</b>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Pulse oximetry</td>
+                        <td>92%</td>
+                        <td>September 2, 2015</td>
+                    </tr>
+                </table>
+            </div>
+        </text>
+    </section>
+    <section>
+        <title value="Interventions Section"/>
+        <code>
+            <coding>
+                <system value="http://loinc.org"/>
+                <code value="62387-6"/>
+                <display value="Interventions Narrative"/>
+            </coding>
+        </code>
+        <text>
+            <status value="generated"/>
+            <div
+                xmlns="http://www.w3.org/1999/xhtml">
+                <table>
+                    <tr>
+                        <td>
+                            <b>Planned Intervention</b>
+                        </td>
+                        <td>
+                            <b>Status</b>
+                        </td>
+                        <td>
+                            <b>Date</b>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Elevate head of bed</td>
+                        <td>active</td>
+                        <td>September 2, 2015</td>
+                    </tr>
+                    <tr>
+                        <td>Oxygen administration by nasal cannula</td>
+                        <td>active</td>
+                        <td>September 1, 2015</td>
+                    </tr>
+                    <tr>
+                        <td>pulse oximetry monitoring</td>
+                        <td>active</td>
+                        <td>September 3, 2015</td>
+                    </tr>
+                </table>
+            </div>
+        </text>
+    </section>
+    <section>
+        <title value="Health Status Evaluations and Outcomes Section"/>
+        <code>
+            <coding>
+                <system value="http://loinc.org"/>
+                <code value="11383-7"/>
+                <display value="Patient problem outcome"/>
+            </coding>
+        </code>
+        <text>
+            <status value="generated"/>
+            <div
+                xmlns="http://www.w3.org/1999/xhtml">
+                <table>
+                    <tr>
+                        <td>
+                            <b>Item</b>
+                        </td>
+                        <td>
+                            <b>Outcome</b>
+                        </td>
+                        <td>
+                            <b>Date</b>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Pulse oximetry</td>
+                        <td>95%</td>
+                        <td>August 6, 2015</td>
+                    </tr>
+                </table>
+            </div>
+        </text>
+    </section>
+</Composition>
