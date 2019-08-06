@@ -3,8 +3,8 @@
     xmlns="http://hl7.org/fhir">
     <id value="phcp"/>
     <meta>
-        <versionId value="84"/>
-        <lastUpdated value="2019-08-04T18:46:46.000-04:00"/>
+        <versionId value="92"/>
+        <lastUpdated value="2019-08-06T00:58:36.000-04:00"/>
     </meta>
     <url value="http://hl7.org/fhir/us/phcp/ImplementationGuide/phcp"/>
     <version value="0.2.0"/>
@@ -190,6 +190,11 @@
             <page>
                 <nameUrl value="Use_Cases.html"/>
                 <title value="Use Cases"/>
+                <generation value="markdown"/>
+            </page>
+            <page>
+                <nameUrl value="Mappings.html"/>
+                <title value="Mappings"/>
                 <generation value="markdown"/>
             </page>
         </page>

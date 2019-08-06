@@ -102,9 +102,21 @@
 			"base": "StructureDefinition-PhCP-Instruction-Procedure.html",
 			"defns": "StructureDefinition-PhCP-Instruction-Procedure-definitions.html"
 		},
+		"Media/phcp-use-case-2": {
+			"base": "Media-phcp-use-case-2.html",
+			"defns": "Media-phcp-use-case-2-definitions.html"
+		},
 		"StructureDefinition/PhCP-Encounter": {
 			"base": "StructureDefinition-PhCP-Encounter.html",
 			"defns": "StructureDefinition-PhCP-Encounter-definitions.html"
+		},
+		"Media/phcp-use-case-3": {
+			"base": "Media-phcp-use-case-3.html",
+			"defns": "Media-phcp-use-case-3-definitions.html"
+		},
+		"Media/phcp-use-case-4": {
+			"base": "Media-phcp-use-case-4.html",
+			"defns": "Media-phcp-use-case-4-definitions.html"
 		},
 		"StructureDefinition/PhCP-Medication-Therapy-Condition": {
 			"base": "StructureDefinition-PhCP-Medication-Therapy-Condition.html",
@@ -145,6 +157,10 @@
 		"StructureDefinition/PhCP-Intervention-Procedure": {
 			"base": "StructureDefinition-PhCP-Intervention-Procedure.html",
 			"defns": "StructureDefinition-PhCP-Intervention-Procedure-definitions.html"
+		},
+		"Media/phcp-use-case-1": {
+			"base": "Media-phcp-use-case-1.html",
+			"defns": "Media-phcp-use-case-1-definitions.html"
 		},
 		"StructureDefinition/PhCP-CareCoordination": {
 			"base": "StructureDefinition-PhCP-CareCoordination.html",

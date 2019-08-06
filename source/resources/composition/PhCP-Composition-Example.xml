@@ -3,17 +3,39 @@
     xmlns="http://hl7.org/fhir">
     <id value="PhCP-Composition-Example"/>
     <meta>
-        <versionId value="12"/>
-        <lastUpdated value="2019-08-04T18:57:07.000-04:00"/>
+        <versionId value="13"/>
+        <lastUpdated value="2019-08-05T01:40:40.000-04:00"/>
         <profile value="http://hl7.org/fhir/us/phcp/StructureDefinition/PhCP-Composition"/>
     </meta>
     <language value="en-US"/>
     <text>
         <status value="generated"/>
-        <div lang="en-US"
+        <div
             xmlns="http://www.w3.org/1999/xhtml">
-            <p>Pharmacist Care Plan document for Amy Shaw</p>
-            <p>Managed by Community Health and Hospitals</p>
+            <table>
+                <tbody>
+                    <tr>
+                        <td>Title</td>
+                        <td>Pharmacist Care Plan</td>
+                    </tr>
+                    <tr>
+                        <td>Practitioner</td>
+                        <td>Ronald Bone, MD</td>
+                    </tr>
+                    <tr>
+                        <td>Attester</td>
+                        <td>Ronald Bone, MD</td>
+                    </tr>
+                    <tr>
+                        <td>Custodian</td>
+                        <td>Acme Labs</td>
+                    </tr>
+                    <tr>
+                        <td>Service Period</td>
+                        <td>2015-11-18 to 2015-12-12</td>
+                    </tr>
+                </tbody>
+            </table>
         </div>
     </text>
     <extension url="http://hl7.org/fhir/us/ccda-r4/StructureDefinition/CCDA-on-FHIR-Data-Enterer">
