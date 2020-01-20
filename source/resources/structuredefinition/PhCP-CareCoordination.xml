@@ -3,8 +3,8 @@
     xmlns="http://hl7.org/fhir">
     <id value="PhCP-CareCoordination"/>
     <meta>
-        <versionId value="17"/>
-        <lastUpdated value="2019-03-21T08:55:07.000-04:00"/>
+        <versionId value="18"/>
+        <lastUpdated value="2020-01-20T02:07:56.000-05:00"/>
     </meta>
     <text>
         <status value="generated"/>
@@ -61,6 +61,7 @@
                     <td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">
                         <span style="opacity: 0.4">0</span>..
                         
+                        
                         <span style="opacity: 0.4">1</span>
                     </td>
                     <td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">
@@ -70,7 +71,9 @@
                         <span style="font-weight:bold">Binding: </span>
                         <a href="http://hl7.org/fhir/R4/terminologies.html#unbound">(unbound)</a> (
                         
+                        
                         <a href="http://hl7.org/fhir/R4/terminologies.html#preferred" title="Instances are encouraged to draw from the specified codes for interoperability purposes but are not required to do so to be considered conformant.">preferred</a>)
+                    
                     
                     </td>
                 </tr>
@@ -87,7 +90,9 @@
                     <td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">
                         <a href="http://hl7.org/fhir/R4/references.html">Reference</a>(
                         
+                        
                         <a href="https://build.fhir.org/ig/HL7/US-Core-R4//StructureDefinition-us-core-patient.html">US Core Patient Profile</a>)
+                    
                     
                     </td>
                     <td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"/>
@@ -120,7 +125,9 @@
                     <td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">
                         <a href="http://hl7.org/fhir/R4/references.html">Reference</a>(
                         
+                        
                         <a href="http://hl7.org/fhir/R4/device.html">Device</a>)
+                    
                     
                     </td>
                     <td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"/>
@@ -138,7 +145,9 @@
                     <td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">
                         <a href="http://hl7.org/fhir/R4/references.html">Reference</a>(
                         
+                        
                         <a href="http://hl7.org/fhir/R4/device.html">Device</a>)
+                    
                     
                     </td>
                     <td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"/>
@@ -163,6 +172,7 @@
                         <br/>
                         <a href="http://hl7.org/fhir/R4/formats.html#table" title="Legend for this format">
                             <img src="http://hl7.org/fhir/R4/help16.png" alt="doco" style="background-color: inherit"/> Documentation for this format
+                        
                         
                         </a>
                     </td>
@@ -214,7 +224,6 @@
             <path value="Communication.recipient"/>
             <type>
                 <code value="Reference"/>
-                <profile value="http://hl7.org/fhir/us/core/StructureDefinition/us-core-practitioner"/>
                 <targetProfile value="http://hl7.org/fhir/us/core/StructureDefinition/us-core-practitionerrole"/>
                 <targetProfile value="http://hl7.org/fhir/us/core/StructureDefinition/us-core-practitioner"/>
             </type>
@@ -224,7 +233,6 @@
             <path value="Communication.sender"/>
             <type>
                 <code value="Reference"/>
-                <profile value="http://hl7.org/fhir/us/core/StructureDefinition/us-core-practitioner"/>
                 <targetProfile value="http://hl7.org/fhir/us/core/StructureDefinition/us-core-practitionerrole"/>
                 <targetProfile value="http://hl7.org/fhir/us/core/StructureDefinition/us-core-practitioner"/>
             </type>

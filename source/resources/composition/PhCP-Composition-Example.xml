@@ -3,14 +3,14 @@
     xmlns="http://hl7.org/fhir">
     <id value="PhCP-Composition-Example"/>
     <meta>
-        <versionId value="13"/>
-        <lastUpdated value="2019-08-05T01:40:40.000-04:00"/>
+        <versionId value="14"/>
+        <lastUpdated value="2020-01-20T02:03:07.000-05:00"/>
         <profile value="http://hl7.org/fhir/us/phcp/StructureDefinition/PhCP-Composition"/>
     </meta>
     <language value="en-US"/>
     <text>
         <status value="generated"/>
-        <div lang="en-US"
+        <div
             xmlns="http://www.w3.org/1999/xhtml">
             <table>
                 <tbody>
@@ -85,7 +85,6 @@
         <display value="Ronald Bone, MD"/>
     </author>
     <title value="Care Plan"/>
-    <confidentiality value="N"/>
     <attester>
         <mode value="legal"/>
         <time value="2012-01-04T09:10:14Z"/>
