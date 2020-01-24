@@ -3,14 +3,14 @@
     xmlns="http://hl7.org/fhir">
     <id value="phcp"/>
     <meta>
-        <versionId value="92"/>
-        <lastUpdated value="2019-08-06T00:58:36.000-04:00"/>
+        <versionId value="108"/>
+        <lastUpdated value="2020-01-23T17:18:06.000-05:00"/>
     </meta>
     <url value="http://hl7.org/fhir/us/phcp/ImplementationGuide/phcp"/>
-    <version value="0.2.0"/>
+    <version value="1.0.0"/>
     <name value="PharmacistServicesAndSummariesPhCP"/>
     <title value="Pharmacist Services and Summaries - FHIR (PhCP)"/>
-    <status value="draft"/>
+    <status value="active"/>
     <publisher value="HL7 Structured Documents  Work Group"/>
     <contact>
         <name value="HL7 International - Structured Documents Work Group"/>
@@ -115,7 +115,7 @@
                 <reference value="Composition/PhCP-Composition-Example"/>
                 <display value="phcp-composition-example"/>
             </reference>
-            <name value="Care Plan"/>
+            <name value="PhCP-Composition-Example"/>
             <exampleBoolean value="true"/>
         </resource>
         <resource>
@@ -123,7 +123,7 @@
                 <reference value="Patient/phcp-patient-example"/>
                 <display value="phcp-patient-example"/>
             </reference>
-            <name value="Patient Amy V. Shaw"/>
+            <name value="phcp-patient-example"/>
             <exampleBoolean value="true"/>
         </resource>
         <resource>
@@ -131,7 +131,7 @@
                 <reference value="Practitioner/phcp-practitioner-example"/>
                 <display value="phcp-practitioner-example"/>
             </reference>
-            <name value="Practitioner Ronald Bone"/>
+            <name value="phcp-practitioner-example"/>
             <exampleBoolean value="true"/>
         </resource>
         <resource>
@@ -147,7 +147,7 @@
                 <reference value="Organization/phcp-organization-example"/>
                 <display value="phcp-organization-example"/>
             </reference>
-            <name value="Acme Labs"/>
+            <name value="phcp-organization-example"/>
             <exampleBoolean value="true"/>
         </resource>
         <resource>
@@ -156,6 +156,57 @@
                 <display value="phcp-relatedperson-example"/>
             </reference>
             <name value="phcp-relatedperson-example"/>
+            <exampleBoolean value="true"/>
+        </resource>
+        <resource>
+            <reference>
+                <reference value="Communication/phcp-communication-example"/></reference>
+            <name value="phcp-communication-example"/>
+            <exampleBoolean value="true"/>
+        </resource>
+        <resource>
+            <reference>
+                <reference value="Organization/phcp-payer-organization-example"/>
+                <display value="Acme Payer"/>
+            </reference>
+            <name value="phcp-payer-organization-example"/>
+            <exampleBoolean value="true"/>
+        </resource>
+        <resource>
+            <reference>
+                <reference value="Coverage/phcp-coverage-example"/></reference>
+            <name value="phcp-coverage-example"/>
+            <exampleBoolean value="true"/>
+        </resource>
+        <resource>
+            <reference>
+                <reference value="Encounter/phcp-encounter-example"/></reference>
+            <name value="phcp-encounter-example"/>
+            <exampleBoolean value="true"/>
+        </resource>
+        <resource>
+            <reference>
+                <reference value="Procedure/phcp-procedure-example"/></reference>
+            <exampleBoolean value="true"/>
+        </resource>
+        <resource>
+            <reference>
+                <reference value="Procedure/phcp-intervention-procedure-example"/></reference>
+            <exampleBoolean value="true"/>
+        </resource>
+        <resource>
+            <reference>
+                <reference value="Condition/phcp-medication-therapy-condition-example"/></reference>
+            <exampleBoolean value="true"/>
+        </resource>
+        <resource>
+            <reference>
+                <reference value="MedicationDispense/phcp-medicationdispense-example"/></reference>
+            <exampleBoolean value="true"/>
+        </resource>
+        <resource>
+            <reference>
+                <reference value="ServiceRequest/phcp-servicerequest-example"/></reference>
             <exampleBoolean value="true"/>
         </resource>
         <page>

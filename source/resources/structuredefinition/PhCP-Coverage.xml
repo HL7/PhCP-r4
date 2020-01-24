@@ -3,8 +3,8 @@
     xmlns="http://hl7.org/fhir">
     <id value="PhCP-Coverage"/>
     <meta>
-        <versionId value="14"/>
-        <lastUpdated value="2019-03-24T22:10:32.000-04:00"/>
+        <versionId value="16"/>
+        <lastUpdated value="2020-01-22T10:57:05.000-05:00"/>
     </meta>
     <text>
         <status value="generated"/>
@@ -194,13 +194,21 @@
             <type>
                 <code value="Reference"/>
                 <targetProfile value="http://hl7.org/fhir/us/core/StructureDefinition/us-core-patient"/>
+                <targetProfile value="http://hl7.org/fhir/StructureDefinition/RelatedPerson"/>
             </type>
             <mustSupport value="true"/>
         </element>
         <element id="Coverage.subscriberId">
             <path value="Coverage.subscriberId"/>
-            <min value="1"/>
+            <min value="0"/>
             <mustSupport value="true"/>
+        </element>
+        <element id="Coverage.beneficiary">
+            <path value="Coverage.beneficiary"/>
+            <type>
+                <code value="Reference"/>
+                <targetProfile value="http://hl7.org/fhir/us/core/StructureDefinition/us-core-patient"/>
+            </type>
         </element>
         <element id="Coverage.relationship">
             <path value="Coverage.relationship"/>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Communication
+    xmlns="http://hl7.org/fhir">
+    <id value="phcp-communication-example"/>
+    <meta>
+        <versionId value="2"/>
+        <lastUpdated value="2020-01-21T21:11:11.000-05:00"/>
+        <profile value="http://hl7.org/fhir/us/phcp/StructureDefinition/PhCP-CareCoordination"/>
+    </meta>
+    <identifier>
+        <system value="urn:ietf:rfc:3986"/>
+        <value value="urn:uuid:d839038b-2456-AABD-1c6a-467925b43857"/>
+    </identifier>
+    <status value="completed"/>
+    <subject>
+        <reference value="Patient/phcp-patient-example"/>
+    </subject>
+    <sent value="2016-12-01"/>
+    <recipient>
+        <reference value="Practitioner/phcp-practitioner-example"/>
+    </recipient>
+    <sender>
+        <reference value="PractitionerRole/phcp-practitionerrole-example"/>
+    </sender>
+    <reasonCode>
+        <coding>
+            <system value="http://snomed.info/sct"/>
+            <code value="432138007"/>
+            <display value="handoff communication (procedure)"/>
+        </coding>
+    </reasonCode>
+</Communication>

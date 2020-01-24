@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Procedure
+    xmlns="http://hl7.org/fhir">
+    <id value="phcp-intervention-procedure-example"/>
+    <meta>
+        <versionId value="1"/>
+        <lastUpdated value="2020-01-23T12:55:38.000-05:00"/>
+        <profile value="http://hl7.org/fhir/us/phcp/StructureDefinition/PhCP-Intervention-Procedure"/>
+    </meta>
+    <identifier>
+        <system value="urn:ietf:rfc:3986"/>
+        <value value="urn:uuid:0bc79f35-1431-42b5-881a-974d1fd28444"/>
+    </identifier>
+    <status value="completed"/>
+    <code>
+        <coding>
+            <system value="http://snomed.info/sct"/>
+            <code value="2713116003"/>
+            <display value="Monitoring adherence to medication regime (regime/therapy)"/>
+        </coding>
+    </code>
+    <subject>
+        <reference value="Patient/phcp-patient-example"/>
+    </subject>
+    <performedPeriod>
+        <start value="2016-11-25"/>
+        <end value="2016-11-25"/>
+    </performedPeriod>
+    <asserter>
+        <reference value="PractitionerRole/phcp-practitionerrole-example"/>
+    </asserter>
+    <performer>
+        <actor>
+            <reference value="PractitionerRole/phcp-practitionerrole-example"/>
+        </actor>
+    </performer>
+</Procedure>

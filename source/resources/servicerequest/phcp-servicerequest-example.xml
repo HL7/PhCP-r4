@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ServiceRequest
+    xmlns="http://hl7.org/fhir">
+    <id value="phcp-servicerequest-example"/>
+    <meta>
+        <versionId value="1"/>
+        <lastUpdated value="2020-01-23T17:18:06.000-05:00"/>
+        <profile value="http://hl7.org/fhir/us/phcp/StructureDefinition/PhCP-ServiceRequest"/>
+    </meta>
+    <identifier>
+        <system value="urn:ietf:rfc:3986"/>
+        <value value="urn:uuid:70bdd7db-e02d-4eff-9829-35e3b7d9e154"/>
+    </identifier>
+    <status value="active"/>
+    <intent value="plan"/>
+    <code>
+        <coding>
+            <system value="http://snomed.info/sct"/>
+            <code value="733901008"/>
+            <display value="Referral to self-management support service"/>
+        </coding>
+    </code>
+    <subject>
+        <reference value="Patient/phcp-patient-example"/>
+    </subject>
+    <occurrenceDateTime value="2016-12-01"/>
+    <requester>
+        <reference value="PractitionerRole/phcp-practitionerrole-example"/>
+    </requester>
+</ServiceRequest>

@@ -99,29 +99,37 @@
 		}
 	},
 	"resources": {
+		"Coverage/phcp-coverage-example": {
+			"base": "Coverage-phcp-coverage-example.html",
+			"defns": "Coverage-phcp-coverage-example-definitions.html"
+		},
 		"StructureDefinition/PhCP-MedicationDispense": {
 			"base": "StructureDefinition-PhCP-MedicationDispense.html",
 			"defns": "StructureDefinition-PhCP-MedicationDispense-definitions.html"
 		},
-		"StructureDefinition/PhCP-Instruction-Procedure": {
-			"base": "StructureDefinition-PhCP-Instruction-Procedure.html",
-			"defns": "StructureDefinition-PhCP-Instruction-Procedure-definitions.html"
+		"Encounter/phcp-encounter-example": {
+			"base": "Encounter-phcp-encounter-example.html",
+			"defns": "Encounter-phcp-encounter-example-definitions.html"
 		},
-		"Media/phcp-use-case-2": {
-			"base": "Media-phcp-use-case-2.html",
-			"defns": "Media-phcp-use-case-2-definitions.html"
+		"Procedure/phcp-procedure-example": {
+			"base": "Procedure-phcp-procedure-example.html",
+			"defns": "Procedure-phcp-procedure-example-definitions.html"
 		},
-		"StructureDefinition/PhCP-Encounter": {
-			"base": "StructureDefinition-PhCP-Encounter.html",
-			"defns": "StructureDefinition-PhCP-Encounter-definitions.html"
+		"Procedure/phcp-intervention-procedure-example": {
+			"base": "Procedure-phcp-intervention-procedure-example.html",
+			"defns": "Procedure-phcp-intervention-procedure-example-definitions.html"
 		},
-		"Media/phcp-use-case-3": {
-			"base": "Media-phcp-use-case-3.html",
-			"defns": "Media-phcp-use-case-3-definitions.html"
+		"Condition/phcp-medication-therapy-condition-example": {
+			"base": "Condition-phcp-medication-therapy-condition-example.html",
+			"defns": "Condition-phcp-medication-therapy-condition-example-definitions.html"
 		},
-		"Media/phcp-use-case-4": {
-			"base": "Media-phcp-use-case-4.html",
-			"defns": "Media-phcp-use-case-4-definitions.html"
+		"MedicationDispense/phcp-medicationdispense-example": {
+			"base": "MedicationDispense-phcp-medicationdispense-example.html",
+			"defns": "MedicationDispense-phcp-medicationdispense-example-definitions.html"
+		},
+		"ServiceRequest/phcp-servicerequest-example": {
+			"base": "ServiceRequest-phcp-servicerequest-example.html",
+			"defns": "ServiceRequest-phcp-servicerequest-example-definitions.html"
 		},
 		"StructureDefinition/PhCP-Medication-Therapy-Condition": {
 			"base": "StructureDefinition-PhCP-Medication-Therapy-Condition.html",
@@ -147,6 +155,34 @@
 			"base": "Patient-phcp-patient-example.html",
 			"defns": "Patient-phcp-patient-example-definitions.html"
 		},
+		"StructureDefinition/PhCP-ServiceRequest": {
+			"base": "StructureDefinition-PhCP-ServiceRequest.html",
+			"defns": "StructureDefinition-PhCP-ServiceRequest-definitions.html"
+		},
+		"StructureDefinition/PhCP-Instruction-Procedure": {
+			"base": "StructureDefinition-PhCP-Instruction-Procedure.html",
+			"defns": "StructureDefinition-PhCP-Instruction-Procedure-definitions.html"
+		},
+		"Media/phcp-use-case-2": {
+			"base": "Media-phcp-use-case-2.html",
+			"defns": "Media-phcp-use-case-2-definitions.html"
+		},
+		"StructureDefinition/PhCP-Encounter": {
+			"base": "StructureDefinition-PhCP-Encounter.html",
+			"defns": "StructureDefinition-PhCP-Encounter-definitions.html"
+		},
+		"Media/phcp-use-case-3": {
+			"base": "Media-phcp-use-case-3.html",
+			"defns": "Media-phcp-use-case-3-definitions.html"
+		},
+		"Media/phcp-use-case-4": {
+			"base": "Media-phcp-use-case-4.html",
+			"defns": "Media-phcp-use-case-4-definitions.html"
+		},
+		"Communication/phcp-communication-example": {
+			"base": "Communication-phcp-communication-example.html",
+			"defns": "Communication-phcp-communication-example-definitions.html"
+		},
 		"Composition/PhCP-Composition-Example": {
 			"base": "Composition-PhCP-Composition-Example.html",
 			"defns": "Composition-PhCP-Composition-Example-definitions.html"
@@ -154,10 +190,6 @@
 		"StructureDefinition/PhCP-Organization": {
 			"base": "StructureDefinition-PhCP-Organization.html",
 			"defns": "StructureDefinition-PhCP-Organization-definitions.html"
-		},
-		"StructureDefinition/PhCP-ServiceRequest": {
-			"base": "StructureDefinition-PhCP-ServiceRequest.html",
-			"defns": "StructureDefinition-PhCP-ServiceRequest-definitions.html"
 		},
 		"StructureDefinition/PhCP-Intervention-Procedure": {
 			"base": "StructureDefinition-PhCP-Intervention-Procedure.html",
@@ -175,12 +207,16 @@
 			"base": "StructureDefinition-PhCP-Composition.html",
 			"defns": "StructureDefinition-PhCP-Composition-definitions.html"
 		},
+		"Organization/phcp-payer-organization-example": {
+			"base": "Organization-phcp-payer-organization-example.html",
+			"defns": "Organization-phcp-payer-organization-example-definitions.html"
+		},
 		"StructureDefinition/PhCP-Coverage": {
 			"base": "StructureDefinition-PhCP-Coverage.html",
 			"defns": "StructureDefinition-PhCP-Coverage-definitions.html"
 		}
 	},
-	"fixed-business-version": "0.2.0",
+	"fixed-business-version": "1.0.0",
 	"dependencyList": [
 		{
 			"location": "http://hl7.org/fhir/us/ccda-r4",

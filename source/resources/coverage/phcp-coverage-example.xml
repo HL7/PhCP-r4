@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Coverage
+    xmlns="http://hl7.org/fhir">
+    <id value="phcp-coverage-example"/>
+    <meta>
+        <versionId value="1"/>
+        <lastUpdated value="2020-01-22T10:49:45.000-05:00"/>
+        <profile value="http://hl7.org/fhir/us/phcp/StructureDefinition/PhCP-Coverage"/>
+    </meta>
+    <identifier>
+        <system value="urn:ietf:rfc:3986"/>
+        <value value="urn:uuid:3e676a50-7aac-11db-9fe1-0800200c9a66"/>
+    </identifier>
+    <status value="active"/>
+    <type>
+        <coding>
+            <system value="urn:oid:2.16.840.1.113883.3.88.12.3221.5.2"/>
+            <code value="MC"/>
+            <display value="Medicaid"/>
+        </coding>
+        <coding>
+            <system value="urn:oid:2.16.840.1.113883.3.221.5"/>
+            <code value="212"/>
+            <display value="Medicaid PPO"/>
+        </coding>
+    </type>
+    <policyHolder>
+        <reference value="Patient/phcp-patient-example"/>
+    </policyHolder>
+    <beneficiary>
+        <reference value="Patient/phcp-patient-example"/>
+    </beneficiary>
+    <payor>
+        <reference value="Organization/phcp-payer-organization-example"/>
+    </payor>
+</Coverage>

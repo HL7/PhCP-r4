@@ -3,8 +3,8 @@
     xmlns="http://hl7.org/fhir">
     <id value="PhCP-Medication-Therapy-Condition"/>
     <meta>
-        <versionId value="10"/>
-        <lastUpdated value="2019-03-26T01:09:50.000-04:00"/>
+        <versionId value="11"/>
+        <lastUpdated value="2020-01-23T14:00:48.000-05:00"/>
     </meta>
     <text>
         <status value="generated"/>
@@ -105,6 +105,10 @@
                 <strength value="preferred"/>
                 <valueSet value="http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113762.1.4.1096.213"/>
             </binding>
+        </element>
+        <element id="Condition.evidence">
+            <path value="Condition.evidence"/>
+            <mustSupport value="true"/>
         </element>
     </differential>
 </StructureDefinition>

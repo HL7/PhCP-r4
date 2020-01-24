@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Procedure
+    xmlns="http://hl7.org/fhir">
+    <id value="phcp-procedure-example"/>
+    <meta>
+        <versionId value="1"/>
+        <lastUpdated value="2020-01-22T14:56:39.000-05:00"/>
+        <profile value="http://hl7.org/fhir/us/core/StructureDefinition/us-core-procedure"/>
+        <profile value="http://hl7.org/fhir/us/phcp/StructureDefinition/PhCP-Instruction-Procedure"/>
+    </meta>
+    <identifier>
+        <system value="urn:ietf:rfc:3986"/>
+        <value value="urn:uuid:0bc79f35-1431-42b5-881a-974d1fd28430"/>
+    </identifier>
+    <status value="completed"/>
+    <code>
+        <coding>
+            <system value="http://snomed.info/sct"/>
+            <code value="410123007"/>
+            <display value="Medication regimen compliance education"/>
+        </coding>
+    </code>
+    <subject>
+        <reference value="Patient/phcp-patient-example"/>
+    </subject>
+    <performedPeriod>
+        <start value="2016-01-22"/>
+        <end value="2016-01-22"/>
+    </performedPeriod>
+</Procedure>

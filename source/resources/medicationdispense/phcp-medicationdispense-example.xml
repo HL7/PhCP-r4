@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MedicationDispense
+    xmlns="http://hl7.org/fhir">
+    <id value="phcp-medicationdispense-example"/>
+    <meta>
+        <versionId value="1"/>
+        <lastUpdated value="2020-01-23T17:10:19.000-05:00"/>
+        <profile value="http://hl7.org/fhir/us/phcp/StructureDefinition/PhCP-MedicationDispense"/>
+    </meta>
+    <identifier>
+        <system value="urn:ietf:rfc:3986"/>
+        <value value="urn:uuid:3358ad78-31f2-4756-abad-32cbb155a6ee"/>
+    </identifier>
+    <status value="completed"/>
+    <medicationCodeableConcept>
+        <coding>
+            <system value="http://www.nlm.nih.gov/research/umls/rxnorm"/>
+            <code value="1049683"/>
+            <display value="oxyCODONE Hydrochloride 10 MG Oral Tablet"/>
+        </coding>
+        <coding>
+            <system value="http://hl7.org/fhir/sid/ndc"/>
+            <code value="35356083930"/>
+            <display value="oxyCODONE Hydrochloride 10 MG Oral Tablet"/>
+        </coding>
+        <text value="oxyCODONE Hydrochloride 10 MG Oral Tablet"/>
+    </medicationCodeableConcept>
+    <subject>
+        <reference value="Patient/phcp-patient-example"/>
+    </subject>
+    <performer>
+        <actor>
+            <reference value="PractitionerRole/phcp-practitionerrole-example"/>
+        </actor>
+    </performer>
+    <quantity>
+        <value value="24"/>
+        <unit value="1"/>
+    </quantity>
+    <daysSupply>
+        <value value="3"/>
+    </daysSupply>
+    <whenHandedOver value="2016-11-28"/>
+</MedicationDispense>

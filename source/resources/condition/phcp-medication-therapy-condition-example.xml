@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Condition
+    xmlns="http://hl7.org/fhir">
+    <id value="phcp-medication-therapy-condition-example"/>
+    <meta>
+        <versionId value="1"/>
+        <lastUpdated value="2020-01-23T13:22:45.000-05:00"/>
+        <profile value="http://hl7.org/fhir/us/core/StructureDefinition/us-core-condition"/>
+        <profile value="http://hl7.org/fhir/us/phcp/StructureDefinition/PhCP-Medication-Therapy-Condition"/>
+    </meta>
+    <identifier>
+        <system value="urn:ietf:rfc:3986"/>
+        <value value="urn:uuid:1a673d3c-0a8a-4c79-974e-83aa84df1b2b"/>
+    </identifier>
+    <clinicalStatus>
+        <coding>
+            <system value="http://terminology.hl7.org/CodeSystem/condition-clinical"/>
+            <code value="active"/>
+        </coding>
+    </clinicalStatus>
+    <category>
+        <coding>
+            <system value="http://snomed.info/sct"/>
+            <code value="55607006"/>
+            <display value="Problem"/>
+        </coding>
+        <coding>
+            <system value="http://loinc.org"/>
+            <code value="75326-9"/>
+            <display value="Problem"/>
+        </coding>
+    </category>
+    <code>
+        <coding>
+            <system value="http://snomed.info/sct"/>
+            <code value="697958005"/>
+            <display value="Suspected noncompliance with therapeutic regimen (situation)"/>
+        </coding>
+        <text value="Non-adherence because patient forgets to take medication"/>
+    </code>
+    <subject>
+        <reference value="Patient/phcp-patient-example"/>
+    </subject>
+    <onsetDateTime value="2016-08-19"/>
+    <asserter>
+        <reference value="PractitionerRole/phcp-practitionerrole-example"/>
+    </asserter>
+    <note>
+        <text value="Non-adherence because patient forgets to take medication"/>
+    </note>
+</Condition>

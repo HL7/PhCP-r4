@@ -24,12 +24,36 @@ active: other
 </thead>
 <tbody>
 <tr>
+<td>Communication</td>
+<td><a href="Communication-phcp-communication-example.html">phcp-communication-example</a></td>
+</tr>
+<tr>
 <td>Composition</td>
 <td><a href="Composition-PhCP-Composition-Example.html">Care Plan</a></td>
 </tr>
 <tr>
+<td>Condition</td>
+<td><a href="Condition-phcp-medication-therapy-condition-example.html">phcp-medication-therapy-condition-example</a></td>
+</tr>
+<tr>
+<td>Coverage</td>
+<td><a href="Coverage-phcp-coverage-example.html">phcp-coverage-example</a></td>
+</tr>
+<tr>
+<td>Encounter</td>
+<td><a href="Encounter-phcp-encounter-example.html">phcp-encounter-example</a></td>
+</tr>
+<tr>
+<td>MedicationDispense</td>
+<td><a href="MedicationDispense-phcp-medicationdispense-example.html">phcp-medicationdispense-example</a></td>
+</tr>
+<tr>
 <td>Organization</td>
 <td><a href="Organization-phcp-organization-example.html">Acme Labs</a></td>
+</tr>
+<tr>
+<td>Organization</td>
+<td><a href="Organization-phcp-payer-organization-example.html">Acme Payer</a></td>
 </tr>
 <tr>
 <td>Patient</td>
@@ -44,8 +68,20 @@ active: other
 <td><a href="PractitionerRole-phcp-practitionerrole-example.html">phcp-practitionerrole-example</a></td>
 </tr>
 <tr>
+<td>Procedure</td>
+<td><a href="Procedure-phcp-intervention-procedure-example.html">phcp-intervention-procedure-example</a></td>
+</tr>
+<tr>
+<td>Procedure</td>
+<td><a href="Procedure-phcp-procedure-example.html">phcp-procedure-example</a></td>
+</tr>
+<tr>
 <td>RelatedPerson</td>
 <td><a href="RelatedPerson-phcp-relatedperson-example.html">phcp-relatedperson-example</a></td>
+</tr>
+<tr>
+<td>ServiceRequest</td>
+<td><a href="ServiceRequest-phcp-servicerequest-example.html">phcp-servicerequest-example</a></td>
 </tr>
 </tbody>
 </table>
