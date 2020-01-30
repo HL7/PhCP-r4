@@ -3,8 +3,8 @@
     xmlns="http://hl7.org/fhir">
     <id value="PhCP-Composition"/>
     <meta>
-        <versionId value="33"/>
-        <lastUpdated value="2019-03-21T13:38:14.000-04:00"/>
+        <versionId value="35"/>
+        <lastUpdated value="2020-01-30T14:03:27.000-05:00"/>
     </meta>
     <text>
         <status value="generated"/>
@@ -504,7 +504,8 @@
         </div>
     </text>
     <url value="http://hl7.org/fhir/us/phcp/StructureDefinition/PhCP-Composition"/>
-    <name value="PharmacistCarePlanDocument"/>
+    <name value="PhCPComposition"/>
+    <title value="PhCP Composition"/>
     <status value="draft"/>
     <date value="2017-07-20T16:48:23-04:00"/>
     <publisher value="Lantana Consulting Group"/>
@@ -647,7 +648,7 @@
                 <targetProfile value="http://hl7.org/fhir/us/phcp/StructureDefinition/PhCP-Instruction-Procedure"/>
                 <targetProfile value="http://hl7.org/fhir/us/phcp/StructureDefinition/PhCP-Intervention-Procedure"/>
                 <targetProfile value="http://hl7.org/fhir/us/core/StructureDefinition/us-core-procedure"/>
-                <targetProfile value="http://hl7.org/fhir/us/core/StructureDefinition/us-core-medicationstatement"/>
+                <targetProfile value="http://hl7.org/fhir/StructureDefinition/MedicationStatement"/>
                 <targetProfile value="http://hl7.org/fhir/us/core/StructureDefinition/us-core-medicationrequest"/>
             </type>
         </element>

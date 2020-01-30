@@ -27,12 +27,12 @@ active: profiles
 </thead>
 <tbody>
 <tr>
-<td><a href="StructureDefinition-PhCP-Composition.html">PharmacistCarePlanDocument</a></td>
-<td>{% capture profile-intro %}{% include PhCP-Composition-intro.md id="{{[id]}}" %}{% endcapture %}{{ profile-intro | markdownify }}</td>
-</tr>
-<tr>
 <td><a href="StructureDefinition-PhCP-CareCoordination.html">PhCPCareCoordination</a></td>
 <td>{% capture profile-intro %}{% include PhCP-CareCoordination-intro.md id="{{[id]}}" %}{% endcapture %}{{ profile-intro | markdownify }}</td>
+</tr>
+<tr>
+<td><a href="StructureDefinition-PhCP-Composition.html">PhCPComposition</a></td>
+<td>{% capture profile-intro %}{% include PhCP-Composition-intro.md id="{{[id]}}" %}{% endcapture %}{{ profile-intro | markdownify }}</td>
 </tr>
 <tr>
 <td><a href="StructureDefinition-PhCP-Coverage.html">PhCPCoverage</a></td>
