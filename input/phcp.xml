@@ -214,7 +214,7 @@
             <title value="IG Home Page"/>
             <generation value="markdown"/>
             <page>
-                <nameUrl value="toc.md"/>
+                <nameUrl value="toc.html"/>
                 <title value="Table of Contents"/>
                 <generation value="generated"/>
                 <page>
