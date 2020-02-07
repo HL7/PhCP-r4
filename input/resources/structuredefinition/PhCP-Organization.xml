@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<StructureDefinition
+    xmlns="http://hl7.org/fhir">
+    <id value="PhCP-Organization"/>
+    <meta>
+        <versionId value="14"/>
+        <lastUpdated value="2019-03-26T01:09:02.000-04:00"/>
+    </meta>
+    <text>
+        <status value="generated"/>
+        <div
+            xmlns="http://www.w3.org/1999/xhtml">
+            <table border="0" cellpadding="0" cellspacing="0" style="border: 0px #F0F0F0 solid; font-size: 11px; font-family: verdana; vertical-align: top;">
+                <tr style="border: 1px #F0F0F0 solid; font-size: 11px; font-family: verdana; vertical-align: top;">
+                    <th style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">
+                        <a href="http://hl7.org/fhir/R4/formats.html#table" title="The logical name of the element">Name</a>
+                    </th>
+                    <th style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">
+                        <a href="http://hl7.org/fhir/R4/formats.html#table" title="Information about the use of the element">Flags</a>
+                    </th>
+                    <th style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">
+                        <a href="http://hl7.org/fhir/R4/formats.html#table" title="Minimum and Maximum # of times the the element can appear in the instance">Card.</a>
+                    </th>
+                    <th style="width: 100px" class="hierarchy">
+                        <a href="http://hl7.org/fhir/R4/formats.html#table" title="Reference to the type of the element">Type</a>
+                    </th>
+                    <th style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">
+                        <a href="http://hl7.org/fhir/R4/formats.html#table" title="Additional information about the element">Description &amp; Constraints</a>
+                        <span style="float: right">
+                            <a href="http://hl7.org/fhir/R4/formats.html#table" title="Legend for this format">
+                                <img src="http://hl7.org/fhir/R4/help16.png" alt="doco" style="background-color: inherit"/>
+                            </a>
+                        </span>
+                    </th>
+                </tr>
+                <tr style="border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white;">
+                    <td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck1.png)" class="hierarchy">
+                        <img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy"/>
+                        <img src="icon_element.gif" alt="." style="background-color: white; background-color: inherit" title="Element" class="hierarchy"/>
+                        <a href="StructureDefinition-PhCP-Organization-definitions.html#Organization" title="null">Organization</a>
+                        <a name="Organization"/>
+                    </td>
+                    <td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"/>
+                    <td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">
+                        <span style="opacity: 0.4">0</span>
+                        <span style="opacity: 0.5">..</span>
+                        <span style="opacity: 0.4">*</span>
+                    </td>
+                    <td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"/>
+                    <td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"/>
+                </tr>
+                <tr style="border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white;">
+                    <td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck00.png)" class="hierarchy">
+                        <img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy"/>
+                        <img src="tbl_vjoin_end.png" alt="." style="background-color: inherit" class="hierarchy"/>
+                        <img src="icon_element.gif" alt="." style="background-color: white; background-color: inherit" title="Element" class="hierarchy"/>
+                        <a href="StructureDefinition-PhCP-Organization-definitions.html#Organization.type" title="null">type</a>
+                        <a name="Organization.type"/>
+                    </td>
+                    <td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"/>
+                    <td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">
+                        <span style="opacity: 0.4">0</span>..
+                        
+                        <span style="opacity: 0.4">1</span>
+                    </td>
+                    <td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">
+                        <a style="opacity: 0.4" href="http://hl7.org/fhir/R4/datatypes.html#CodeableConcept">CodeableConcept</a>
+                    </td>
+                    <td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">
+                        <span style="font-weight:bold">Binding: </span>
+                        <a href="http://hl7.org/fhir/R4/terminologies.html#unbound">(unbound)</a> (
+                        
+                        <a href="http://hl7.org/fhir/R4/terminologies.html#required" title="To be conformant, the concept in this element SHALL be from the specified value set.">required</a>)
+                    
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="5" class="hierarchy">
+                        <br/>
+                        <a href="http://hl7.org/fhir/R4/formats.html#table" title="Legend for this format">
+                            <img src="http://hl7.org/fhir/R4/help16.png" alt="doco" style="background-color: inherit"/> Documentation for this format
+                        
+                        </a>
+                    </td>
+                </tr>
+            </table>
+        </div>
+    </text>
+    <url value="http://hl7.org/fhir/us/phcp/StructureDefinition/PhCP-Organization"/>
+    <name value="PhCPOrganization"/>
+    <title value="PhCP Organization"/>
+    <status value="draft"/>
+    <description value="This profile represents the Organization providing the environment of care. &#xA;This profile constrains the US Core Organization profile. It includes value sets intended for use by pharmacy systems. Everywhere it is referenced, an unconstrained US Core Organization reference is also allowed. &#xA;"/>
+    <fhirVersion value="4.0.1"/>
+    <kind value="resource"/>
+    <abstract value="false"/>
+    <type value="Organization"/>
+    <baseDefinition value="http://hl7.org/fhir/us/core/StructureDefinition/us-core-organization"/>
+    <derivation value="constraint"/>
+    <differential>
+        <element id="Organization">
+            <path value="Organization"/>
+        </element>
+        <element id="Organization.type">
+            <path value="Organization.type"/>
+            <min value="0"/>
+            <max value="1"/>
+            <mustSupport value="true"/>
+            <binding>
+                <strength value="preferred"/>
+                <valueSet value="http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113762.1.4.1096.207"/>
+            </binding>
+        </element>
+    </differential>
+</StructureDefinition>

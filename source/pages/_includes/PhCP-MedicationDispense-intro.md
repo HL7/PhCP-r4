@@ -1,1 +1,0 @@
-This profile records the act of supplying medications (i.e., dispensing).

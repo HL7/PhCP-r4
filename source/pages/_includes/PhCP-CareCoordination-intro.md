@@ -1,1 +1,0 @@
-This profile represents communication regarding care coordination for the patient. 

@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<StructureDefinition
+    xmlns="http://hl7.org/fhir">
+    <id value="PhCP-Encounter"/>
+    <meta>
+        <versionId value="18"/>
+        <lastUpdated value="2019-05-10T12:03:19.000-04:00"/>
+    </meta>
+    <text>
+        <status value="generated"/>
+        <div
+            xmlns="http://www.w3.org/1999/xhtml">
+            <table border="0" cellpadding="0" cellspacing="0" style="border: 0px #F0F0F0 solid; font-size: 11px; font-family: verdana; vertical-align: top;">
+                <tr style="border: 1px #F0F0F0 solid; font-size: 11px; font-family: verdana; vertical-align: top;">
+                    <th style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">
+                        <a href="http://hl7.org/fhir/R4/formats.html#table" title="The logical name of the element">Name</a>
+                    </th>
+                    <th style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">
+                        <a href="http://hl7.org/fhir/R4/formats.html#table" title="Information about the use of the element">Flags</a>
+                    </th>
+                    <th style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">
+                        <a href="http://hl7.org/fhir/R4/formats.html#table" title="Minimum and Maximum # of times the the element can appear in the instance">Card.</a>
+                    </th>
+                    <th style="width: 100px" class="hierarchy">
+                        <a href="http://hl7.org/fhir/R4/formats.html#table" title="Reference to the type of the element">Type</a>
+                    </th>
+                    <th style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">
+                        <a href="http://hl7.org/fhir/R4/formats.html#table" title="Additional information about the element">Description &amp; Constraints</a>
+                        <span style="float: right">
+                            <a href="http://hl7.org/fhir/R4/formats.html#table" title="Legend for this format">
+                                <img src="http://hl7.org/fhir/R4/help16.png" alt="doco" style="background-color: inherit"/>
+                            </a>
+                        </span>
+                    </th>
+                </tr>
+                <tr style="border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white;">
+                    <td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck1.png)" class="hierarchy">
+                        <img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy"/>
+                        <img src="icon_element.gif" alt="." style="background-color: white; background-color: inherit" title="Element" class="hierarchy"/>
+                        <a href="StructureDefinition-PhCP-Encounter-definitions.html#Encounter" title="null">Encounter</a>
+                        <a name="Encounter"/>
+                    </td>
+                    <td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"/>
+                    <td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">
+                        <span style="opacity: 0.4">0</span>
+                        <span style="opacity: 0.5">..</span>
+                        <span style="opacity: 0.4">*</span>
+                    </td>
+                    <td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"/>
+                    <td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"/>
+                </tr>
+                <tr style="border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white;">
+                    <td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck10.png)" class="hierarchy">
+                        <img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy"/>
+                        <img src="tbl_vjoin.png" alt="." style="background-color: inherit" class="hierarchy"/>
+                        <img src="icon_element.gif" alt="." style="background-color: white; background-color: inherit" title="Element" class="hierarchy"/>
+                        <a href="StructureDefinition-PhCP-Encounter-definitions.html#Encounter.type" title="null">type</a>
+                        <a name="Encounter.type"/>
+                    </td>
+                    <td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">
+                        <span style="padding-left: 3px; padding-right: 3px; color: white; background-color: red; opacity: 0.4" title="This element must be supported">S</span>
+                    </td>
+                    <td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">
+                        <span style="opacity: 0.4">1</span>
+                        <span style="opacity: 0.5">..</span>
+                        <span style="opacity: 0.4">*</span>
+                    </td>
+                    <td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">
+                        <a style="opacity: 0.4" href="http://hl7.org/fhir/R4/datatypes.html#CodeableConcept">CodeableConcept</a>
+                    </td>
+                    <td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">
+                        <span style="font-weight:bold">Binding: </span>
+                        <a href="http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113762.1.4.1096.208">http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113762.1.4.1096.208</a> (
+                        
+                        
+                        
+                        <a href="http://hl7.org/fhir/R4/terminologies.html#required" title="To be conformant, the concept in this element SHALL be from the specified value set.">required</a>)
+                    
+                    
+                    
+                    </td>
+                </tr>
+                <tr style="border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white;">
+                    <td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck00.png)" class="hierarchy">
+                        <img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy"/>
+                        <img src="tbl_vjoin_end.png" alt="." style="background-color: inherit" class="hierarchy"/>
+                        <img src="icon_reference.png" alt="." style="background-color: white; background-color: inherit" title="Reference to another Resource" class="hierarchy"/>
+                        <a href="StructureDefinition-PhCP-Encounter-definitions.html#Encounter.serviceProvider" title="null">serviceProvider</a>
+                        <a name="Encounter.serviceProvider"/>
+                    </td>
+                    <td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"/>
+                    <td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">
+                        <span style="opacity: 0.4">0</span>
+                        <span style="opacity: 0.5">..</span>
+                        <span style="opacity: 0.4">1</span>
+                    </td>
+                    <td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">
+                        <a href="http://hl7.org/fhir/R4/references.html">Reference</a>(
+                        
+                        
+                        
+                        <a href="StructureDefinition-PhCP-Organization.html">PhCP Organization</a>)
+                    
+                    
+                    
+                    </td>
+                    <td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"/>
+                </tr>
+                <tr>
+                    <td colspan="5" class="hierarchy">
+                        <br/>
+                        <a href="http://hl7.org/fhir/R4/formats.html#table" title="Legend for this format">
+                            <img src="http://hl7.org/fhir/R4/help16.png" alt="doco" style="background-color: inherit"/> Documentation for this format
+                        
+                        
+                        
+                        </a>
+                    </td>
+                </tr>
+            </table>
+        </div>
+    </text>
+    <url value="http://hl7.org/fhir/us/phcp/StructureDefinition/PhCP-Encounter"/>
+    <name value="PhCPEncounter_test"/>
+    <title value="PhCP Encounter"/>
+    <status value="draft"/>
+    <description value="This is where the main encounter information is recorded. It includes codes for describing the care environment. &#xA;This profile constrains the US Core Encounter profile. It includes value sets intended for use by pharmacy systems. Everywhere it is referenced, an unconstrained US Core Encounter reference is also allowed. "/>
+    <fhirVersion value="4.0.1"/>
+    <kind value="resource"/>
+    <abstract value="false"/>
+    <type value="Encounter"/>
+    <baseDefinition value="http://hl7.org/fhir/us/core/StructureDefinition/us-core-encounter"/>
+    <derivation value="constraint"/>
+    <differential>
+        <element id="Encounter">
+            <path value="Encounter"/>
+        </element>
+        <element id="Encounter.type">
+            <path value="Encounter.type"/>
+            <min value="1"/>
+            <mustSupport value="true"/>
+            <binding>
+                <strength value="preferred"/>
+                <valueSet value="http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113762.1.4.1096.208"/>
+            </binding>
+        </element>
+        <element id="Encounter.serviceProvider">
+            <path value="Encounter.serviceProvider"/>
+            <max value="1"/>
+            <type>
+                <code value="Reference"/>
+                <targetProfile value="http://hl7.org/fhir/us/phcp/StructureDefinition/PhCP-Organization"/>
+                <targetProfile value="http://hl7.org/fhir/us/core/StructureDefinition/us-core-organization"/>
+            </type>
+            <mustSupport value="true"/>
+        </element>
+    </differential>
+</StructureDefinition>
