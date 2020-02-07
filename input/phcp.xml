@@ -3,8 +3,8 @@
     xmlns="http://hl7.org/fhir">
     <id value="phcp"/>
     <meta>
-        <versionId value="108"/>
-        <lastUpdated value="2020-01-23T17:18:06.000-05:00"/>
+        <versionId value="111"/>
+        <lastUpdated value="2020-02-07T17:17:17.000-05:00"/>
     </meta>
     <url value="http://hl7.org/fhir/us/phcp/ImplementationGuide/phcp"/>
     <version value="1.0.0"/>
@@ -45,6 +45,8 @@
                 <reference value="StructureDefinition/PhCP-CareCoordination"/>
                 <display value="PhCP-CareCoordination"/>
             </reference>
+            <name value="PhCP-CareCoordination"/>
+            <description value="PhCP-CareCoordination"/>
             <exampleBoolean value="false"/>
         </resource>
         <resource>
@@ -52,6 +54,8 @@
                 <reference value="StructureDefinition/PhCP-Coverage"/>
                 <display value="PhCP-Coverage"/>
             </reference>
+            <name value="PhCP-Coverage"/>
+            <description value="PhCP-Coverage"/>
             <exampleBoolean value="false"/>
         </resource>
         <resource>
@@ -59,6 +63,8 @@
                 <reference value="StructureDefinition/PhCP-MedicationDispense"/>
                 <display value="PhCP-MedicationDispense"/>
             </reference>
+            <name value="PhCP-MedicationDispense"/>
+            <description value="PhCP-MedicationDispense"/>
             <exampleBoolean value="false"/>
         </resource>
         <resource>
@@ -66,6 +72,8 @@
                 <reference value="StructureDefinition/PhCP-Composition"/>
                 <display value="PhCP Composition"/>
             </reference>
+            <name value="PhCP-Composition"/>
+            <description value="PhCP-Composition"/>
             <exampleBoolean value="false"/>
         </resource>
         <resource>
@@ -73,6 +81,8 @@
                 <reference value="StructureDefinition/PhCP-ServiceRequest"/>
                 <display value="PhCP-ServiceRequest"/>
             </reference>
+            <name value="PhCP-ServiceRequest"/>
+            <description value="PhCP-ServiceRequest"/>
             <exampleBoolean value="false"/>
         </resource>
         <resource>
@@ -80,6 +90,8 @@
                 <reference value="StructureDefinition/PhCP-Instruction-Procedure"/>
                 <display value="PhCP-Instruction-Procedure"/>
             </reference>
+            <name value="PhCP-Instruction-Procedure"/>
+            <description value="PhCP-Instruction-Procedure"/>
             <exampleBoolean value="false"/>
         </resource>
         <resource>
@@ -87,6 +99,8 @@
                 <reference value="StructureDefinition/PhCP-Encounter"/>
                 <display value="PhCP Encounter"/>
             </reference>
+            <name value="PhCP-Encounter"/>
+            <description value="PhCP-Encounter"/>
             <exampleBoolean value="false"/>
         </resource>
         <resource>
@@ -94,6 +108,8 @@
                 <reference value="StructureDefinition/PhCP-Organization"/>
                 <display value="PhCP-Organization"/>
             </reference>
+            <name value="PhCP-Organization"/>
+            <description value="PhCP-Organization"/>
             <exampleBoolean value="false"/>
         </resource>
         <resource>
@@ -101,6 +117,8 @@
                 <reference value="StructureDefinition/PhCP-Intervention-Procedure"/>
                 <display value="PhCP-Intervention-Procedure"/>
             </reference>
+            <name value="PhCP-Intervention-Procedure"/>
+            <description value="PhCP-Intervention-Procedure"/>
             <exampleBoolean value="false"/>
         </resource>
         <resource>
@@ -108,6 +126,8 @@
                 <reference value="StructureDefinition/PhCP-Medication-Therapy-Condition"/>
                 <display value="PhCP Condition"/>
             </reference>
+            <name value="PhCP-Medication-Therapy-Condition"/>
+            <description value="PhCP-Medication-Therapy-Condition"/>
             <exampleBoolean value="false"/>
         </resource>
         <resource>
@@ -116,6 +136,7 @@
                 <display value="phcp-composition-example"/>
             </reference>
             <name value="PhCP-Composition-Example"/>
+            <description value="PhCP-Composition-Example"/>
             <exampleBoolean value="true"/>
         </resource>
         <resource>
@@ -124,6 +145,7 @@
                 <display value="phcp-patient-example"/>
             </reference>
             <name value="phcp-patient-example"/>
+            <description value="phcp-patient-example"/>
             <exampleBoolean value="true"/>
         </resource>
         <resource>
@@ -132,6 +154,7 @@
                 <display value="phcp-practitioner-example"/>
             </reference>
             <name value="phcp-practitioner-example"/>
+            <description value="phcp-practitioner-example"/>
             <exampleBoolean value="true"/>
         </resource>
         <resource>
@@ -140,6 +163,7 @@
                 <display value="phcp-practitionerrole-example"/>
             </reference>
             <name value="phcp-practitionerrole-example"/>
+            <description value="phcp-practitionerrole-example"/>
             <exampleBoolean value="true"/>
         </resource>
         <resource>
@@ -148,6 +172,7 @@
                 <display value="phcp-organization-example"/>
             </reference>
             <name value="phcp-organization-example"/>
+            <description value="phcp-organization-example"/>
             <exampleBoolean value="true"/>
         </resource>
         <resource>
@@ -156,12 +181,14 @@
                 <display value="phcp-relatedperson-example"/>
             </reference>
             <name value="phcp-relatedperson-example"/>
+            <description value="phcp-relatedperson-example"/>
             <exampleBoolean value="true"/>
         </resource>
         <resource>
             <reference>
                 <reference value="Communication/phcp-communication-example"/></reference>
             <name value="phcp-communication-example"/>
+            <description value="phcp-communication-example"/>
             <exampleBoolean value="true"/>
         </resource>
         <resource>
@@ -170,43 +197,56 @@
                 <display value="Acme Payer"/>
             </reference>
             <name value="phcp-payer-organization-example"/>
+            <description value="phcp-payer-organization-example"/>
             <exampleBoolean value="true"/>
         </resource>
         <resource>
             <reference>
                 <reference value="Coverage/phcp-coverage-example"/></reference>
             <name value="phcp-coverage-example"/>
+            <description value="phcp-coverage-example"/>
             <exampleBoolean value="true"/>
         </resource>
         <resource>
             <reference>
                 <reference value="Encounter/phcp-encounter-example"/></reference>
             <name value="phcp-encounter-example"/>
+            <description value="phcp-encounter-example"/>
             <exampleBoolean value="true"/>
         </resource>
         <resource>
             <reference>
                 <reference value="Procedure/phcp-procedure-example"/></reference>
+            <name value="phcp-procedure-example"/>
+            <description value="phcp-procedure-example"/>
             <exampleBoolean value="true"/>
         </resource>
         <resource>
             <reference>
                 <reference value="Procedure/phcp-intervention-procedure-example"/></reference>
+            <name value="phcp-intervention-procedure-example"/>
+            <description value="phcp-intervention-procedure-example"/>
             <exampleBoolean value="true"/>
         </resource>
         <resource>
             <reference>
                 <reference value="Condition/phcp-medication-therapy-condition-example"/></reference>
+            <name value="phcp-medication-therapy-condition-example"/>
+            <description value="phcp-medication-therapy-condition-example"/>
             <exampleBoolean value="true"/>
         </resource>
         <resource>
             <reference>
                 <reference value="MedicationDispense/phcp-medicationdispense-example"/></reference>
+            <name value="phcp-medicationdispense-example"/>
+            <description value="phcp-medicationdispense-example"/>
             <exampleBoolean value="true"/>
         </resource>
         <resource>
             <reference>
                 <reference value="ServiceRequest/phcp-servicerequest-example"/></reference>
+            <name value="phcp-servicerequest-example"/>
+            <description value="phcp-servicerequest-example"/>
             <exampleBoolean value="true"/>
         </resource>
         <page>
