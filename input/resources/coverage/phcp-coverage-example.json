@@ -1,0 +1,44 @@
+{
+	"resourceType": "Coverage",
+	"id": "phcp-coverage-example",
+	"meta": {
+		"versionId": "1",
+		"lastUpdated": "2020-02-11T23:09:52.537+00:00",
+		"source": "#Z3kBZVA1mo6TKNHz",
+		"profile": [
+			"http://hl7.org/fhir/us/phcp/StructureDefinition/PhCP-Coverage"
+		]
+	},
+	"identifier": [
+		{
+			"system": "urn:ietf:rfc:3986",
+			"value": "urn:uuid:3e676a50-7aac-11db-9fe1-0800200c9a66"
+		}
+	],
+	"status": "active",
+	"type": {
+		"coding": [
+			{
+				"system": "urn:oid:2.16.840.1.113883.3.88.12.3221.5.2",
+				"code": "MC",
+				"display": "Medicaid"
+			},
+			{
+				"system": "urn:oid:2.16.840.1.113883.3.221.5",
+				"code": "212",
+				"display": "Medicaid PPO"
+			}
+		]
+	},
+	"policyHolder": {
+		"reference": "Patient/phcp-patient-example"
+	},
+	"beneficiary": {
+		"reference": "Patient/phcp-patient-example"
+	},
+	"payor": [
+		{
+			"reference": "Organization/phcp-payer-organization-example"
+		}
+	]
+}

@@ -1,0 +1,36 @@
+{
+	"resourceType": "Procedure",
+	"id": "phcp-procedure-example",
+	"meta": {
+		"versionId": "1",
+		"lastUpdated": "2020-02-11T23:03:11.438+00:00",
+		"source": "#zgAo3yRh4J67x95N",
+		"profile": [
+			"http://hl7.org/fhir/us/core/StructureDefinition/us-core-procedure",
+			"http://hl7.org/fhir/us/phcp/StructureDefinition/PhCP-Instruction-Procedure"
+		]
+	},
+	"identifier": [
+		{
+			"system": "urn:ietf:rfc:3986",
+			"value": "urn:uuid:0bc79f35-1431-42b5-881a-974d1fd28430"
+		}
+	],
+	"status": "completed",
+	"code": {
+		"coding": [
+			{
+				"system": "http://snomed.info/sct",
+				"code": "410123007",
+				"display": "Medication regimen compliance education"
+			}
+		]
+	},
+	"subject": {
+		"reference": "Patient/phcp-patient-example"
+	},
+	"performedPeriod": {
+		"start": "2016-01-22",
+		"end": "2016-01-22"
+	}
+}

@@ -1,0 +1,47 @@
+{
+	"resourceType": "MedicationDispense",
+	"id": "phcp-medicationdispense-example",
+	"meta": {
+		"versionId": "1",
+		"lastUpdated": "2020-02-11T23:05:16.637+00:00",
+		"source": "#wkMb2ZcMNnIkGrLs",
+		"profile": [
+			"http://hl7.org/fhir/us/phcp/StructureDefinition/PhCP-MedicationDispense"
+		]
+	},
+	"identifier": [
+		{
+			"system": "urn:ietf:rfc:3986",
+			"value": "urn:uuid:3358ad78-31f2-4756-abad-32cbb155a6ee"
+		}
+	],
+	"status": "completed",
+	"medicationCodeableConcept": {
+		"coding": [
+			{
+				"system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+				"code": "1049683",
+				"display": "oxyCODONE HCl 10 MG Oral Tablet"
+			}
+		],
+		"text": "oxyCODONE Hydrochloride 10 MG Oral Tablet"
+	},
+	"subject": {
+		"reference": "Patient/phcp-patient-example"
+	},
+	"performer": [
+		{
+			"actor": {
+				"reference": "PractitionerRole/phcp-practitionerrole-example"
+			}
+		}
+	],
+	"quantity": {
+		"value": 24,
+		"unit": "1"
+	},
+	"daysSupply": {
+		"value": 3
+	},
+	"whenHandedOver": "2016-11-28"
+}

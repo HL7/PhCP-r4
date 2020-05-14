@@ -1,0 +1,46 @@
+{
+	"resourceType": "PractitionerRole",
+	"id": "phcp-practitionerrole-example",
+	"meta": {
+		"versionId": "1",
+		"lastUpdated": "2020-02-11T23:03:12.029+00:00",
+		"source": "#qJfuxyCaJjI6alll",
+		"profile": [
+			"http://hl7.org/fhir/us/core/StructureDefinition/us-core-practitionerrole"
+		]
+	},
+	"practitioner": {
+		"reference": "Practitioner/phcp-practitioner-example"
+	},
+	"organization": {
+		"reference": "Organization/phcp-organization-example"
+	},
+	"code": [
+		{
+			"coding": [
+				{
+					"system": "http://nucc.org/provider-taxonomy",
+					"code": "261QP2300X",
+					"display": "Primary Care"
+				}
+			]
+		}
+	],
+	"specialty": [
+		{
+			"coding": [
+				{
+					"system": "http://nucc.org/provider-taxonomy",
+					"code": "208D00000X",
+					"display": "General Practice"
+				}
+			]
+		}
+	],
+	"telecom": [
+		{
+			"system": "email",
+			"value": "doc@example.org"
+		}
+	]
+}
