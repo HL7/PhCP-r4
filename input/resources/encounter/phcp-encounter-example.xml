@@ -3,8 +3,9 @@
     xmlns="http://hl7.org/fhir">
     <id value="phcp-encounter-example"/>
     <meta>
-        <versionId value="2"/>
-        <lastUpdated value="2020-01-22T13:45:18.000-05:00"/>
+        <versionId value="1"/>
+        <lastUpdated value="2020-02-11T23:09:46.494+00:00"/>
+        <source value="#js3uKMop7Tlc8FKp"/>
         <profile value="http://hl7.org/fhir/us/core/StructureDefinition/us-core-encounter"/>
         <profile value="http://hl7.org/fhir/us/phcp/StructureDefinition/PhCP-Encounter"/>
     </meta>

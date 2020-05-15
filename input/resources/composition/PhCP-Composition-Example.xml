@@ -3,8 +3,9 @@
     xmlns="http://hl7.org/fhir">
     <id value="PhCP-Composition-Example"/>
     <meta>
-        <versionId value="14"/>
-        <lastUpdated value="2020-01-20T02:03:07.000-05:00"/>
+        <versionId value="1"/>
+        <lastUpdated value="2020-02-11T23:10:01.694+00:00"/>
+        <source value="#FOMip5ZbtKqgoyx5"/>
         <profile value="http://hl7.org/fhir/us/phcp/StructureDefinition/PhCP-Composition"/>
     </meta>
     <language value="en-US"/>

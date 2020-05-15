@@ -4,7 +4,8 @@
     <id value="phcp-servicerequest-example"/>
     <meta>
         <versionId value="1"/>
-        <lastUpdated value="2020-01-23T17:18:06.000-05:00"/>
+        <lastUpdated value="2020-02-11T23:02:58.162+00:00"/>
+        <source value="#5cj21qBnjZMlQ9w6"/>
         <profile value="http://hl7.org/fhir/us/phcp/StructureDefinition/PhCP-ServiceRequest"/>
     </meta>
     <identifier>

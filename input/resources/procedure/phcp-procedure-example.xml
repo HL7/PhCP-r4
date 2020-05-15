@@ -4,7 +4,8 @@
     <id value="phcp-procedure-example"/>
     <meta>
         <versionId value="1"/>
-        <lastUpdated value="2020-01-22T14:56:39.000-05:00"/>
+        <lastUpdated value="2020-02-11T23:03:11.438+00:00"/>
+        <source value="#zgAo3yRh4J67x95N"/>
         <profile value="http://hl7.org/fhir/us/core/StructureDefinition/us-core-procedure"/>
         <profile value="http://hl7.org/fhir/us/phcp/StructureDefinition/PhCP-Instruction-Procedure"/>
     </meta>

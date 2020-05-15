@@ -3,8 +3,9 @@
     xmlns="http://hl7.org/fhir">
     <id value="phcp-communication-example"/>
     <meta>
-        <versionId value="2"/>
-        <lastUpdated value="2020-01-21T21:11:11.000-05:00"/>
+        <versionId value="1"/>
+        <lastUpdated value="2020-02-11T23:10:17.580+00:00"/>
+        <source value="#viRQqn0zFzprIpU7"/>
         <profile value="http://hl7.org/fhir/us/phcp/StructureDefinition/PhCP-CareCoordination"/>
     </meta>
     <identifier>

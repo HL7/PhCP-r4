@@ -4,7 +4,8 @@
     <id value="phcp-practitioner-example"/>
     <meta>
         <versionId value="1"/>
-        <lastUpdated value="2019-03-19T16:06:04.000-04:00"/>
+        <lastUpdated value="2020-02-11T23:03:21.493+00:00"/>
+        <source value="#6ZQPq1pRoW640B6a"/>
         <profile value="http://hl7.org/fhir/us/core/StructureDefinition/us-core-practitioner"/>
     </meta>
     <text>

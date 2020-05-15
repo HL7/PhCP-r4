@@ -3,8 +3,9 @@
     xmlns="http://hl7.org/fhir">
     <id value="phcp-patient-example"/>
     <meta>
-        <versionId value="2"/>
-        <lastUpdated value="2019-03-20T23:31:16.000-04:00"/>
+        <versionId value="1"/>
+        <lastUpdated value="2020-02-11T23:04:07.006+00:00"/>
+        <source value="#tRP4kkVMe3P5at6e"/>
         <profile value="http://hl7.org/fhir/us/core/StructureDefinition/us-core-patient"/>
     </meta>
     <text>

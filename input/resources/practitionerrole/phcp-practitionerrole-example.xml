@@ -3,8 +3,9 @@
     xmlns="http://hl7.org/fhir">
     <id value="phcp-practitionerrole-example"/>
     <meta>
-        <versionId value="4"/>
-        <lastUpdated value="2019-03-21T05:21:39.000-04:00"/>
+        <versionId value="1"/>
+        <lastUpdated value="2020-02-11T23:03:12.029+00:00"/>
+        <source value="#qJfuxyCaJjI6alll"/>
         <profile value="http://hl7.org/fhir/us/core/StructureDefinition/us-core-practitionerrole"/>
     </meta>
     <practitioner>

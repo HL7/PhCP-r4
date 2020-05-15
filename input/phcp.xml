@@ -3,8 +3,9 @@
     xmlns="http://hl7.org/fhir">
     <id value="phcp"/>
     <meta>
-        <versionId value="111"/>
-        <lastUpdated value="2020-02-07T17:17:17.000-05:00"/>
+        <versionId value="3"/>
+        <lastUpdated value="2020-05-11T19:38:36.021+00:00"/>
+        <source value="#mAV6Wuad45dVduqP"/>
     </meta>
     <url value="http://hl7.org/fhir/us/phcp/ImplementationGuide/phcp"/>
     <version value="1.0.0"/>
@@ -30,14 +31,14 @@
     <packageId value="hl7.fhir.us.phcp"/>
     <fhirVersion value="4.0.1"/>
     <dependsOn>
-        <uri value="http://hl7.org/fhir/us/ccda-r4/ImplementationGuide/CCDA-on-FHIR-R4"/>
-        <packageId value="hl7.fhir.us.ccda.r4"/>
+        <uri value="http://hl7.org/fhir/us/ccda/ImplementationGuide/hl7.fhir.us.ccda"/>
+        <packageId value="hl7.fhir.us.ccda"/>
         <version value="current"/>
     </dependsOn>
     <dependsOn>
-        <uri value="http://hl7.org/fhir/us/core/ImplementationGuide/hl7.fhir.us.core-3.0.0"/>
+        <uri value="http://hl7.org/fhir/us/core/ImplementationGuide/hl7.fhir.us.core"/>
         <packageId value="hl7.fhir.us.core"/>
-        <version value="3.0.0"/>
+        <version value="3.1.0"/>
     </dependsOn>
     <definition>
         <resource>
