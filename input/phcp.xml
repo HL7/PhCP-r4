@@ -3,9 +3,9 @@
     xmlns="http://hl7.org/fhir">
     <id value="phcp"/>
     <meta>
-        <versionId value="3"/>
-        <lastUpdated value="2020-05-11T19:38:36.021+00:00"/>
-        <source value="#mAV6Wuad45dVduqP"/>
+        <versionId value="6"/>
+        <lastUpdated value="2020-05-15T20:14:03.435+00:00"/>
+        <source value="#9cFrxajMobfDWOA9"/>
     </meta>
     <url value="http://hl7.org/fhir/us/phcp/ImplementationGuide/phcp"/>
     <version value="1.0.0"/>
@@ -28,6 +28,14 @@
         </telecom>
     </contact>
     <description value="This document describes constraints on the the FHIR Composition resource for a Pharmacist Care Plan, which are derived from requirements set forth by the Pharmacy Health Information Technology (HIT) Collaborative1 and the National Council for Prescription Drug Programs (NCPDP) WG10 Professional Pharmacy Services,2 vendors, and Health Level Seven (HL7) stakeholder workgroups. Templates in this US Realm implementation guide are specific to pharmacy management treatment and interventions that will promote interoperability and will create information suitable for reuse in quality measurement, public health reporting, research, and reimbursement.&#xA;&#xA;This guide contains a library of Fast Health Interoperability Resources (FHIR) profiles, and is compliant with the  C-CDA on FHIR specification&#xA;"/>
+    <jurisdiction>
+        <coding>
+            <system value="urn:iso:std:iso:3166:-2"/>
+            <code value="US"/>
+            <display value="US"/>
+        </coding>
+        <text value="US"/>
+    </jurisdiction>
     <packageId value="hl7.fhir.us.phcp"/>
     <fhirVersion value="4.0.1"/>
     <dependsOn>
