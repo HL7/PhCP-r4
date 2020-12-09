@@ -3,9 +3,9 @@
     xmlns="http://hl7.org/fhir">
     <id value="phcp-coverage-example"/>
     <meta>
-        <versionId value="1"/>
-        <lastUpdated value="2020-02-11T23:09:52.537+00:00"/>
-        <source value="#Z3kBZVA1mo6TKNHz"/>
+        <versionId value="3"/>
+        <lastUpdated value="2020-12-09T20:35:09.080+00:00"/>
+        <source value="#veFHiJYYqE2f6rg0"/>
         <profile value="http://hl7.org/fhir/us/phcp/StructureDefinition/PhCP-Coverage"/>
     </meta>
     <identifier>
@@ -15,14 +15,9 @@
     <status value="active"/>
     <type>
         <coding>
-            <system value="urn:oid:2.16.840.1.113883.3.88.12.3221.5.2"/>
-            <code value="MC"/>
-            <display value="Medicaid"/>
-        </coding>
-        <coding>
-            <system value="urn:oid:2.16.840.1.113883.3.221.5"/>
-            <code value="212"/>
-            <display value="Medicaid PPO"/>
+            <system value="http://terminology.hl7.org/CodeSystem/v3-ActCode"/>
+            <code value="SUBSUPP"/>
+            <display value="subsidized supplemental health program"/>
         </coding>
     </type>
     <policyHolder>

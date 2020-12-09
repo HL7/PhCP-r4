@@ -1,0 +1,381 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bundle
+    xmlns="http://hl7.org/fhir">
+    <id value="phcp-bundle-example"/>
+    <meta>
+        <versionId value="1"/>
+        <lastUpdated value="2020-12-09T20:18:23.294+00:00"/>
+        <source value="#XbzisRrfYwkRCyQe"/>
+    </meta>
+    <identifier>
+        <system value="urn:ietf:rfc:3986"/>
+        <value value="urn:uuid:abfbbb1c-2574-4d2a-9f63-b5429e87222e"/>
+    </identifier>
+    <type value="document"/>
+    <timestamp value="2020-12-08T20:09:53.259+00:00"/>
+    <entry>
+        <fullUrl value="http://hl7.org/fhir/us/phcp/Composition/PhCP-Composition-Example"/>
+        <resource>
+            <Composition>
+                <id value="PhCP-Composition-Example"/>
+                <language value="en-US"/>
+                <text>
+                    <status value="generated"/>
+                    <div
+                        xmlns="http://www.w3.org/1999/xhtml" lang="en-US" xml:lang="en-US">
+                        <table>
+                            <tbody>
+                                <tr>
+                                    <td>Title</td>
+                                    <td>Pharmacist Care Plan</td>
+                                </tr>
+                                <tr>
+                                    <td>Practitioner</td>
+                                    <td>Ronald Bone, MD</td>
+                                </tr>
+                                <tr>
+                                    <td>Attester</td>
+                                    <td>Ronald Bone, MD</td>
+                                </tr>
+                                <tr>
+                                    <td>Custodian</td>
+                                    <td>Acme Labs</td>
+                                </tr>
+                                <tr>
+                                    <td>Service Period</td>
+                                    <td>2015-11-18 to 2015-12-12</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </text>
+                <identifier>
+                    <system value="urn:ietf:rfc:3986"/>
+                    <value value="urn:uuid:0c2721be-711a-43f4-b895-43ff66a9fd29"/>
+                </identifier>
+                <status value="preliminary"/>
+                <type>
+                    <coding>
+                        <system value="http://loinc.org"/>
+                        <code value="18776-5"/>
+                        <display value="Plan of care note"/>
+                    </coding>
+                </type>
+                <subject>
+                    <reference value="Patient/phcp-patient-example"/>
+                    <display value="Amy V. Shaw"/>
+                </subject>
+                <date value="2016-02-28T09:10:14Z"/>
+                <author>
+                    <reference value="Practitioner/phcp-practitioner-example"/>
+                    <display value="Ronald Bone, MD"/>
+                </author>
+                <title value="Care Plan"/>
+                <attester>
+                    <mode value="legal"/>
+                    <time value="2012-01-04T09:10:14Z"/>
+                    <party>
+                        <reference value="Practitioner/phcp-practitioner-example"/>
+                        <display value="Ronald Boone, MD"/>
+                    </party>
+                </attester>
+                <custodian>
+                    <reference value="Organization/phcp-organization-example"/>
+                    <display value="Acme Labs"/>
+                </custodian>
+                <event>
+                    <period>
+                        <start value="2015-11-18"/>
+                        <end value="2015-12-12"/>
+                    </period>
+                </event>
+                <section>
+                    <title value="Health Concerns Section"/>
+                    <code>
+                        <coding>
+                            <system value="http://loinc.org"/>
+                            <code value="75310-3"/>
+                            <display value="Health concerns document"/>
+                        </coding>
+                    </code>
+                    <text>
+                        <status value="generated"/>
+                        <div
+                            xmlns="http://www.w3.org/1999/xhtml">
+                            <table>
+                                <tr>
+                                    <td>
+                                        <b>Concern</b>
+                                    </td>
+                                    <td>
+                                        <b>Status</b>
+                                    </td>
+                                    <td>
+                                        <b>Date</b>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>Current every day smoker</td>
+                                    <td>Active</td>
+                                    <td>Concern from June 16, 2015</td>
+                                </tr>
+                                <tr>
+                                    <td>Respiratory insufficiency</td>
+                                    <td>Completed</td>
+                                    <td>Concern from June 13, 2015</td>
+                                </tr>
+                                <tr>
+                                    <td>Pneumonia</td>
+                                    <td>Completed</td>
+                                    <td>June 16, 2015</td>
+                                </tr>
+                            </table>
+                        </div>
+                    </text>
+                    <mode value="snapshot"/>
+                </section>
+                <section>
+                    <title value="Goals Section"/>
+                    <code>
+                        <coding>
+                            <system value="http://loinc.org"/>
+                            <code value="61146-7"/>
+                            <display value="Goals"/>
+                        </coding>
+                    </code>
+                    <text>
+                        <status value="generated"/>
+                        <div
+                            xmlns="http://www.w3.org/1999/xhtml">
+                            <table>
+                                <tr>
+                                    <td>
+                                        <b>Goal</b>
+                                    </td>
+                                    <td>
+                                        <b>Value</b>
+                                    </td>
+                                    <td>
+                                        <b>Date</b>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>Pulse oximetry</td>
+                                    <td>92%</td>
+                                    <td>September 2, 2015</td>
+                                </tr>
+                            </table>
+                        </div>
+                    </text>
+                </section>
+                <section>
+                    <title value="Interventions Section"/>
+                    <code>
+                        <coding>
+                            <system value="http://loinc.org"/>
+                            <code value="62387-6"/>
+                            <display value="Interventions Narrative"/>
+                        </coding>
+                    </code>
+                    <text>
+                        <status value="generated"/>
+                        <div
+                            xmlns="http://www.w3.org/1999/xhtml">
+                            <table>
+                                <tr>
+                                    <td>
+                                        <b>Planned Intervention</b>
+                                    </td>
+                                    <td>
+                                        <b>Status</b>
+                                    </td>
+                                    <td>
+                                        <b>Date</b>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>Elevate head of bed</td>
+                                    <td>active</td>
+                                    <td>September 2, 2015</td>
+                                </tr>
+                                <tr>
+                                    <td>Oxygen administration by nasal cannula</td>
+                                    <td>active</td>
+                                    <td>September 1, 2015</td>
+                                </tr>
+                                <tr>
+                                    <td>pulse oximetry monitoring</td>
+                                    <td>active</td>
+                                    <td>September 3, 2015</td>
+                                </tr>
+                            </table>
+                        </div>
+                    </text>
+                </section>
+                <section>
+                    <title value="Health Status Evaluations and Outcomes Section"/>
+                    <code>
+                        <coding>
+                            <system value="http://loinc.org"/>
+                            <code value="11383-7"/>
+                            <display value="Patient problem outcome"/>
+                        </coding>
+                    </code>
+                    <text>
+                        <status value="generated"/>
+                        <div
+                            xmlns="http://www.w3.org/1999/xhtml">
+                            <table>
+                                <tr>
+                                    <td>
+                                        <b>Item</b>
+                                    </td>
+                                    <td>
+                                        <b>Outcome</b>
+                                    </td>
+                                    <td>
+                                        <b>Date</b>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>Pulse oximetry</td>
+                                    <td>95%</td>
+                                    <td>August 6, 2015</td>
+                                </tr>
+                            </table>
+                        </div>
+                    </text>
+                </section>
+            </Composition>
+        </resource>
+    </entry>
+    <entry>
+        <fullUrl value="http://hl7.org/fhir/us/phcp/Patient/phcp-patient-example"/>
+        <resource>
+            <Patient>
+                <id value="phcp-patient-example"/>
+                <text>
+                    <status value="generated"/>
+                    <div
+                        xmlns="http://www.w3.org/1999/xhtml">
+                        <div class="hapiHeaderText">Amy V. 
+
+							
+                            <b>SHAW </b>
+                        </div>
+                        <table class="hapiPropertyTable">
+                            <tbody>
+                                <tr>
+                                    <td>Identifier</td>
+                                    <td>1032702</td>
+                                </tr>
+                                <tr>
+                                    <td>Address</td>
+                                    <td>
+                                        <span>49 Meadow St </span>
+                                        <br/>
+                                        <span>Mounds </span>
+                                        <span>OK </span>
+                                        <span>US </span>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>Date of birth</td>
+                                    <td>
+                                        <span>20 February 2007</span>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </text>
+                <identifier>
+                    <use value="usual"/>
+                    <system value="http://hospital.smarthealthit.org"/>
+                    <value value="1032702"/>
+                </identifier>
+                <active value="true"/>
+                <name>
+                    <family value="Shaw"/>
+                    <given value="Amy"/>
+                    <given value="V."/>
+                </name>
+                <telecom>
+                    <system value="phone"/>
+                    <value value="555-555-5555"/>
+                    <use value="home"/>
+                </telecom>
+                <telecom>
+                    <system value="email"/>
+                    <value value="amy.shaw@example.com"/>
+                </telecom>
+                <gender value="female"/>
+                <birthDate value="2007-02-20"/>
+                <address>
+                    <line value="49 Meadow St"/>
+                    <city value="Mounds"/>
+                    <state value="OK"/>
+                    <postalCode value="74047"/>
+                    <country value="US"/>
+                </address>
+            </Patient>
+        </resource>
+    </entry>
+    <entry>
+        <fullUrl value="http://hl7.org/fhir/us/phcp/Practitioner/phcp-practitioner-example"/>
+        <resource>
+            <Practitioner>
+                <id value="phcp-practitioner-example"/>
+                <identifier>
+                    <system value="http://hl7.org/fhir/sid/us-npi"/>
+                    <value value="9941339108"/>
+                </identifier>
+                <name>
+                    <family value="Bone"/>
+                    <given value="Ronald"/>
+                    <prefix value="Dr"/>
+                </name>
+                <address>
+                    <use value="home"/>
+                    <line value="1003 Healthcare Drive"/>
+                    <city value="Amherst"/>
+                    <state value="MA"/>
+                    <postalCode value="01002"/>
+                </address>
+            </Practitioner>
+        </resource>
+    </entry>
+    <entry>
+        <fullUrl value="http://hl7.org/fhir/us/phcp/Organization/phcp-organization-example"/>
+        <resource>
+            <Organization>
+                <id value="phcp-organization-example"/>
+                <identifier>
+                    <system value="http://hl7.org.fhir/sid/us-npi"/>
+                    <value value="1144221847"/>
+                </identifier>
+                <identifier>
+                    <system value="http://www.acme.org/organization"/>
+                    <value value="2523423456"/>
+                </identifier>
+                <active value="true"/>
+                <name value="Acme Labs"/>
+                <telecom>
+                    <system value="phone"/>
+                    <value value="(+1) 734-677-7777"/>
+                </telecom>
+                <telecom>
+                    <system value="email"/>
+                    <value value="hq@acme.org"/>
+                </telecom>
+                <address>
+                    <line value="3300 Washtenaw Avenue, Suite 227"/>
+                    <city value="Amherst"/>
+                    <state value="MA"/>
+                    <postalCode value="01002"/>
+                    <country value="USA"/>
+                </address>
+            </Organization>
+        </resource>
+    </entry>
+</Bundle>

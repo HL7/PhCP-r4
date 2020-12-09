@@ -18,3 +18,8 @@ Code System URI 'http://www.ama-assn.org/go/cpt' is unknown so the code cannot b
 [Unable to determine whether the provided codes are in the value set http://hl7.org/fhir/us/core/ValueSet/us-core-medication-codes because the value set or code system is not known to the validator]
 # The following appears to be an error in the core ServiceRequest resource
 The link 'valueset-diagnostic-requests.html' for "here" cannot be resolved
+# The following are from Bundle.entry.fullUrl elements so need not resolve (but they should resolve after publishing)
+URL value 'http://hl7.org/fhir/us/phcp/Composition/PhCP-Composition-Example' does not resolve
+URL value 'http://hl7.org/fhir/us/phcp/Patient/phcp-patient-example' does not resolve
+URL value 'http://hl7.org/fhir/us/phcp/Practitioner/phcp-practitioner-example' does not resolve
+URL value 'http://hl7.org/fhir/us/phcp/Organization/phcp-organization-example' does not resolve

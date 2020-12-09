@@ -3,9 +3,9 @@
     xmlns="http://hl7.org/fhir">
     <id value="phcp"/>
     <meta>
-        <versionId value="51"/>
-        <lastUpdated value="2020-12-09T08:15:04.840+00:00"/>
-        <source value="#NWRHe9I2ARpV1bFY"/>
+        <versionId value="56"/>
+        <lastUpdated value="2020-12-09T20:25:27.153+00:00"/>
+        <source value="#xaqx4N0TILxsl9qr"/>
     </meta>
     <url value="http://hl7.org/fhir/us/phcp/ImplementationGuide/phcp"/>
     <version value="1.0.0"/>
@@ -276,6 +276,12 @@
             <name value="Pharmacist Care Plan Client"/>
             <description value="This section describes the expected capabilities of the Pharmacist Care Plan Consumer (aka client) actor which is responsible for creating and initiating the queries for clinical documents compliant with this specification. This CapabilityStatement imports and extends [CCDAonFHIR-client CapabilityStatement](http://hl7.org/fhir/us/ccda/CapabilityStatement-CcdaOnFhirClient.html)CCDAonFHIR client CapabilityStatement, which imports and extends the [us-core-client CapabilityStatement](https://www.hl7.org/fhir/us/core/CapabilityStatement-us-core-client.html)"/>
             <exampleBoolean value="false"/>
+        </resource>
+        <resource>
+            <reference>
+                <reference value="Bundle/phcp-bundle-example"/></reference>
+            <name value="Pharmacist Care Plan Document Bundle"/>
+            <exampleBoolean value="true"/>
         </resource>
         <page>
             <nameUrl value="index.html"/>

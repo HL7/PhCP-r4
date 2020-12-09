@@ -3,18 +3,14 @@
     xmlns="http://hl7.org/fhir">
     <id value="phcp-organization-example"/>
     <meta>
-        <versionId value="1"/>
-        <lastUpdated value="2020-02-11T23:04:15.969+00:00"/>
-        <source value="#JTe9hH94lcqaXfEE"/>
+        <versionId value="3"/>
+        <lastUpdated value="2020-12-09T20:41:40.135+00:00"/>
+        <source value="#eZ2Xo6Lsh8G8IGE8"/>
         <profile value="http://hl7.org/fhir/us/phcp/StructureDefinition/PhCP-Organization"/>
     </meta>
     <identifier>
-        <system value="http://hl7.org.fhir/sid/us-npi"/>
+        <system value="http://hl7.org/fhir/sid/us-npi"/>
         <value value="1144221847"/>
-    </identifier>
-    <identifier>
-        <system value="http://www.acme.org/organization"/>
-        <value value="2523423456"/>
     </identifier>
     <active value="true"/>
     <name value="Acme Labs"/>

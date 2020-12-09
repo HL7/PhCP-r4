@@ -3,14 +3,14 @@
     xmlns="http://hl7.org/fhir">
     <id value="phcp-payer-organization-example"/>
     <meta>
-        <versionId value="1"/>
-        <lastUpdated value="2020-02-11T23:04:28.209+00:00"/>
-        <source value="#XkaRPGeP0u0cJew8"/>
+        <versionId value="2"/>
+        <lastUpdated value="2020-12-09T20:38:59.318+00:00"/>
+        <source value="#KA5KWp4358dKs5Xj"/>
         <profile value="http://hl7.org/fhir/us/core/StructureDefinition/us-core-organization"/>
     </meta>
     <identifier>
-        <system value="urn:ietf:rfc:3986"/>
-        <value value="urn:uuid:0d2491e7-e41e-47cb-8c98-e69520137887"/>
+        <system value="http://hl7.org/fhir/sid/us-npi"/>
+        <value value="1234567"/>
     </identifier>
     <active value="true"/>
     <name value="Acme Payer"/>
