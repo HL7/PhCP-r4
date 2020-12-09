@@ -13,13 +13,13 @@ This guide contains a library of Fast Health Interoperability Resources (FHIR) p
 <thead>
 <tr>
 <th>Name</th>
-<th>Email</th>
+<th>Email/URL</th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>HL7 International - Structured Documents Work Group</td>
-<td></td>
+<td><a href="http://www.hl7.org/Special/committees/structure" target="_new">http://www.hl7.org/Special/committees/structure</a></td>
 </tr>
 <tr>
 <td>Rick Geimer</td>
@@ -29,3 +29,6 @@ This guide contains a library of Fast Health Interoperability Resources (FHIR) p
 </table>
 
 
+
+
+[Next Page - Background](background.html)

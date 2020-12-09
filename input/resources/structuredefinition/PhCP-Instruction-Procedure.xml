@@ -3,9 +3,9 @@
     xmlns="http://hl7.org/fhir">
     <id value="PhCP-Instruction-Procedure"/>
     <meta>
-        <versionId value="2"/>
-        <lastUpdated value="2020-05-15T20:05:39.836+00:00"/>
-        <source value="#y9Gq9oo4GtO2NXxT"/>
+        <versionId value="3"/>
+        <lastUpdated value="2020-09-02T19:36:39.805+00:00"/>
+        <source value="#Wxy3cuD7Ma0CWETB"/>
     </meta>
     <text>
         <status value="generated"/>
@@ -66,9 +66,9 @@
                     <td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">
                         <span style="font-weight:bold">Binding: </span>
                         <a href="http://hl7.org/fhir/R4/terminologies.html#unbound">(unbound)</a> (
-                        
+									
                         <a href="http://hl7.org/fhir/R4/terminologies.html#preferred" title="Instances are encouraged to draw from the specified codes for interoperability purposes but are not required to do so to be considered conformant.">preferred</a>)
-                    
+								
                     </td>
                 </tr>
                 <tr style="border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white;">
@@ -87,9 +87,9 @@
                     </td>
                     <td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">
                         <a href="http://hl7.org/fhir/R4/references.html">Reference</a>(
-                        
+									
                         <a href="https://build.fhir.org/ig/HL7/US-Core-R4//StructureDefinition-us-core-patient.html">US Core Patient Profile</a>)
-                    
+								
                     </td>
                     <td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"/>
                 </tr>
@@ -98,7 +98,7 @@
                         <br/>
                         <a href="http://hl7.org/fhir/R4/formats.html#table" title="Legend for this format">
                             <img src="http://hl7.org/fhir/R4/help16.png" alt="doco" style="background-color: inherit"/> Documentation for this format
-                        
+									
                         </a>
                     </td>
                 </tr>

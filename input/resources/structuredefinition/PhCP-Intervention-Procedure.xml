@@ -3,9 +3,9 @@
     xmlns="http://hl7.org/fhir">
     <id value="PhCP-Intervention-Procedure"/>
     <meta>
-        <versionId value="1"/>
-        <lastUpdated value="2020-02-11T23:00:16.978+00:00"/>
-        <source value="#q0l1lo6jWdwsE2Sq"/>
+        <versionId value="2"/>
+        <lastUpdated value="2020-09-02T19:36:39.344+00:00"/>
+        <source value="#Wxy3cuD7Ma0CWETB"/>
     </meta>
     <text>
         <status value="generated"/>
@@ -70,9 +70,9 @@
                     <td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">
                         <span style="font-weight:bold">Binding: </span>
                         <a href="http://hl7.org/fhir/R4/terminologies.html#unbound">(unbound)</a> (
-                        
+									
                         <a href="http://hl7.org/fhir/R4/terminologies.html#preferred" title="Instances are encouraged to draw from the specified codes for interoperability purposes but are not required to do so to be considered conformant.">preferred</a>)
-                    
+								
                     </td>
                 </tr>
                 <tr style="border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white;">
@@ -104,7 +104,7 @@
                         <br/>
                         <a href="http://hl7.org/fhir/R4/formats.html#table" title="Legend for this format">
                             <img src="http://hl7.org/fhir/R4/help16.png" alt="doco" style="background-color: inherit"/> Documentation for this format
-                        
+									
                         </a>
                     </td>
                 </tr>

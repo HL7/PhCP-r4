@@ -3,50 +3,42 @@
     xmlns="http://hl7.org/fhir">
     <id value="phcp-patient-example"/>
     <meta>
-        <versionId value="1"/>
-        <lastUpdated value="2020-02-11T23:04:07.006+00:00"/>
-        <source value="#tRP4kkVMe3P5at6e"/>
+        <versionId value="3"/>
+        <lastUpdated value="2020-09-02T20:26:03.581+00:00"/>
+        <source value="#vzzApV891IBknHPP"/>
         <profile value="http://hl7.org/fhir/us/core/StructureDefinition/us-core-patient"/>
     </meta>
     <text>
         <status value="generated"/>
         <div
             xmlns="http://www.w3.org/1999/xhtml">
-            <p>
-                <b>Generated Narrative with Details</b>
-            </p>
-            <p>
-                <b>id</b>: example
-            
-            </p>
-            <p>
-                <b>identifier</b>: Medical Record Number = 1032702 (USUAL)
-            
-            </p>
-            <p>
-                <b>active</b>: true
-            
-            </p>
-            <p>
-                <b>name</b>: Amy V. Shaw 
-            
-            </p>
-            <p>
-                <b>telecom</b>: ph: 555-555-5555(HOME), amy.shaw@example.com
-            
-            </p>
-            <p>
-                <b>gender</b>: Female
-            
-            </p>
-            <p>
-                <b>birthDate</b>: Feb 20, 2007
-            
-            </p>
-            <p>
-                <b>address</b>: 49 Meadow St Mounds OK 74047 US 
-            
-            </p>
+            <div class="hapiHeaderText">Amy V. 
+                <b>SHAW </b>
+            </div>
+            <table class="hapiPropertyTable">
+                <tbody>
+                    <tr>
+                        <td>Identifier</td>
+                        <td>1032702</td>
+                    </tr>
+                    <tr>
+                        <td>Address</td>
+                        <td>
+                            <span>49 Meadow St </span>
+                            <br/>
+                            <span>Mounds </span>
+                            <span>OK </span>
+                            <span>US </span>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Date of birth</td>
+                        <td>
+                            <span>20 February 2007</span>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
         </div>
     </text>
     <identifier>

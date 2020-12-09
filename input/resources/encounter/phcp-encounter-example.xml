@@ -3,9 +3,9 @@
     xmlns="http://hl7.org/fhir">
     <id value="phcp-encounter-example"/>
     <meta>
-        <versionId value="1"/>
-        <lastUpdated value="2020-02-11T23:09:46.494+00:00"/>
-        <source value="#js3uKMop7Tlc8FKp"/>
+        <versionId value="2"/>
+        <lastUpdated value="2020-12-08T07:38:58.626+00:00"/>
+        <source value="#kgzXullTMIbsTHfI"/>
         <profile value="http://hl7.org/fhir/us/core/StructureDefinition/us-core-encounter"/>
         <profile value="http://hl7.org/fhir/us/phcp/StructureDefinition/PhCP-Encounter"/>
     </meta>
@@ -20,14 +20,9 @@
     </class>
     <type>
         <coding>
-            <system value="http://www.ama-assn.org/go/cpt"/>
-            <code value="99213"/>
-            <display value="Office outpatient visit 15 minutes"/>
-        </coding>
-        <coding>
-            <system value="http://terminology.hl7.org/CodeSystem/v3-ActCode"/>
-            <code value="AMB"/>
-            <display value="Ambulatory"/>
+            <system value="http://snomed.info/sct"/>
+            <code value="185389009"/>
+            <display value="Follow-up visit"/>
         </coding>
     </type>
     <subject>

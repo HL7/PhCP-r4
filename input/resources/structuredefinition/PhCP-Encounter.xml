@@ -3,9 +3,9 @@
     xmlns="http://hl7.org/fhir">
     <id value="PhCP-Encounter"/>
     <meta>
-        <versionId value="1"/>
-        <lastUpdated value="2020-02-11T23:00:09.890+00:00"/>
-        <source value="#30H9RSNImGQoL1BJ"/>
+        <versionId value="2"/>
+        <lastUpdated value="2020-09-02T19:36:39.647+00:00"/>
+        <source value="#Wxy3cuD7Ma0CWETB"/>
     </meta>
     <text>
         <status value="generated"/>
@@ -72,13 +72,13 @@
                     <td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">
                         <span style="font-weight:bold">Binding: </span>
                         <a href="http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113762.1.4.1096.208">http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113762.1.4.1096.208</a> (
-                        
-                        
-                        
+
+
+									
                         <a href="http://hl7.org/fhir/R4/terminologies.html#required" title="To be conformant, the concept in this element SHALL be from the specified value set.">required</a>)
-                    
-                    
-                    
+
+
+								
                     </td>
                 </tr>
                 <tr style="border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white;">
@@ -97,13 +97,13 @@
                     </td>
                     <td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">
                         <a href="http://hl7.org/fhir/R4/references.html">Reference</a>(
-                        
-                        
-                        
+
+
+									
                         <a href="StructureDefinition-PhCP-Organization.html">PhCP Organization</a>)
-                    
-                    
-                    
+
+
+								
                     </td>
                     <td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"/>
                 </tr>
@@ -112,9 +112,9 @@
                         <br/>
                         <a href="http://hl7.org/fhir/R4/formats.html#table" title="Legend for this format">
                             <img src="http://hl7.org/fhir/R4/help16.png" alt="doco" style="background-color: inherit"/> Documentation for this format
-                        
-                        
-                        
+
+
+									
                         </a>
                     </td>
                 </tr>

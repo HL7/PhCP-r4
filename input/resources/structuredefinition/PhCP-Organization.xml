@@ -3,9 +3,9 @@
     xmlns="http://hl7.org/fhir">
     <id value="PhCP-Organization"/>
     <meta>
-        <versionId value="1"/>
-        <lastUpdated value="2020-02-11T23:00:16.662+00:00"/>
-        <source value="#j4C8v2DorYAvBUdK"/>
+        <versionId value="2"/>
+        <lastUpdated value="2020-09-02T19:36:38.896+00:00"/>
+        <source value="#Wxy3cuD7Ma0CWETB"/>
     </meta>
     <text>
         <status value="generated"/>
@@ -61,7 +61,7 @@
                     <td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"/>
                     <td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">
                         <span style="opacity: 0.4">0</span>..
-                        
+									
                         <span style="opacity: 0.4">1</span>
                     </td>
                     <td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">
@@ -70,9 +70,9 @@
                     <td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">
                         <span style="font-weight:bold">Binding: </span>
                         <a href="http://hl7.org/fhir/R4/terminologies.html#unbound">(unbound)</a> (
-                        
+									
                         <a href="http://hl7.org/fhir/R4/terminologies.html#required" title="To be conformant, the concept in this element SHALL be from the specified value set.">required</a>)
-                    
+								
                     </td>
                 </tr>
                 <tr>
@@ -80,7 +80,7 @@
                         <br/>
                         <a href="http://hl7.org/fhir/R4/formats.html#table" title="Legend for this format">
                             <img src="http://hl7.org/fhir/R4/help16.png" alt="doco" style="background-color: inherit"/> Documentation for this format
-                        
+									
                         </a>
                     </td>
                 </tr>

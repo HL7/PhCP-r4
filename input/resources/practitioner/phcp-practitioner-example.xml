@@ -3,42 +3,14 @@
     xmlns="http://hl7.org/fhir">
     <id value="phcp-practitioner-example"/>
     <meta>
-        <versionId value="1"/>
-        <lastUpdated value="2020-02-11T23:03:21.493+00:00"/>
-        <source value="#6ZQPq1pRoW640B6a"/>
+        <versionId value="3"/>
+        <lastUpdated value="2020-09-02T20:27:11.405+00:00"/>
+        <source value="#BcjpoaJqmMUMDWYe"/>
         <profile value="http://hl7.org/fhir/us/core/StructureDefinition/us-core-practitioner"/>
     </meta>
-    <text>
-        <status value="generated"/>
-        <div
-            xmlns="http://www.w3.org/1999/xhtml">
-            <p>
-                <b>Generated Narrative with Details</b>
-            </p>
-            <p>
-                <b>id</b>: phcp-practitioner-example
-            </p>
-            <p>
-                <b>meta</b>: 
-            </p>
-            <p>
-                <b>identifier</b>: 9941339108, 25456
-            </p>
-            <p>
-                <b>name</b>: Ronald Bone 
-            </p>
-            <p>
-                <b>address</b>: 1003 Healthcare Drive Amherst MA 01002 (HOME)
-            </p>
-        </div>
-    </text>
     <identifier>
-        <system value="http://hl7.org.fhir/sid/us-npi"/>
+        <system value="http://hl7.org/fhir/sid/us-npi"/>
         <value value="9941339108"/>
-    </identifier>
-    <identifier>
-        <system value="http://www.acme.org/practitioners"/>
-        <value value="25456"/>
     </identifier>
     <name>
         <family value="Bone"/>

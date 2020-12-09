@@ -3,9 +3,9 @@
     xmlns="http://hl7.org/fhir">
     <id value="phcp-practitionerrole-example"/>
     <meta>
-        <versionId value="1"/>
-        <lastUpdated value="2020-02-11T23:03:12.029+00:00"/>
-        <source value="#qJfuxyCaJjI6alll"/>
+        <versionId value="2"/>
+        <lastUpdated value="2020-11-28T03:36:16.979+00:00"/>
+        <source value="#cEo3hbAK7e5kRQvR"/>
         <profile value="http://hl7.org/fhir/us/core/StructureDefinition/us-core-practitionerrole"/>
     </meta>
     <practitioner>
@@ -14,20 +14,6 @@
     <organization>
         <reference value="Organization/phcp-organization-example"/>
     </organization>
-    <code>
-        <coding>
-            <system value="http://nucc.org/provider-taxonomy"/>
-            <code value="261QP2300X"/>
-            <display value="Primary Care"/>
-        </coding>
-    </code>
-    <specialty>
-        <coding>
-            <system value="http://nucc.org/provider-taxonomy"/>
-            <code value="208D00000X"/>
-            <display value="General Practice"/>
-        </coding>
-    </specialty>
     <telecom>
         <system value="email"/>
         <value value="doc@example.org"/>

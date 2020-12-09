@@ -3,16 +3,16 @@
     xmlns="http://hl7.org/fhir">
     <id value="PhCP-Composition-Example"/>
     <meta>
-        <versionId value="1"/>
-        <lastUpdated value="2020-02-11T23:10:01.694+00:00"/>
-        <source value="#FOMip5ZbtKqgoyx5"/>
+        <versionId value="3"/>
+        <lastUpdated value="2020-09-02T20:09:53.259+00:00"/>
+        <source value="#kVt8POqI07Re0ZTn"/>
         <profile value="http://hl7.org/fhir/us/phcp/StructureDefinition/PhCP-Composition"/>
     </meta>
     <language value="en-US"/>
     <text>
         <status value="generated"/>
         <div
-            xmlns="http://www.w3.org/1999/xhtml" lang="en-US" xml:lang="en-US">
+            xmlns="http://www.w3.org/1999/xhtml">
             <table>
                 <tbody>
                     <tr>
@@ -39,27 +39,27 @@
             </table>
         </div>
     </text>
-    <extension url="http://hl7.org/fhir/us/ccda-r4/StructureDefinition/CCDA-on-FHIR-Data-Enterer">
+    <extension url="http://hl7.org/fhir/us/ccda/StructureDefinition/DataEntererExtension">
         <valueReference>
             <reference value="Practitioner/phcp-practitioner-example"/>
         </valueReference>
     </extension>
-    <extension url="http://hl7.org/fhir/us/ccda-r4/StructureDefinition/CCDA-on-FHIR-Informant">
+    <extension url="http://hl7.org/fhir/us/ccda/StructureDefinition/InformantExtension">
         <valueReference>
             <reference value="Practitioner/phcp-practitioner-example"/>
         </valueReference>
     </extension>
-    <extension url="http://hl7.org/fhir/us/ccda-r4/StructureDefinition/CCDA-on-FHIR-Information-Recipient">
+    <extension url="http://hl7.org/fhir/us/ccda/StructureDefinition/InformationRecipientExtension">
         <valueReference>
             <reference value="Practitioner/phcp-practitioner-example"/>
         </valueReference>
     </extension>
-    <extension url="http://hl7.org/fhir/us/ccda-r4/StructureDefinition/CCDA-on-FHIR-Participant">
+    <extension url="http://hl7.org/fhir/us/ccda/StructureDefinition/ParticipantExtension">
         <valueReference>
             <reference value="RelatedPerson/phcp-relatedperson-example"/>
         </valueReference>
     </extension>
-    <extension url="http://hl7.org/fhir/us/ccda-r4/StructureDefinition/CCDA-on-FHIR-Performer">
+    <extension url="http://hl7.org/fhir/us/ccda/StructureDefinition/PerformerExtension">
         <valueReference>
             <reference value="Practitioner/phcp-practitioner-example"/>
         </valueReference>

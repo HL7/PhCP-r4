@@ -1,2 +1,20 @@
 == Suppressed Messages ==
 
+# The following are because of terminology not supported by terminology server
+ValueSet http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113762.1.4.1096.213 not found by validator
+ValueSet http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113762.1.4.1096.208 not found by validator
+ValueSet http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113762.1.4.1096.198 not found by validator
+ValueSet http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113762.1.4.1096.214 not found by validator
+The valueSet reference http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113762.1.4.1096.202 on element Communication.category could not be resolved
+The valueSet reference http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113762.1.4.1096.202 on element Communication.category could not be resolved
+The valueSet reference http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113762.1.4.1096.181 on element Composition.event.code could not be resolved
+The valueSet reference http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113762.1.4.1096.208 on element Encounter.type could not be resolved
+The valueSet reference http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113762.1.4.1096.214 on element Procedure.code could not be resolved
+The valueSet reference http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113762.1.4.1096.198 on element Procedure.code could not be resolved
+The valueSet reference http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113762.1.4.1096.200 on element Procedure.reasonCode could not be resolved
+The valueSet reference http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113762.1.4.1096.213 on element Condition.code could not be resolved
+The valueSet reference http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113762.1.4.1096.207 on element Organization.type could not be resolved
+Code System URI 'http://www.ama-assn.org/go/cpt' is unknown so the code cannot be validated
+[Unable to determine whether the provided codes are in the value set http://hl7.org/fhir/us/core/ValueSet/us-core-medication-codes because the value set or code system is not known to the validator]
+# The following appears to be an error in the core ServiceRequest resource
+The link 'valueset-diagnostic-requests.html' for "here" cannot be resolved

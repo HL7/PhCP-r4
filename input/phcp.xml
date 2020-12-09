@@ -3,15 +3,16 @@
     xmlns="http://hl7.org/fhir">
     <id value="phcp"/>
     <meta>
-        <versionId value="6"/>
-        <lastUpdated value="2020-05-15T20:14:03.435+00:00"/>
-        <source value="#9cFrxajMobfDWOA9"/>
+        <versionId value="51"/>
+        <lastUpdated value="2020-12-09T08:15:04.840+00:00"/>
+        <source value="#NWRHe9I2ARpV1bFY"/>
     </meta>
     <url value="http://hl7.org/fhir/us/phcp/ImplementationGuide/phcp"/>
     <version value="1.0.0"/>
     <name value="PharmacistServicesAndSummariesPhCP"/>
     <title value="Pharmacist Services and Summaries - FHIR (PhCP)"/>
     <status value="active"/>
+    <date value="2020-09-02T00:00:00.000Z"/>
     <publisher value="HL7 Structured Documents  Work Group"/>
     <contact>
         <name value="HL7 International - Structured Documents Work Group"/>
@@ -30,23 +31,23 @@
     <description value="This document describes constraints on the the FHIR Composition resource for a Pharmacist Care Plan, which are derived from requirements set forth by the Pharmacy Health Information Technology (HIT) Collaborative1 and the National Council for Prescription Drug Programs (NCPDP) WG10 Professional Pharmacy Services,2 vendors, and Health Level Seven (HL7) stakeholder workgroups. Templates in this US Realm implementation guide are specific to pharmacy management treatment and interventions that will promote interoperability and will create information suitable for reuse in quality measurement, public health reporting, research, and reimbursement.&#xA;&#xA;This guide contains a library of Fast Health Interoperability Resources (FHIR) profiles, and is compliant with the  C-CDA on FHIR specification&#xA;"/>
     <jurisdiction>
         <coding>
-            <system value="urn:iso:std:iso:3166:-2"/>
+            <system value="urn:iso:std:iso:3166"/>
             <code value="US"/>
-            <display value="US"/>
+            <display value="United States of America"/>
         </coding>
-        <text value="US"/>
+        <text value="United States of America"/>
     </jurisdiction>
     <packageId value="hl7.fhir.us.phcp"/>
     <fhirVersion value="4.0.1"/>
     <dependsOn>
-        <uri value="http://hl7.org/fhir/us/ccda/ImplementationGuide/hl7.fhir.us.ccda"/>
+        <uri value="http://hl7.org/fhir/us/ccda/ImplementationGuide/hl7.fhir.us.ccda#1.1.0"/>
         <packageId value="hl7.fhir.us.ccda"/>
-        <version value="current"/>
+        <version value="1.1.0"/>
     </dependsOn>
     <dependsOn>
-        <uri value="http://hl7.org/fhir/us/core/ImplementationGuide/hl7.fhir.us.core"/>
+        <uri value="http://hl7.org/fhir/us/core/ImplementationGuide/hl7.fhir.us.core#3.1.1"/>
         <packageId value="hl7.fhir.us.core"/>
-        <version value="3.1.0"/>
+        <version value="3.1.1"/>
     </dependsOn>
     <definition>
         <resource>
@@ -258,49 +259,47 @@
             <description value="phcp-servicerequest-example"/>
             <exampleBoolean value="true"/>
         </resource>
+        <resource>
+            <reference>
+                <reference value="CapabilityStatement/PhcpServer"/>
+                <display value="Pharmacist Care Plan Server"/>
+            </reference>
+            <name value="Pharmacist Care Plan Server"/>
+            <description value="This section describes the expected capabilities of the Pharmacist Care Plan Consumer (aka server) actor which is responsible for creating and initiating the queries for clinical documents compliant with this specification. This CapabilityStatement imports and extends [CCDAonFHIR-server CapabilityStatement](http://hl7.org/fhir/us/ccda/CapabilityStatement-CcdaOnFhirServer.html)CCDAonFHIR server CapabilityStatement, which imports and extends the [us-core-server CapabilityStatement](https://www.hl7.org/fhir/us/core/CapabilityStatement-us-core-server.html)"/>
+            <exampleBoolean value="false"/>
+        </resource>
+        <resource>
+            <reference>
+                <reference value="CapabilityStatement/PhcpClient"/>
+                <display value="Pharmacist Care Plan Client"/>
+            </reference>
+            <name value="Pharmacist Care Plan Client"/>
+            <description value="This section describes the expected capabilities of the Pharmacist Care Plan Consumer (aka client) actor which is responsible for creating and initiating the queries for clinical documents compliant with this specification. This CapabilityStatement imports and extends [CCDAonFHIR-client CapabilityStatement](http://hl7.org/fhir/us/ccda/CapabilityStatement-CcdaOnFhirClient.html)CCDAonFHIR client CapabilityStatement, which imports and extends the [us-core-client CapabilityStatement](https://www.hl7.org/fhir/us/core/CapabilityStatement-us-core-client.html)"/>
+            <exampleBoolean value="false"/>
+        </resource>
         <page>
             <nameUrl value="index.html"/>
-            <title value="IG Home Page"/>
+            <title value="Home Page"/>
             <generation value="markdown"/>
             <page>
-                <nameUrl value="toc.html"/>
-                <title value="Table of Contents"/>
-                <generation value="generated"/>
-                <page>
-                    <nameUrl value="Acknowledgments.html"/>
-                    <title value="Acknowledgments"/>
-                    <generation value="markdown"/>
-                </page>
-                <page>
-                    <nameUrl value="Purpose.html"/>
-                    <title value="Purpose"/>
-                    <generation value="markdown"/>
-                </page>
-                <page>
-                    <nameUrl value="Audience.html"/>
-                    <title value="Audience"/>
-                    <generation value="markdown"/>
-                </page>
-                <page>
-                    <nameUrl value="ProjectBackground.html"/>
-                    <title value="Project Background"/>
-                    <generation value="markdown"/>
-                </page>
-                <page>
-                    <nameUrl value="CurrentProject.html"/>
-                    <title value="Current Project"/>
-                    <generation value="markdown"/>
-                </page>
-                <page>
-                    <nameUrl value="UseCases.html"/>
-                    <title value="Use Cases"/>
-                    <generation value="markdown"/>
-                </page>
-                <page>
-                    <nameUrl value="Mappings.html"/>
-                    <title value="Mappings"/>
-                    <generation value="markdown"/>
-                </page>
+                <nameUrl value="background.html"/>
+                <title value="Background"/>
+                <generation value="markdown"/>
+            </page>
+            <page>
+                <nameUrl value="the_specification.html"/>
+                <title value="The Specification"/>
+                <generation value="markdown"/>
+            </page>
+            <page>
+                <nameUrl value="acknowledgments.html"/>
+                <title value="Acknowledgments"/>
+                <generation value="markdown"/>
+            </page>
+            <page>
+                <nameUrl value="downloads.html"/>
+                <title value="Downloads"/>
+                <generation value="markdown"/>
             </page>
         </page>
         <parameter>
