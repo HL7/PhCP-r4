@@ -8,7 +8,7 @@ This guide contains a library of Fast Health Interoperability Resources (FHIR) p
 
 * [Background](background.html): describes the purpose, audience, general background, and use cases for this guide
 * [Specification](specification.html): covers the detailed implementation requirements and conformance expectation
-* [Acknowledgements](acknowledgements.html): identifies the individuals and organizations involved in developing this implementation guide
+* [Acknowledgments](acknowledgments.html): identifies the individuals and organizations involved in developing this implementation guide
 * [Downloads](downloads.html): allows download of this and other specifications as well as other useful files
 * [Artifacts Summary](artifacts.html): introduces and provides links to the FHIR STU3 and R4 profiles, search parameters and other FHIR artifacts used in this implementation guide
 
