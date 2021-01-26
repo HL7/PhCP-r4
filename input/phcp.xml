@@ -3,9 +3,9 @@
     xmlns="http://hl7.org/fhir">
     <id value="phcp"/>
     <meta>
-        <versionId value="85"/>
-        <lastUpdated value="2021-01-26T21:33:46.702+00:00"/>
-        <source value="#LdQk5s26YJG7HH0i"/>
+        <versionId value="88"/>
+        <lastUpdated value="2021-01-26T22:19:59.384+00:00"/>
+        <source value="#GYksP63MWYi3OwEg"/>
     </meta>
     <url value="http://hl7.org/fhir/us/phcp/ImplementationGuide/phcp"/>
     <version value="1.0.0"/>
@@ -28,7 +28,7 @@
             <value value="rick.geimer@lantanagroup.com"/>
         </telecom>
     </contact>
-    <description value="This document describes constraints on the the FHIR Composition resource for a Pharmacist Care Plan, which are derived from requirements set forth by the Pharmacy Health Information Technology (HIT) Collaborative1 and the National Council for Prescription Drug Programs (NCPDP) WG10 Professional Pharmacy Services,2 vendors, and Health Level Seven (HL7) stakeholder workgroups. Templates in this US Realm implementation guide are specific to pharmacy management treatment and interventions that will promote interoperability and will create information suitable for reuse in quality measurement, public health reporting, research, and reimbursement.&#xA;&#xA;This guide contains a library of Fast Health Interoperability Resources (FHIR) profiles, and is compliant with the  C-CDA on FHIR specification&#xA;"/>
+    <description value="This document describes constraints on the the FHIR Composition resource for a Pharmacist Care Plan, which are derived from requirements set forth by the Pharmacy Health Information Technology (HIT) Collaborative1 and the National Council for Prescription Drug Programs (NCPDP) WG10 Professional Pharmacy Services,2 vendors, and Health Level Seven (HL7) stakeholder workgroups. Templates in this US Realm implementation guide are specific to pharmacy management treatment and interventions that will promote interoperability and will create information suitable for reuse in quality measurement, public health reporting, research, and reimbursement.&#xA;&#xA;This guide contains a library of Fast Health Interoperability Resources (FHIR) profiles, and is compliant with the  C-CDA on FHIR specification.&#xA;&#xA;### Content and Organization&#xA;&#xA;* [Background](background.html): describes the purpose, audience, general background, and use cases for this guide&#xA;* [Specification](specification.html): covers the detailed implementation requirements and conformance expectation&#xA;* [Acknowledgements](acknowledgements.html): identifies the individuals and organizations involved in developing this implementation guide&#xA;* [Downloads](downloads.html): allows download of this and other specifications as well as other useful files&#xA;* [Artifacts Summary](artifacts.html): introduces and provides links to the FHIR STU3 and R4 profiles, search parameters and other FHIR artifacts used in this implementation guide&#xA;"/>
     <jurisdiction>
         <coding>
             <system value="urn:iso:std:iso:3166"/>
@@ -39,12 +39,12 @@
     </jurisdiction>
     <packageId value="hl7.fhir.us.phcp"/>
     <fhirVersion value="4.0.1"/>
-    <dependsOn>
+    <dependsOn id="ccda">
         <uri value="http://hl7.org/fhir/us/ccda/ImplementationGuide/hl7.fhir.us.ccda#1.1.0"/>
         <packageId value="hl7.fhir.us.ccda"/>
         <version value="1.1.0"/>
     </dependsOn>
-    <dependsOn>
+    <dependsOn id="core">
         <uri value="http://hl7.org/fhir/us/core/ImplementationGuide/hl7.fhir.us.core#3.1.1"/>
         <packageId value="hl7.fhir.us.core"/>
         <version value="3.1.1"/>
