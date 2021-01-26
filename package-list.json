@@ -1,0 +1,48 @@
+{
+	"list": [
+		{
+			"version": "current",
+			"current": true,
+			"desc": "Continuous Integration Build (latest in version control)",
+			"path": "http://build.fhir.org/ig/HL7/PhCP",
+			"fhirversion": "4.0.1",
+			"sequence": "STU 2",
+			"status": "ci-build"
+		},
+		{
+			"version": "1.0.0",
+			"desc": "STU1 Published Version",
+			"path": "http://hl7.org/fhir/us/phcp/STU1",
+			"status": "trial-use",
+			"current": true,
+			"fhirversion": "4.0.1",
+			"sequence": "STU 1",
+			"date": "2021-01-04"
+		},
+		{
+			"version": "0.2.0",
+			"date": "2019-03-27",
+			"desc": "Ballot for STU 1 release of IG (FHIR R4)",
+			"path": "http://hl7.org/fhir/us/phcp/2019May",
+			"status": "draft",
+			"sequence": "STU 1",
+			"current": false,
+			"fhirversion": "3.0.2"
+		},
+		{
+			"version": "0.1.0",
+			"date": "2017-07-30",
+			"desc": "STU 1 Draft for Comment",
+			"path": "http://hl7.org/fhir/us/phcp/2017Sep",
+			"status": "draft",
+			"sequence": "STU 1",
+			"fhirversion": "3.0.2",
+			"current": false
+		}
+	],
+	"package-id": "hl7.fhir.us.phcp",
+	"title": "Pharmacist Care Plan FHIR IG",
+	"canonical": "http://hl7.org/fhir/us/phcp",
+	"introduction": "The Pharmacist Care Plan FHIR Implementation Guide is a US Realm Implementation Guide of the FHIR Specification adescribes constraints on the Clinical Document Architecture Release 2 (CDA R2) header and body elements for the Pharmacist Care Plan, which are derived from requirements set forth by the Pharmacy Health Information Technology (HIT) Collaborative1 and the National Council for Prescription Drug Programs (NCPDP) WG10 Professional Pharmacy Services, 2 vendors, and Health Level Seven (HL7) stakeholder workgroups.",
+	"category": "Medications / Immunizations"
+}

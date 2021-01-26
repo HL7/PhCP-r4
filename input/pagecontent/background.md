@@ -508,4 +508,4 @@ The following table contains mappings between the CDA and FHIR versions of the P
 
 
 
-[Next Page - The Specification](the_specification.html)
+[Next Page - Specification](specification.html)

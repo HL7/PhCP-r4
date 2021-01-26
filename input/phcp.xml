@@ -3,9 +3,9 @@
     xmlns="http://hl7.org/fhir">
     <id value="phcp"/>
     <meta>
-        <versionId value="56"/>
-        <lastUpdated value="2020-12-09T20:25:27.153+00:00"/>
-        <source value="#xaqx4N0TILxsl9qr"/>
+        <versionId value="85"/>
+        <lastUpdated value="2021-01-26T21:33:46.702+00:00"/>
+        <source value="#LdQk5s26YJG7HH0i"/>
     </meta>
     <url value="http://hl7.org/fhir/us/phcp/ImplementationGuide/phcp"/>
     <version value="1.0.0"/>
@@ -280,8 +280,16 @@
         <resource>
             <reference>
                 <reference value="Bundle/phcp-bundle-example"/></reference>
-            <name value="Pharmacist Care Plan Document Bundle"/>
+            <name value="phcp-bundle-example"/>
+            <description value="Pharmacist Care Plan Document Example"/>
             <exampleBoolean value="true"/>
+        </resource>
+        <resource>
+            <reference>
+                <reference value="Parameters/terminology-settings"/></reference>
+            <name value="terminology-settings"/>
+            <description value="Parameters resource to specify the US version of SNOMED."/>
+            <exampleBoolean value="false"/>
         </resource>
         <page>
             <nameUrl value="index.html"/>
@@ -293,8 +301,8 @@
                 <generation value="markdown"/>
             </page>
             <page>
-                <nameUrl value="the_specification.html"/>
-                <title value="The Specification"/>
+                <nameUrl value="specification.html"/>
+                <title value="Specification"/>
                 <generation value="markdown"/>
             </page>
             <page>
@@ -309,12 +317,24 @@
             </page>
         </page>
         <parameter>
-            <code value="copyrightyear"/>
-            <value value="2020+"/>
+            <code value="expansion-parameter"/>
+            <value value="http://snomed.info/sct/731000124108"/>
         </parameter>
         <parameter>
             <code value="releaselabel"/>
-            <value value="CI Build"/>
+            <value value="STU Release 1.0.0 for FHIR R4"/>
+        </parameter>
+        <parameter>
+            <code value="copyrightyear"/>
+            <value value="2021+"/>
+        </parameter>
+        <parameter>
+            <code value="path-expansion-params"/>
+            <value value="resources/parameters/terminology-settings.json"/>
+        </parameter>
+        <parameter>
+            <code value="jira-code"/>
+            <value value="pharmcp"/>
         </parameter>
     </definition>
 </ImplementationGuide>

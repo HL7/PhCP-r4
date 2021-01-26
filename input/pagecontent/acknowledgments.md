@@ -1,4 +1,4 @@
-[Previous Page - The Specification](the_specification.html)
+[Previous Page - Specification](specification.html)
 
 This guide was produced and developed through the efforts of a project supported by the Office of the National Coordinator (ONC) High Impact Pilot (HIP) Grant, National Council for Prescription Drug Programs (NCPDP), Pharmacy Health Information Technology (HIT) Collaborative, and Health Level Seven (HL7) Structured Documents Work Group and Pharmacy Work Group, which provided expert advice and input to the representation pharmacy and patient care related medication clinical statements.
 
